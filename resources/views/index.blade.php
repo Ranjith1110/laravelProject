@@ -83,7 +83,7 @@
                         UG Courses</p>
                 </div>
 
-                <a href="departments/ug/civil.html"
+                <a href="{{route('civil')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -93,7 +93,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/cse.html"
+                <a href="{{route('cse')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -102,7 +102,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/eee.html"
+                <a href="{{route('eee')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -111,7 +111,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/ece.html"
+                <a href="{{route('ece')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -121,7 +121,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/eie.html"
+                <a href="{{route('eie')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
