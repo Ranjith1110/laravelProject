@@ -1,4 +1,5 @@
 @extends('main.layouts.app')
+
 <div class="container-fluid fixed-top p-0" style="background-color: #dfcfc1;">
     <div class="row gx-0 d-none d-lg-flex">
         <div class="col-lg-7 px-5 text-start">
@@ -130,9 +131,9 @@
                 <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
                     aria-expanded="false">Login</a>
                 <div class="dropdown-menu fade-up m-0">
-                    <a href="" class="dropdown-item">Staff</a>
-                    <a href="" class="dropdown-item">Student</a>
-                    <a href="" class="dropdown-item">Alumini</a>
+                    <a href="https://prezenta.co.in/mameng/ " class="dropdown-item">Staff</a>
+                    <a href="https://prezenta.co.in/mameng/ " class="dropdown-item">Student</a>
+                    <!-- <a href="" class="dropdown-item">Alumini</a> -->
                 </div>
             </div>
             <a href="{{route('contact')}}" class="nav-item nav-link">Contact</a>
@@ -143,3 +144,6 @@
         </div>
     </div>
 </nav>
+
+<!-- Include the popup content from the includes folder -->
+@include('includes.popup')

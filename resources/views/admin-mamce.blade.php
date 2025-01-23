@@ -1,6 +1,70 @@
 @extends('includes.header')
 @section('content')
 
+<style>
+    /* Glassmorphism background */
+    .modal-content {
+        background: rgba(255, 255, 255, 0.25);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(10px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 15px;
+    }
+
+    .modal-content-admin {
+        background: #fff;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        border-radius: 15px;
+    }
+
+    /* Glassmorphic input fields */
+    .form-control,
+    .form-select {
+        background: rgba(255, 255, 255, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        backdrop-filter: blur(5px);
+        border-radius: 8px;
+        padding: 10px;
+        font-size: 1rem;
+        color: #000;
+        transition: all 0.3s ease;
+    }
+
+    .form-control:focus,
+    .form-select:focus {
+        border-color: rgba(211, 32, 50, 0.5);
+        box-shadow: 0 0 8px rgba(232, 39, 58, 0.5);
+        outline: none;
+    }
+
+    .navbar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .scrolled {
+        background-color: white;
+        color: black;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .scrolled .nav-link {
+        color: black !important;
+    }
+
+    @media (max-width: 769px) {
+        .navbar {
+            background: #fff;
+        }
+
+    }
+</style>
+
 <!-- Spinner Start here -->
 <div id="spinner"
     class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -17,9 +81,6 @@
     Admission Enquiry
 </button>
 <!-- Vertical Button End here -->
-
-<!-- Include the popup content from the includes folder -->
-@include('includes.popup')
 
 <!-- Banner Section Start here -->
 <section id="banner">

@@ -11,53 +11,39 @@
         transition: all 0.3s ease;
     }
 
-    .form-control:focus,
-    .form-select:focus {
-        border-color: rgba(211, 32, 50, 0.5);
-        box-shadow: 0 0 8px rgba(232, 39, 58, 0.5);
-        outline: none;
+    .mamcePopup {
+        background: rgba(255, 255, 255, 0.5) !important;
+        backdrop-filter: blur(10px) !important;
+        border: 1px solid rgba(255, 255, 255, 0.3) !important;
+        border-radius: 15px !important;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+        width: 75% !important;
+        margin: 0 auto !important;
     }
 
-    .modal-content {
-        background: rgba(255, 255, 255, 0.5);
-        backdrop-filter: blur(10px);
-        border: 1px solid rgba(255, 255, 255, 0.3);
-        border-radius: 15px;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        width: 75%;
-        margin: 0 auto;
-    }
-
-    .modal-header {
-        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .modal-footer {
-        border-top: 1px solid rgba(255, 255, 255, 0.2);
-    }
-
-    .btn-primary {
-        background-color: #9d7651;
+    .popupBtn {
+        background-color: #9d7651 !important;
+        color: #fff !important;
         border: none;
         transition: background-color 0.3s ease;
     }
 
-    .btn-primary:hover {
-        background-color: #b07d60;
+    .popupBtn:hover {
+        background-color: #b07d60 !important;
     }
 
     @media (max-width: 500px) {
 
-        .modal-content {
-        width: 100%;
-    }
+        .mamcePopup {
+            width: 100%;
+        }
 
     }
 </style>
 
 <div class="modal fade" id="admissionEnquiryModal" tabindex="-1" aria-labelledby="admissionEnquiryLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
-        <div class="modal-content">
+        <div class="modal-content mamcePopup">
             <div class="modal-header">
                 <h5 class="modal-title" id="admissionEnquiryLabel">Admission Enquiry</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -91,7 +77,7 @@
                         </select>
                     </div>
                     <div class="text-center mt-5">
-                        <button type="submit" class="btn btn-primary w-50 fw-bold">Apply Now</button>
+                        <button type="submit" class="btn popupBtn w-50 fw-bold">Apply Now</button>
                     </div>
                 </form>
             </div>

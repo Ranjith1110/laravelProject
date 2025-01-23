@@ -25,9 +25,6 @@
 </button>
 <!-- Vertical Button End here -->
 
-<!-- Include the popup content from the includes folder -->
-@include('includes.popup')
-
 <!-- About Mamce Start here -->
 <section id="about">
     <div class="container">

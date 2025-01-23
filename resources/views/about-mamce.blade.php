@@ -18,9 +18,6 @@
 </button>
 <!-- Vertical Button End here -->
 
-<!-- Include the popup content from the includes folder -->
-@include('includes.popup')
-
     <!-- Banner Section Start here -->
     <section id="banner">
         <div class="dep-banner">
