@@ -1,5 +1,6 @@
 @extends('includes.header')
 @section('content')
+
 <!-- Spinner Start here -->
 <div id="spinner"
     class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -9,25 +10,23 @@
 </div>
 <!-- Spinner End here -->
 
-<!-- blue - #dfcfc1 -->
-<!-- Purple - #dfcfc1 -->
-<!-- Green - #dfcfc1 -->
-
 <header id="home">
     <div class="container-fluid p-0">
         <video class="w-100 vh-100 object-fit-cover" width="100%" src="{{asset('MAMCE.mp4')}}" autoplay muted
             loop></video>
     </div>
 </header>
-<!-- Navbar and banner End here -->
 
 <!-- Vertical Button Start here -->
 <button style="background-color: #9d7651; border: 2px solid #dfcfc1;"
     class="vertical-button text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
-    data-bs-target="#" id="openPopupBtn">
+    data-bs-target="#admissionEnquiryModal" id="openPopupBtn">
     Admission Enquiry
 </button>
 <!-- Vertical Button End here -->
+
+<!-- Include the popup content from the includes folder -->
+@include('includes.popup')
 
 <!-- About Mamce Start here -->
 <section id="about">
@@ -547,7 +546,5 @@
     </div>
 </section>
 <!-- Upcoming Events End here -->
-
-
 
 @endsection

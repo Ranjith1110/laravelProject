@@ -1,96 +1,96 @@
     @extends('includes.header')
-    @section('content')   
+    @section('content')
 
     <!-- Spinner Start here -->
     <div id="spinner"
-            class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
+        class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
         </div>
-        <!-- Spinner End here -->
+    </div>
+    <!-- Spinner End here -->
 
-        <!-- Navbar Start here -->
-        <div id="header"></div>
-        <!-- Navbar End here -->
+    <!-- Navbar Start here -->
+    <div id="header"></div>
+    <!-- Navbar End here -->
 
-        <!-- Vertical Button Start here -->
-        <button style="background-color: #9d7651; border: 2px solid #dfcfc1;"
-            class="vertical-button text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
-            data-bs-target="#" id="openPopupBtn">
-            Admission Enquiry
-        </button>
-        <!-- Vertical Button End here -->
+    <!-- Vertical Button Start here -->
+    <button style="background-color: #9d7651; border: 2px solid #dfcfc1;"
+        class="vertical-button text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
+        data-bs-target="#admissionEnquiryModal" id="openPopupBtn">
+        Admission Enquiry
+    </button>
+    <!-- Vertical Button End here -->
 
-        <!-- Container for the popup form -->
-        <div id="popupContainer"></div>
+    <!-- Include the popup content from the includes folder -->
+    @include('includes.popup')
 
-        <!-- Banner Section Start here -->
-        <section id="banner">
-            <div class="dep-banner">
-                <div class="py-lg-10 py-md-8 py-6 position-relative">
-                    <img class="w-100 object-fit-cover" src="{{asset('images/administrationImg/administration-banner.svg')}}"
-                        alt="">
-                    <div class="position-absolute">
-                        <h2 class="text-white text-center fw-bolder">Contact Us</h2>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Banner Section End here -->
-
-        <!-- Form Start -->
-        <div class="contact-container bg-light">
-            <div class="container">
-                <div class="row g-0 contact-card">
-
-                    <div class="col-md-6 p-10">
-                        <form>
-                            <div class="mb-4">
-                                <input style="border: 2px solid #dfcfc1;" type="text" class="form-control py-3"
-                                    placeholder="Your Name" required>
-                            </div>
-                            <div class="mb-4">
-                                <input style="border: 2px solid #dfcfc1;" type="email" class="form-control py-3"
-                                    placeholder="Your Email" required>
-                            </div>
-                            <div class="mb-4">
-                                <input style="border: 2px solid #dfcfc1;" type="number" class="form-control py-3"
-                                    placeholder="Your Phone" required>
-                            </div>
-                            <div class="mb-4">
-                                <input style="border: 2px solid #dfcfc1;" type="text" class="form-control py-3"
-                                    placeholder="Your Subject" required>
-                            </div>
-                            <div class="mb-4">
-                                <textarea style="border: 2px solid #dfcfc1;" class="form-control" rows="5"
-                                    placeholder="Your Message" required></textarea>
-                            </div>
-                            <button type="submit" class="btn px-4 py-2" style="color: #fff; background-color: #9d7651;">Send
-                                Message</button>
-                        </form>
-                    </div>
-
-                    <div class="col-md-6 contact-image"></div>
+    <!-- Banner Section Start here -->
+    <section id="banner">
+        <div class="dep-banner">
+            <div class="py-lg-10 py-md-8 py-6 position-relative">
+                <img class="w-100 object-fit-cover" src="{{asset('images/administrationImg/administration-banner.svg')}}"
+                    alt="">
+                <div class="position-absolute">
+                    <h2 class="text-white text-center fw-bolder">Contact Us</h2>
                 </div>
             </div>
         </div>
-        <!-- Form End -->
+    </section>
+    <!-- Banner Section End here -->
 
-        <!-- Map Start -->
-        <div class="container my-5 py-10 text-center">
-            <h3 class="title fw-bold mb-4">Our Location</h3>
-            <div class="row">
-                <div class="col-12">
-                    <div class="border rounded shadow" style="height: 50vh; overflow: hidden;">
-                        <iframe
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.588458704674!2d78.779515!3d10.994403799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bab1a4ee002bcf9%3A0xa208070d38331937!2sM.A.M.%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1735639969407!5m2!1sen!2sin"
-                            width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
-                            referrerpolicy="no-referrer-when-downgrade"></iframe>
-                    </div>
+    <!-- Form Start -->
+    <div class="contact-container bg-light">
+        <div class="container">
+            <div class="row g-0 contact-card">
+
+                <div class="col-md-6 p-10">
+                    <form>
+                        <div class="mb-4">
+                            <input style="border: 2px solid #dfcfc1;" type="text" class="form-control py-3"
+                                placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-4">
+                            <input style="border: 2px solid #dfcfc1;" type="email" class="form-control py-3"
+                                placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-4">
+                            <input style="border: 2px solid #dfcfc1;" type="number" class="form-control py-3"
+                                placeholder="Your Phone" required>
+                        </div>
+                        <div class="mb-4">
+                            <input style="border: 2px solid #dfcfc1;" type="text" class="form-control py-3"
+                                placeholder="Your Subject" required>
+                        </div>
+                        <div class="mb-4">
+                            <textarea style="border: 2px solid #dfcfc1;" class="form-control" rows="5"
+                                placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn px-4 py-2" style="color: #fff; background-color: #9d7651;">Send
+                            Message</button>
+                    </form>
+                </div>
+
+                <div class="col-md-6 contact-image"></div>
+            </div>
+        </div>
+    </div>
+    <!-- Form End -->
+
+    <!-- Map Start -->
+    <div class="container my-5 py-10 text-center">
+        <h3 class="title fw-bold mb-4">Our Location</h3>
+        <div class="row">
+            <div class="col-12">
+                <div class="border rounded shadow" style="height: 50vh; overflow: hidden;">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3916.588458704674!2d78.779515!3d10.994403799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bab1a4ee002bcf9%3A0xa208070d38331937!2sM.A.M.%20College%20of%20Engineering!5e0!3m2!1sen!2sin!4v1735639969407!5m2!1sen!2sin"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
-        <!-- Map End -->
-    
+    </div>
+    <!-- Map End -->
+
     @endsection

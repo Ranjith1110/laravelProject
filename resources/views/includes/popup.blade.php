@@ -1,5 +1,4 @@
 <style>
-    /* Glassmorphic input fields */
     .form-control,
     .form-select {
         background: rgba(255, 255, 255, 0.5);
@@ -19,108 +18,83 @@
         outline: none;
     }
 
-    /* popup-style.css */
-
-    /* Overlay styles */
-    .overlay {
-        display: none;
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.1);
-        z-index: 10000;
-    }
-
-    /* Popup form styles */
-    .popup-form {
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        padding: 20px;
-        width: 45%;
-        /* background: rgba(189, 187, 187, 0.25); */
-        background-color: #fff;
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    .modal-content {
+        background: rgba(255, 255, 255, 0.5);
         backdrop-filter: blur(10px);
         border: 1px solid rgba(255, 255, 255, 0.3);
         border-radius: 15px;
-        z-index: 1001;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        width: 75%;
+        margin: 0 auto;
     }
 
-    /* Close button styles */
-    .close-btn {
-        background: #9d7651;
-        color: white;
+    .modal-header {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .modal-footer {
+        border-top: 1px solid rgba(255, 255, 255, 0.2);
+    }
+
+    .btn-primary {
+        background-color: #9d7651;
         border: none;
-        padding: 2px 10px;
-        border-radius: 5px;
-        cursor: pointer;
-        float: right;
+        transition: background-color 0.3s ease;
     }
 
-    @media (max-width: 992px) {
-
-        .popup-form {
-            width: 50%;
-        }
-    }
-
-    @media (max-width: 769px) {
-
-        .popup-form {
-            width: 50%;
-        }
+    .btn-primary:hover {
+        background-color: #b07d60;
     }
 
     @media (max-width: 500px) {
 
-        .popup-form {
-            width: 100%;
-        }
+        .modal-content {
+        width: 100%;
+    }
+
     }
 </style>
 
-<!-- Container for the popup form -->
-<div id="popupContainer"></div>
-
-<!-- popup-form.html -->
-<div id="popupOverlay" class="modal-content overlay">
-    <div class="popup-form">
-        <button id="closePopupBtn" class="close-btn">&times;</button>
-        <h2>Popup Form</h2>
-        <form>
-            <div class="mb-3">
-                <label for="name" class="form-label text-dark">Name</label>
-                <input type="text" class="form-control" id="name" placeholder="Enter your name">
+<div class="modal fade" id="admissionEnquiryModal" tabindex="-1" aria-labelledby="admissionEnquiryLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="admissionEnquiryLabel">Admission Enquiry</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="mb-3">
-                <label for="email" class="form-label  text-dark">Email</label>
-                <input type="email" class="form-control" id="email" placeholder="Enter your email">
+            <div class="modal-body">
+                <form action="{{ route('admission.enquiry') }}" method="POST">
+                    @csrf
+                    <div class="mt-3">
+                        <label for="name" class="form-label text-dark">Name</label>
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                    </div>
+                    <div class="mt-3">
+                        <label for="email" class="form-label text-dark">Email</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email" required>
+                    </div>
+                    <div class="mt-3">
+                        <label for="phone" class="form-label text-dark">Phone Number</label>
+                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Enter your phone number">
+                    </div>
+                    <div class="mt-3">
+                        <label for="address" class="form-label text-dark">Address</label>
+                        <textarea class="form-control" id="address" name="address" rows="2" placeholder="Enter your address"></textarea>
+                    </div>
+                    <div class="mt-3">
+                        <label for="course" class="form-label text-dark">Course Selection</label>
+                        <select class="form-select" id="course" name="course">
+                            <option selected disabled>Choose your course</option>
+                            <option value="Course 1">Course 1</option>
+                            <option value="Course 2">Course 2</option>
+                            <option value="Course 3">Course 3</option>
+                        </select>
+                    </div>
+                    <div class="text-center mt-5">
+                        <button type="submit" class="btn btn-primary w-50 fw-bold">Apply Now</button>
+                    </div>
+                </form>
             </div>
-            <div class="mb-3">
-                <label for="phone" class="form-label  text-dark">Phone Number</label>
-                <input type="tel" class="form-control" id="phone" placeholder="Enter your phone number">
-            </div>
-            <div class="mb-3">
-                <label for="address" class="form-label  text-dark">Address</label>
-                <textarea class="form-control" id="address" rows="2" placeholder="Enter your address"></textarea>
-            </div>
-            <div class="mb-3">
-                <label for="course" class="form-label  text-dark">Course Selection</label>
-                <select class="form-select" id="course">
-                    <option selected disabled>Choose your course</option>
-                    <option value="Course 1">Course 1</option>
-                    <option value="Course 2">Course 2</option>
-                    <option value="Course 3">Course 3</option>
-                </select>
-            </div>
-            <div class="text-center mt-5">
-                <button type="submit" class="btn w-50 fw-bold text-white" style="background-color: #9d7651;">Apply
-                    Now</button>
-            </div>
-        </form>
+        </div>
     </div>
 </div>

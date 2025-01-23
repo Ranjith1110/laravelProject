@@ -2,14 +2,16 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\WebsiteController;
+use Illuminate\Http\Request;
 
 // Route::get('/', function () {
 //     return view('index');
 // });
 
-Route::get('/popup-form', function () {
-    return view('includes.popup');
-});
+// Admission Enquiry From
+Route::post('/admission-enquiry', function (Request $request) {
+    return back()->with('success', 'Enquiry submitted successfully!');
+})->name('admission.enquiry');
 
 Route::group(array('namespace' => 'App\Http\Controllers'), function () {
     Route::get('/', array('as' => 'index',  'uses' => 'WebsiteController@index'));

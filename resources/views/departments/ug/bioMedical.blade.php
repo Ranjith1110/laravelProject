@@ -13,13 +13,13 @@
 <!-- Vertical Button Start here -->
 <button style="background-color: #9d7651; border: 2px solid #dfcfc1;"
     class="vertical-button text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
-    data-bs-target="#" id="openPopupBtn">
+    data-bs-target="#admissionEnquiryModal" id="openPopupBtn">
     Admission Enquiry
 </button>
 <!-- Vertical Button End here -->
 
-<!-- Container for the popup form -->
-<div id="popupContainer"></div>
+<!-- Include the popup content from the includes folder -->
+@include('includes.popup')
 
 <!-- Banner Section Start here -->
 <section id="banner">
