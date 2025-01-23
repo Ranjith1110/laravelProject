@@ -131,7 +131,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/it.html"
+                <a href="{{route('it')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -140,7 +140,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/mechanical.html"
+                <a href="{{route('mech')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -150,7 +150,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/ai&ds.html"
+                <a href="{{route('ai&ds')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -160,7 +160,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/agricultural.html"
+                <a href="{{route('agri')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -170,7 +170,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/bio-medical.html"
+                <a href="{{route('bioMedical')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -179,7 +179,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/food-technology.html"
+                <a href="{{route('foodTech')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -189,7 +189,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/bio-tech.html"
+                <a href="{{route('bioTech')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -198,7 +198,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/cyber-security.html"
+                <a href="{{route('cyberSecurity')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -207,7 +207,7 @@
                     </div>
                 </a>
 
-                <a href="departments/ug/ai&ml.html"
+                <a href="{{route('ai&ml')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
@@ -222,7 +222,7 @@
                         PG Courses</p>
                 </div>
 
-                <a href="departments/pg/mba.html"
+                <a href="{{route('mba')}}"
                     class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8 mocha-card">
@@ -232,7 +232,7 @@
                     </div>
                 </a>
 
-                <a href="departments/pg/mca.html" class="col-lg-3 col-md-6 mb-4 courses-item text-decoration-none">
+                <a href="{{route('mca')}}" class="col-lg-3 col-md-6 mb-4 courses-item text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid"
@@ -241,7 +241,7 @@
                     </div>
                 </a>
 
-                <a href="" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
+                <a href="{{route('environmentalEngineering')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid"
@@ -250,7 +250,7 @@
                     </div>
                 </a>
 
-                <a href="" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
+                <a href="{{route('cse')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid" src="{{asset('images/courses-img/ug-icons/cse.png')}}" alt="">
@@ -258,7 +258,7 @@
                     </div>
                 </a>
 
-                <a href="" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
+                <a href="{{route('ece')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid" src="{{asset('images/courses-img/ug-icons/ece.png')}}" alt="">
@@ -267,7 +267,7 @@
                     </div>
                 </a>
 
-                <a href="" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
+                <a href="{{route('ped')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid" src="{{asset('images/courses-img/ug-icons/ped.png')}}" alt="">
@@ -275,7 +275,7 @@
                     </div>
                 </a>
 
-                <a href="" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
+                <a href="{{route('manufacturingEngineering')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid"

@@ -25,7 +25,8 @@
 <section id="banner">
     <div class="dep-banner">
         <div class="py-lg-10 py-md-8 py-6 position-relative">
-            <img class="w-100 object-fit-cover" src="{{asset('images/separateCourses/cseImg/cse-banner.svg')}}" alt="">
+            <img class="w-100 object-fit-cover" src="{{asset('images/administrationImg/administration-banner.jpg')}}"
+                alt="">
             <div class="position-absolute">
                 <h2 class="text-white text-center fw-bolder">Computer Science & Engineering</h2>
             </div>
@@ -37,13 +38,15 @@
 <!-- About Department Start here -->
 <section class="about-dep">
     <div class="container">
+
         <!-- Slogan For Course -->
         <div class="d-flex justify-content-between align-items-center courses-btn">
-            <h2 class="text-center fw-bold title-slogan">Innovate. Disrupt. Repeat.!</h2>
+            <h2 class="text-center fw-bold title-slogan">Algorithmic Thinking, Innovative Solutions!</h2>
             <a href="#" style="background-color: #9d7651; border: 2px solid #dfcfc1;"
                 class="text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
                 data-bs-target="#popupForm">Book Your Admission in CSE</a>
         </div>
+
         <div class="mx-10 my-16">
             <div class="row">
                 <!-- Sidebar -->
@@ -67,82 +70,55 @@
                     <div id="about" class="content-section">
                         <h2 class="title-slogan mb-4">About</h2>
                         <p class="text-justify text-black">
-                            The History of Computer Science and Engineering discipline at MAMCE dates back to 1998
-                            with initial intake of 40 in UG programme (BE- CSE) to meet the demand for
-                            well-qualified computer professionals. Subsequently the department upgraded its intake
-                            from 40 to 60 in the year 2000, 60 to 120 in the year 2005 and 120 to 180 in the year
-                            2012. In 2009, the department started the PG programme (M.E-CSE) with initial intake of
-                            18 and increased to 36 in the year 2012.
-
-                            The Department has more than 300 students and 20 core faculty members. The department
-                            has been accredited by the National Board of Accreditation; AICTE, New Delhi. Our
-                            Department is a proud Member of the Computer Society of India Students Chapter. The
-                            department has experienced faculty members specialized in Compiler Design, Object
-                            Oriented System analysis and design, Artificial Intelligence, Distributed Computing,
-                            RDBMS, Computer Networks, OOPS, Data Structures and Algorithm, Software Engineering,
-                            Operating Systems, Grid Computing, Data Mining and Mobile Computing.
-
-                        <p class="text-black fw-bold">With an aim to sharpen the young student and faculty minds,
-                            the department strives to:
+                            Department of Civil Engineering the latest of branches in MAMCE was started in the
+                            academic year 2009-10. The discipline deals with the design, construction and
+                            maintenance of the physical and naturally built environment, including works such as
+                            bridges, roads, canals, dams and buildings.
                         </p>
-                        <ul class="text-black">
-                            <li>Become a pioneering centre of excellence in providing hands on Training in ORACLE
-                                through WORKFORCE DEVELOPMENT PROGRAMME.</li>
-                            <li>Provide Infosys: Foundation Programme 3.1 on Core subjects to nurture effective
-                                capabilities for the development of high quality technical manpower to meet the
-                                challenges in the Industry.</li>
-                            <li>Offer cost-free Training on Open Source Software’s through Spoken Tutorial Project
-                                of
-                                IIT Bombay for both students and faculties.</li>
-                            <li>Provide value-added programmes and activities such as Talent Inspirit- an Intra
-                                Department Technical Meet , Techno Zephyr – an Intra Department Activity Contest,
-                                ComBlaze – a National Level Technical Meet.</li>
-                            <li>Promote an effective learning and Teaching community with the help of various
-                                Technical workshops, Faculty Empowerment Programmes and seminars.</li>
-                            <li>Foster Research Activity, the department has emerged with “Software System Group” to
-                                discuss and exchange various research ideas and promote new projects for aspirants.
-                            </li>
-                            <li>Provide better teaching environment, all the faculty rooms are modernized and each
-                                faculty is provided with a Laptop.</li>
+                        <div class="mt-10 p-5" style="border: 10px solid #9d7651;">
+                            <h2 class="title-slogan mb-4">VISION</h2>
+                            <p class="text-justify text-black">
+                                "To advance knowledge and educate students in Civil Engineering and its
+                                related fields that will best serve the nation and the world in the 21st century. To
+                                generate, disseminate, and preserve knowledge, and to work with others
+                                to bring this knowledge to bear on the world's great challenges. To provide its
+                                students with an education that combines rigorous academic
+                                study and the excitement of discovery with the support and intellectual
+                                stimulation of a diverse campus community. To develop in each member of the
+                                community the ability and passion to
+                                work wisely, creatively, and effectively for the betterment of humankind."
                             </p>
-                            <button class="btn text-white fw-bold" style="background-color: #9d7651;">VIEW PROGRAM
-                                OUTCOMES ></button>
-                            <div class="mt-10 p-5" style="border: 10px solid #9d7651;">
-                                <h2 class="title-slogan mb-4">VISION</h2>
-                                <p class="text-justify text-black">
-                                    Create high-quality Software Professionals
-                                </p>
-                            </div>
-                            <div class="mt-10 p-5" style="border: 10px solid #9d7651;">
-                                <h2 class="title-slogan mb-4">MISSION</h2>
-                                <p class="text-justify text-black">
-                                    "To educate and generate atleast 90% of the students as Competent professionals
-                                    to become part of the Industry and research organizations.
-                                    To give personalized training to the students with arrears, identifying their
-                                    strength and weakness for the improvement of the academic results on an average
-                                    of 85%.
-                                    Offer a variety of blended learning methodology for overall personality
-                                    improvement.
-                                    "
-                                </p>
-                            </div>
+                        </div>
+                        <div class="mt-10 p-5" style="border: 10px solid #9d7651;">
+                            <h2 class="title-slogan mb-4">MISSION</h2>
+                            <p class="text-justify text-black">
+                                "To provide advanced skills and knowledge in state-of-the-art research and
+                                design in sub-areas of civil engineering for graduate students; and to
+                                provide service to the engineering profession, and the public. To provide quality
+                                education to prepare nationally competitive
+                                undergraduate students for a successful career in Civil Engineering."
+                            </p>
+                        </div>
                     </div>
 
                     <!-- Facilities Section -->
                     <div id="facilities" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Facilities</h2>
-                        <ul class="text-black">
-                            <li>Torvalds Lab</li>
-                            <li>Dijkstra Lab</li>
-                            <li>Ian Foster Lab</li>
-                            <li>Alan Kay Lab</li>
+                        <ul>
+                            <li>Surveying and Levelling Laboratory</li>
+                            <li>Water and Waste Water Analysis </li>
+                            <li>Hydraulic Engineering Laboratory</li>
+                            <li>Soil Mechanics Laboratory</li>
+                            <li>Materials Testing Laboratory</li>
+                            <li>Highway Engineering Laboratory</li>
+                            <li>Building Drawing and Detailing Laboratory</li>
                         </ul>
                     </div>
 
                     <!-- Speciality Section -->
                     <div id="speciality" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Speciality</h2>
-                        <ul class="text-black">
+                        <ul>
                             <li>Surveying Laboratory</li>
                             <li>Environmental Engineering Laboratory</li>
                             <li>Hydraulic Engineering Laboratory</li>
@@ -156,7 +132,7 @@
                     <!-- Value added programmes Section -->
                     <div id="value-added-programmes" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Value added programmes</h2>
-                        <p class="text-black">Total Station Surveying</p>
+                        <p>Total Station Surveying</p>
                     </div>
 
                     <!-- Students' Corner Section -->
@@ -334,41 +310,14 @@
                     <!-- Gallery Section -->
                     <div id="gallery" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Gallery</h2>
-                        <div class="row g-5">
-
-                            <div class="col-lg-6">
-                                <img class="img-fluid rounded" src="{{asset('images/separateCourses/cseImg/ugCse.jpg')}}"
-                                    alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <img class="img-fluid rounded"
-                                    src="{{asset('images/separateCourses/cseImg/ugCse-1.jpg')}}" alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <img class="img-fluid rounded"
-                                    src="{{asset('images/separateCourses/cseImg/ugCse-2.jpg')}}" alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <img class="img-fluid rounded"
-                                    src="{{asset('images/separateCourses/cseImg/ugCse-3.jpg')}}" alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <img class="img-fluid rounded"
-                                    src="{{asset('images/separateCourses/cseImg/ugCse-5.jpg')}}" alt="">
-                            </div>
-                            <div class="col-lg-6">
-                                <img class="img-fluid rounded"
-                                    src="{{asset('images/separateCourses/cseImg/ugCse-6.jpg')}}" alt="">
-                            </div>
-
-                        </div>
+                        <p class="text-black">Update Soon..</p>
                     </div>
 
                     <!-- Contact Us Section -->
                     <div id="contact-us" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Contact Us</h2>
-                        <p class="text-black">Mrs P Pavalakodi HOD / CSE</p>
-                        <p class="text-black">8122366344</p>
+                        <p>Prof. T. Sathya</p>
+                        <p>9842750133</p>
                     </div>
 
                 </div>

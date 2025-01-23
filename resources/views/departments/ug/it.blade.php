@@ -25,9 +25,10 @@
 <section id="banner">
     <div class="dep-banner">
         <div class="py-lg-10 py-md-8 py-6 position-relative">
-            <img class="w-100 object-fit-cover" src="{{asset('images/separateCourses/cseImg/cse-banner.svg')}}" alt="">
+            <img class="w-100 object-fit-cover" src="{{asset('images/administrationImg/administration-banner.jpg')}}"
+                alt="">
             <div class="position-absolute">
-                <h2 class="text-white text-center fw-bolder">Computer Science & Engineering</h2>
+                <h2 class="text-white text-center fw-bolder">Information Technology</h2>
             </div>
         </div>
     </div>
@@ -39,10 +40,10 @@
     <div class="container">
         <!-- Slogan For Course -->
         <div class="d-flex justify-content-between align-items-center courses-btn">
-            <h2 class="text-center fw-bold title-slogan">Innovate. Disrupt. Repeat.!</h2>
+            <h2 class="text-center fw-bold title-slogan">Infinite Possibilities, Endless Innovations!</h2>
             <a href="#" style="background-color: #9d7651; border: 2px solid #dfcfc1;"
                 class="text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
-                data-bs-target="#popupForm">Book Your Admission in CSE</a>
+                data-bs-target="#popupForm">Book Your Admission in It</a>
         </div>
         <div class="mx-10 my-16">
             <div class="row">
@@ -67,75 +68,50 @@
                     <div id="about" class="content-section">
                         <h2 class="title-slogan mb-4">About</h2>
                         <p class="text-justify text-black">
-                            The History of Computer Science and Engineering discipline at MAMCE dates back to 1998
-                            with initial intake of 40 in UG programme (BE- CSE) to meet the demand for
-                            well-qualified computer professionals. Subsequently the department upgraded its intake
-                            from 40 to 60 in the year 2000, 60 to 120 in the year 2005 and 120 to 180 in the year
-                            2012. In 2009, the department started the PG programme (M.E-CSE) with initial intake of
-                            18 and increased to 36 in the year 2012.
-
-                            The Department has more than 300 students and 20 core faculty members. The department
-                            has been accredited by the National Board of Accreditation; AICTE, New Delhi. Our
-                            Department is a proud Member of the Computer Society of India Students Chapter. The
-                            department has experienced faculty members specialized in Compiler Design, Object
-                            Oriented System analysis and design, Artificial Intelligence, Distributed Computing,
-                            RDBMS, Computer Networks, OOPS, Data Structures and Algorithm, Software Engineering,
-                            Operating Systems, Grid Computing, Data Mining and Mobile Computing.
-
-                        <p class="text-black fw-bold">With an aim to sharpen the young student and faculty minds,
-                            the department strives to:
+                            The department of Information Technology was established in the year 2001 to offer
+                            B.Tech (Information Technology) programme with a sanctioned in-take of 40. In the year
+                            2002, the sanctioned in-take became 60. Mission of the B.Tech. (IT) programme is to
+                            prepare students for employment in IT related industries and / or for the pursuit of
+                            advanced degrees in the faculty of Information & communication Engineering.
+                            The department has an impressive band of faculty with highly qualified and experienced
+                            faculty. The faculties have specialization in Networking, Algorithms, Data Mining,
+                            Mobile Computing, Grid Computing, Image Processing, Software Engineering, Computer
+                            graphics, Web Technology, Embedded systems, etc.
+                            The department has three well equipped laboratories including a laboratory exclusively
+                            for carrying out project and research activities. The students utilize these labs to
+                            perform experiments prescribed for laboratories like Operating System, Networking,
+                            Systems Programming Lab, Software Engineering Lab, Multimedia and Graphics Lab, DBMS,
+                            etc.
                         </p>
-                        <ul class="text-black">
-                            <li>Become a pioneering centre of excellence in providing hands on Training in ORACLE
-                                through WORKFORCE DEVELOPMENT PROGRAMME.</li>
-                            <li>Provide Infosys: Foundation Programme 3.1 on Core subjects to nurture effective
-                                capabilities for the development of high quality technical manpower to meet the
-                                challenges in the Industry.</li>
-                            <li>Offer cost-free Training on Open Source Software’s through Spoken Tutorial Project
-                                of
-                                IIT Bombay for both students and faculties.</li>
-                            <li>Provide value-added programmes and activities such as Talent Inspirit- an Intra
-                                Department Technical Meet , Techno Zephyr – an Intra Department Activity Contest,
-                                ComBlaze – a National Level Technical Meet.</li>
-                            <li>Promote an effective learning and Teaching community with the help of various
-                                Technical workshops, Faculty Empowerment Programmes and seminars.</li>
-                            <li>Foster Research Activity, the department has emerged with “Software System Group” to
-                                discuss and exchange various research ideas and promote new projects for aspirants.
-                            </li>
-                            <li>Provide better teaching environment, all the faculty rooms are modernized and each
-                                faculty is provided with a Laptop.</li>
+
+                        <div class="mt-10 p-5" style="border: 10px solid #9d7651;">
+                            <h2 class="title-slogan mb-4">VISION</h2>
+                            <p class="text-justify text-black">
+                                To create groomed, technically competent and skilled intellectual IT professionals
+                                to meet the current challenges of the modern computing industry.
                             </p>
-                            <button class="btn text-white fw-bold" style="background-color: #9d7651;">VIEW PROGRAM
-                                OUTCOMES ></button>
-                            <div class="mt-10 p-5" style="border: 10px solid #9d7651;">
-                                <h2 class="title-slogan mb-4">VISION</h2>
-                                <p class="text-justify text-black">
-                                    Create high-quality Software Professionals
-                                </p>
-                            </div>
-                            <div class="mt-10 p-5" style="border: 10px solid #9d7651;">
-                                <h2 class="title-slogan mb-4">MISSION</h2>
-                                <p class="text-justify text-black">
-                                    "To educate and generate atleast 90% of the students as Competent professionals
-                                    to become part of the Industry and research organizations.
-                                    To give personalized training to the students with arrears, identifying their
-                                    strength and weakness for the improvement of the academic results on an average
-                                    of 85%.
-                                    Offer a variety of blended learning methodology for overall personality
-                                    improvement.
-                                    "
-                                </p>
-                            </div>
+                        </div>
+                        <div class="mt-10 p-5" style="border: 10px solid #9d7651;">
+                            <h2 class="title-slogan mb-4">MISSION</h2>
+                            <ul class="text-black">
+                                <li>To uplift through advanced quality education in Information Technology</li>
+                                <li>To provide an atmosphere for students and faculty for continuous learning to
+                                    investigate, apply and transfer knowledge.</li>
+                                <li>To provide students with the tools to become productive, participating global
+                                    citizens and lifelong learners.</li>
+                                <li>To provide need based quality training in the field of Information Technology
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
                     <!-- Facilities Section -->
                     <div id="facilities" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Facilities</h2>
                         <ul class="text-black">
-                            <li>Torvalds Lab</li>
-                            <li>Dijkstra Lab</li>
-                            <li>Ian Foster Lab</li>
-                            <li>Alan Kay Lab</li>
+                            <li>I- MATRIX - COMPUTER LAB 1</li>
+                            <li>I-WAVES - COMPUTER LAB 2</li>
+                            <li>I-BIT - COMPUTER LAB 3</li>
                         </ul>
                     </div>
 
@@ -143,20 +119,19 @@
                     <div id="speciality" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Speciality</h2>
                         <ul class="text-black">
-                            <li>Surveying Laboratory</li>
-                            <li>Environmental Engineering Laboratory</li>
-                            <li>Hydraulic Engineering Laboratory</li>
-                            <li>Soil Mechanics Laboratory</li>
-                            <li>Strength of Materials Laboratory</li>
-                            <li>Concrete and Highway Engineering Laboratory</li>
-                            <li>Computer Aided Drawing Laboratory</li>
+                            <li>CADD Laboratory for Agricultural Engineering</li>
+                            <li>Remote sensing and GIS Laboratory in Agricultural Engineering</li>
                         </ul>
                     </div>
 
                     <!-- Value added programmes Section -->
                     <div id="value-added-programmes" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Value added programmes</h2>
-                        <p class="text-black">Total Station Surveying</p>
+                        <ul class="text-black">
+                            <li>FULL STACK AND WEB DEVELOPMENT</li>
+                            <li>SOFT SKILLS TRAINING</li>
+                            <li>INTERVIEW SKILLS TRAINING</li>
+                        </ul>
                     </div>
 
                     <!-- Students' Corner Section -->
@@ -337,28 +312,28 @@
                         <div class="row g-5">
 
                             <div class="col-lg-6">
-                                <img class="img-fluid rounded" src="{{asset('images/separateCourses/cseImg/ugCse.jpg')}}"
+                                <img class="img-fluid rounded" src="{{asset('images/separateCourses/itImg/it-1.jpg')}}"
                                     alt="">
                             </div>
                             <div class="col-lg-6">
-                                <img class="img-fluid rounded"
-                                    src="{{asset('images/separateCourses/cseImg/ugCse-1.jpg')}}" alt="">
+                                <img class="img-fluid rounded" src="{{asset('images/separateCourses/itImg/it-2.jpg')}}"
+                                    alt="">
                             </div>
                             <div class="col-lg-6">
-                                <img class="img-fluid rounded"
-                                    src="{{asset('images/separateCourses/cseImg/ugCse-2.jpg')}}" alt="">
+                                <img class="img-fluid rounded" src="{{asset('images/separateCourses/itImg/it-3.jpg')}}"
+                                    alt="">
                             </div>
                             <div class="col-lg-6">
-                                <img class="img-fluid rounded"
-                                    src="{{asset('images/separateCourses/cseImg/ugCse-3.jpg')}}" alt="">
+                                <img class="img-fluid rounded" src="{{asset('images/separateCourses/itImg/it-4.jpg')}}"
+                                    alt="">
                             </div>
                             <div class="col-lg-6">
-                                <img class="img-fluid rounded"
-                                    src="{{asset('images/separateCourses/cseImg/ugCse-5.jpg')}}" alt="">
+                                <img class="img-fluid rounded" src="{{asset('images/separateCourses/itImg/it-5.jpg')}}"
+                                    alt="">
                             </div>
                             <div class="col-lg-6">
-                                <img class="img-fluid rounded"
-                                    src="{{asset('images/separateCourses/cseImg/ugCse-6.jpg')}}" alt="">
+                                <img class="img-fluid rounded" src="{{asset('images/separateCourses/itImg/it-6.jpg')}}"
+                                    alt="">
                             </div>
 
                         </div>
@@ -367,8 +342,8 @@
                     <!-- Contact Us Section -->
                     <div id="contact-us" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Contact Us</h2>
-                        <p class="text-black">Mrs P Pavalakodi HOD / CSE</p>
-                        <p class="text-black">8122366344</p>
+                        <p class="text-black">Prof. Whilma John </p>
+                        <p class="text-black">9087065284</p>
                     </div>
 
                 </div>
@@ -383,11 +358,13 @@
     <div class="container">
         <div class="py-lg-10 py-md-8 py-6 text-center ">
             <h2 class="mb-lg-10 title">UPCOMING EVENTS</h2>
-            <h4 class="mb-lg-10">Coming Soon..</h4>
+            <!-- <h4 class="mb-lg-10">Coming Soon..</h4> -->
+            <h4 class="text-black">HACKATHON ON 11 th MARCH 2025</h4>
+            <h4 class="text-black">WORKSHOP ON AI & ML - 8.4.25</h4>
+            <h4 class="text-black">GUEST LECTURE ON GEN AI – 10.5.25</h4>
         </div>
     </div>
 </section>
 <!-- Upcoming Events End here -->
-
 
 @endsection

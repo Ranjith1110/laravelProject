@@ -276,7 +276,7 @@ h2::selection {
 
 /* facilities Start */
 .facilities {
-    background: linear-gradient(rgba(22, 21, 21, 0.5), rgba(4, 4, 4, 0.9)), url(/assets/images/contact.jpg);
+    background: linear-gradient(rgba(22, 21, 21, 0.5), rgba(4, 4, 4, 0.9)), url(../images/contact.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -486,9 +486,9 @@ h2::selection {
 
 /* Contact Page start */
 .contact-image {
-    background: url('/assets/images/contact.jpg') center center / cover no-repeat;
+    background: url(../images/contact.jpg) center center / cover no-repeat;
 }
-
+/* background:url("{{asset('path for image')}}"); */
 .contact-container {
     background-color: #e6f0eb;
     min-height: 90vh;

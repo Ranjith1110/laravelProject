@@ -1,5 +1,5 @@
 @extends('includes.header')
-@section('content')   
+@section('content')
 
 <!-- Spinner Start here -->
 <div id="spinner"
@@ -9,6 +9,10 @@
         </div>
     </div>
     <!-- Spinner End here -->
+
+    <!-- Navbar Start here -->
+    <div id="header"></div>
+    <!-- Navbar End here -->
 
     <!-- Vertical Button Start here -->
     <button style="background-color: #9d7651; border: 2px solid #dfcfc1;"
@@ -28,7 +32,7 @@
                 <img class="w-100 object-fit-cover" src="{{asset('images/administrationImg/administration-banner.jpg')}}"
                     alt="">
                 <div class="position-absolute">
-                    <h2 class="text-white text-center fw-bolder">Civil Engineering</h2>
+                    <h2 class="text-white text-center fw-bolder">Manufacturing Engineering</h2>
                 </div>
             </div>
         </div>
@@ -41,10 +45,10 @@
 
             <!-- Slogan For Course -->
             <div class="d-flex justify-content-between align-items-center courses-btn">
-                <h2 class="text-center fw-bold title-slogan">Designing the Future, One Blueprint at a Time!</h2>
+                <h2 class="text-center fw-bold title-slogan">Where Theory Meets Practice, and Innovation Ignites!</h2>
                 <a href="#" style="background-color: #9d7651; border: 2px solid #dfcfc1;"
                     class="text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
-                    data-bs-target="#popupForm">Book Your Admission in Civil</a>
+                    data-bs-target="#popupForm">Book Your Admission in ECE</a>
             </div>
 
             <div class="mx-10 my-16">
@@ -104,7 +108,7 @@
                         <!-- Facilities Section -->
                         <div id="facilities" class="content-section d-none">
                             <h2 class="title-slogan mb-4">Facilities</h2>
-                            <ul class="text-black">
+                            <ul>
                                 <li>Surveying and Levelling Laboratory</li>
                                 <li>Water and Waste Water Analysis </li>
                                 <li>Hydraulic Engineering Laboratory</li>
@@ -118,7 +122,7 @@
                         <!-- Speciality Section -->
                         <div id="speciality" class="content-section d-none">
                             <h2 class="title-slogan mb-4">Speciality</h2>
-                            <ul class="text-black">
+                            <ul>
                                 <li>Surveying Laboratory</li>
                                 <li>Environmental Engineering Laboratory</li>
                                 <li>Hydraulic Engineering Laboratory</li>
@@ -132,13 +136,13 @@
                         <!-- Value added programmes Section -->
                         <div id="value-added-programmes" class="content-section d-none">
                             <h2 class="title-slogan mb-4">Value added programmes</h2>
-                            <p  class="text-black">Total Station Surveying</p>
+                            <p>Total Station Surveying</p>
                         </div>
 
                         <!-- Students' Corner Section -->
                         <div id="students-corner" class="content-section d-none">
                             <h2 class="title-slogan mb-4">Students' Corner</h2>
-                            <h4 class="text-center text-black">Achievements List</h4>
+                            <h4 class="text-center">Achievements List</h4>
 
                             <div class="table-container">
                                 <table class="trust-table">
@@ -310,38 +314,7 @@
                         <!-- Gallery Section -->
                         <div id="gallery" class="content-section d-none">
                             <h2 class="title-slogan mb-4">Gallery</h2>
-                            <div class="row g-5">
-
-                                <div class="col-lg-6">
-                                    <img class="img-fluid rounded"
-                                        src="{{asset('images/separateCourses/civilImg/Hydraulic Engineering lab')}}.jpg"
-                                        alt="">
-                                    <h5 class="text-center py-5">Hydraulic Engineering lab</h5>
-                                </div>
-                                <div class="col-lg-6">
-                                    <img class="img-fluid rounded"
-                                        src="{{asset('images/separateCourses/civilImg/Highway Engineering lab.jpg')}}"
-                                        alt="">
-                                    <h5 class="text-center py-5">Highway Engineering</h5>
-                                </div>
-                                <div class="col-lg-6">
-                                    <img class="img-fluid rounded"
-                                        src="{{asset('images/separateCourses/civilImg/Materials Testing lab.jpg')}}" alt="">
-                                    <h5 class="text-center py-5">Materials Testing lab</h5>
-                                </div>
-                                <div class="col-lg-6">
-                                    <img class="img-fluid rounded"
-                                        src="{{asset('images/separateCourses/civilImg/Soil Mechanics lab.jpg')}}" alt="">
-                                    <h5 class="text-center py-5">Soil Mechanics lab</h5>
-                                </div>
-                                <div class="col-lg-6">
-                                    <img class="img-fluid rounded"
-                                        src="{{asset('images/separateCourses/civilImg/Water and Waste Water Analysis lab.jpg')}}"
-                                        alt="">
-                                    <h5 class="text-center py-5">Water and Waste Water Analysis lab</h5>
-                                </div>
-
-                            </div>
+                            <p class="text-black">Upade Soon..</p>
                         </div>
 
                         <!-- Contact Us Section -->
@@ -369,5 +342,4 @@
     </section>
     <!-- Upcoming Events End here -->
 
-  
 @endsection
