@@ -1,27 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
+@extends('main.layouts.app')
+<style>
+    body {
+        background-color: #f0f0f0 !important;
+    }
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Form</title>
-    <link rel="stylesheet" href="/assets/css/fastbootstrap.min.css">
-    <style>
-        .loginForm {
-            position: absolute;
-            left: 50%;
-            top: 50%;
-            transform: translate(-50%, -50%);
-        }
-    </style>
-</head>
+    .loginForm {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
 
-<body class="">
+    footer {
+        display: none !important;
+    }
+</style>
+
+<body>
     <div class="loginForm">
-        <div class="text-center mb-4">
-            <h2>Welcome</h2>
+        <div class="text-center mb-4 bg-white">
+            <img width="300px" class="mamce-logo m-0" src="{{asset('images/mamce-logo.png')}}" alt="">
         </div>
-        <div class="card py-8 px-5" style="width: 400px;">
+        <div class="card py-8 px-5 bg-white" style="width: 400px;">
             <h5 class="text-center mb-4">Sign in to CONTROL</h5>
             <form>
                 <div class="mb-3">
@@ -43,7 +43,5 @@
             </form>
         </div>
     </div>
-    <script src="/assets/js/fastbootstrap.min.js"></script>
-</body>
 
-</html>
+</body>

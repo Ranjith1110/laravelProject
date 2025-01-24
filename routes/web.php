@@ -8,6 +8,19 @@ use Illuminate\Http\Request;
 //     return view('index');
 // });
 
+Route::get('/dashboard-list', function () {
+    return view('dashboard.list');
+});
+
+Route::get('/dashboard-view', function () {
+    return view('dashboard.view');
+});
+
+
+Route::get('/login', function () {
+    return view('login');
+});
+
 // Admission Enquiry From
 Route::post('/admission-enquiry', function (Request $request) {
     return back()->with('success', 'Enquiry submitted successfully!');
