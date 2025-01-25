@@ -25,6 +25,10 @@ class WebsiteController extends Controller
     {
         return view('campus');
     }
+    public function courses()
+    {
+        return view('courses');
+    }
     public function placement()
     {
         return view('placement');

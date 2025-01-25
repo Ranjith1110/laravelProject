@@ -299,16 +299,20 @@
         <div class="row g-1">
 
             <div class="col-lg-5 pt-3 px-3 d-lg-block d-none">
-                <div class="p-1 shadow bg-white rounded">
+                <div class="p-1 shadow rounded" style="background-color: #dfcfc1; border: 1px solid #9d7651;">
                     <div class="p-2">
                         <div class="row g-2">
-                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/contact.jpg')}}" alt="">
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/lab-1.jpg')}}" alt="">
                             </div>
-                            <div class="col-lg-6"><img class="img-fluid" src="assets/images/contact.jpg" alt="">
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/lab-2.jpg')}}" alt="">
                             </div>
-                            <div class="col-lg-6"><img class="img-fluid" src="assets/images/contact.jpg" alt="">
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/lab-3.jpg')}}" alt="">
                             </div>
-                            <div class="col-lg-6"><img class="img-fluid" src="assets/images/contact.jpg" alt="">
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/lab-4.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/abdulKalam-1.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/abdulKalam-1.jpg')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -334,14 +338,18 @@
             <div class="col-lg-5 pt-3 px-3 d-lg-block d-none">
                 <div class="p-1 shadow rounded" style="background-color: #dfcfc1;">
                     <div class="p-2">
-                        <div class="row g-2">
-                            <div class="col-lg-6"><img class="img-fluid" src="assets/images/contact.jpg" alt="">
+                    <div class="row g-2">
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/lib-1.jpg')}}" alt="">
                             </div>
-                            <div class="col-lg-6"><img class="img-fluid" src="assets/images/contact.jpg" alt="">
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/lib-2.jpg')}}" alt="">
                             </div>
-                            <div class="col-lg-6"><img class="img-fluid" src="assets/images/contact.jpg" alt="">
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/lib-3.jpg')}}" alt="">
                             </div>
-                            <div class="col-lg-6"><img class="img-fluid" src="assets/images/contact.jpg" alt="">
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/edisonHall-1.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/edisonHall-2.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/backetball-1.jpg')}}" alt="">
                             </div>
                         </div>
                     </div>
@@ -465,7 +473,7 @@
                             <h5 class="mb-2 fs-3 fw-bold text-black">Administration</h4>
                         </div>
                         <div class="campus-btn rounded-0 rounded-bottom">
-                            <a class="fw-medium" href="administration.html">Read More<i
+                            <a class="fw-medium" href="{{route('adminMamce')}}">Read More<i
                                     class="bi bi-chevron-double-right ms-2"></i></a>
                         </div>
                     </div>
@@ -479,7 +487,7 @@
                             <h5 class="mb-2 fs-3 fw-bold text-black">Courses</h4>
                         </div>
                         <div class="campus-btn rounded-0 rounded-bottom">
-                            <a class="fw-medium" href="courses.html">Read More<i
+                            <a class="fw-medium" href="{{route('courses')}}">Read More<i
                                     class="bi bi-chevron-double-right ms-2"></i></a>
                         </div>
                     </div>
@@ -493,7 +501,7 @@
                             <h5 class="mb-2 fs-3 fw-bold text-black">Campus</h4>
                         </div>
                         <div class="campus-btn rounded-0 rounded-bottom">
-                            <a class="fw-medium" href="campus.html">Read More<i
+                            <a class="fw-medium" href="{{route('campus')}}">Read More<i
                                     class="bi bi-chevron-double-right ms-2"></i></a>
                         </div>
                     </div>

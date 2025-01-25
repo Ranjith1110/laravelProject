@@ -16,7 +16,6 @@ Route::get('/dashboard-view', function () {
     return view('dashboard.view');
 });
 
-
 Route::get('/login', function () {
     return view('login');
 });
@@ -32,6 +31,7 @@ Route::group(array('namespace' => 'App\Http\Controllers'), function () {
     Route::get('history-mamce', array('as' => 'historyMamce',  'uses' => 'WebsiteController@historyMamce'));
     Route::get('admin-mamce', array('as' => 'adminMamce',  'uses' => 'WebsiteController@adminMamce'));
     Route::get('campus', array('as' => 'campus',  'uses' => 'WebsiteController@campus'));
+    Route::get('courses', array('as' => 'courses',  'uses' => 'WebsiteController@courses'));
     Route::get('placement', array('as' => 'placement',  'uses' => 'WebsiteController@placement'));
     Route::get('contact', array('as' => 'contact',  'uses' => 'WebsiteController@contact'));
 
