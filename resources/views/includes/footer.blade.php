@@ -7,26 +7,26 @@
                 <div class="col-lg-3 col-md-6 mb-lg-0 mb-10">
                     <h5 class="text-black mb-8">UG COURSES OFFERED</h5>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-black mb-1" href="departments/ug/civil.html">Civil Engineering</a>
-                        <a class="text-black mb-1" href="departments/ug/cse.html">Computer Science and
+                        <a class="text-black mb-1" href="{{route('civil')}}">Civil Engineering</a>
+                        <a class="text-black mb-1" href="{{route('cse')}}">Computer Science and
                             Engineering</a>
-                        <a class="text-black mb-1" href="departments/ug/eee.html">Electrical & Electronics
+                        <a class="text-black mb-1" href="{{route('eee')}}">Electrical & Electronics
                             Engineering</a>
-                        <a class="text-black mb-1" href="departments/ug/ece.html">Electronics and Communication
+                        <a class="text-black mb-1" href="{{route('ece')}}">Electronics and Communication
                             Engineering</a>
-                        <a class="text-black mb-1" href="departments/ug/eie.html">Electronics and Instrumentation
+                        <a class="text-black mb-1" href="{{route('eie')}}">Electronics and Instrumentation
                             Engineering</a>
-                        <a class="text-black mb-1" href="departments/ug/it.html">Information Technology</a>
-                        <a class="text-black mb-1" href="departments/ug/mechanical.html">Mechanical Engineering</a>
-                        <a class="text-black mb-1" href="departments/ug/ai&ds.html">Artificial Intelligence and Data
+                        <a class="text-black mb-1" href="{{route('it')}}">Information Technology</a>
+                        <a class="text-black mb-1" href="{{route('mech')}}">Mechanical Engineering</a>
+                        <a class="text-black mb-1" href="{{route('ai&ds')}}">Artificial Intelligence and Data
                             Science</a>
-                        <a class="text-black mb-1" href="departments/ug/agricultural.html">Agricultural
+                        <a class="text-black mb-1" href="{{route('agri')}}">Agricultural
                             Engineering</a>
-                        <a class="text-black mb-1" href="departments/ug/bio-medical.html">Biomedical Engineering</a>
-                        <a class="text-black mb-1" href="departments/ug/food-technology.html">Food Technology</a>
-                        <a class="text-black mb-1" href="departments/ug/bio-tech.html">Bio Technology</a>
-                        <a class="text-black mb-1" href="departments/ug/cyber-security.html">Cyber Security</a>
-                        <a class="text-black mb-1" href="departments/ug/ai&ml.html">Artificial Intelligence and
+                        <a class="text-black mb-1" href="{{route('bioMedical')}}">Biomedical Engineering</a>
+                        <a class="text-black mb-1" href="{{route('foodTech')}}">Food Technology</a>
+                        <a class="text-black mb-1" href="{{route('bioTech')}}">Bio Technology</a>
+                        <a class="text-black mb-1" href="{{route('cyberSecurity')}}">Cyber Security</a>
+                        <a class="text-black mb-1" href="{{route('ai&ml')}}">Artificial Intelligence and
                             Machine Learning</a>
                     </div>
                 </div>
@@ -34,17 +34,17 @@
                 <div class="col-lg-3 col-md-6 mb-lg-0 mb-10">
                     <h5 class="text-black mb-8">PG COURSES OFFERED</h5>
                     <div class="d-flex flex-column justify-content-start">
-                        <a class="text-black mb-1" href="departments/pg/mba.html">Master of Business
+                        <a class="text-black mb-1" href="{{route('mba')}}">Master of Business
                             Administration</a>
-                        <a class="text-black mb-1" href="departments/pg/mca.html">Master of Computer
+                        <a class="text-black mb-1" href="{{route('mca')}}">Master of Computer
                             Applications</a>
-                        <a class="text-black mb-1" href="departments/pg/environmental-engineering.html">Environmental
+                        <a class="text-black mb-1" href="{{route('environmentalEngineering')}}">Environmental
                             Engineering</a>
-                        <a class="text-black mb-1" href="departments/pg/cse.html">Computer Science & Engineering</a>
-                        <a class="text-black mb-1" href="departments/pg/ece.html">Electronics & Communication
+                        <a class="text-black mb-1" href="{{route('mecse')}}">Computer Science & Engineering</a>
+                        <a class="text-black mb-1" href="{{route('meece')}}">Electronics & Communication
                             Engineering</a>
-                        <a class="text-black mb-1" href="departments/pg/ped.html">Power Electronics & Drives</a>
-                        <a class="text-black mb-1" href="departments/pg/manufacturing-engineering.html">Manufacturing
+                        <a class="text-black mb-1" href="{{route('ped')}}">Power Electronics & Drives</a>
+                        <a class="text-black mb-1" href="{{route('manufacturingEngineering')}}">Manufacturing
                             Engineering</a>
                     </div>
                 </div>
