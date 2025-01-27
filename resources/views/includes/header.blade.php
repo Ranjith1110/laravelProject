@@ -58,53 +58,52 @@
 
                         <div>
                             <p class="dropdown-item h4 fw-bold" style="color: #9d7651;">UG COURSES</p>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('civil')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.E Civil Engineering </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('cse')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.E Computer Science and Engineering </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('eee')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.E Electrical and Electronics Engineering </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('ece')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.E Electronics and Communication Engineering </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('eie')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.E Electronics and Instrumentation Engineering </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('it')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.E Information Technology </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('mech')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.E Mechanical Engineering </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('ai&ds')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.Tech Artificial Intelligence and Data Science </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('agri')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.Tech Agricultural Engineering </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('bioMedical')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.Tech Biomedical Engineering </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('foodTech')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.Tech Food Technology </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
-                                </span> B.Tech Biotechnology </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('bioTech')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                                </span> B.Tech Bio Technology </a>
+                            <a href="{{route('cyberSecurity')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.Tech Cyber Security </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('ai&ml')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.Tech Artificial Intelligence and Machine Learning </a>
                         </div>
 
                         <div>
                             <p class="dropdown-item h4 fw-bold" style="color: #9d7651;">PG COURSES</p>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('mba')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> M.B.A Master of Business Administration </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('mca')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> M.C.A Master of Computer Applications </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('environmentalEngineering')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> M.E Environmental Engineering </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('mecse')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> M.E Computer Science and Engineering </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('meece')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> M.E Electronics and Communication Engineering </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('ped')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> M.E Power Electronics and Drives </a>
-                            <a href="#" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
+                            <a href="{{route('manufacturingEngineering')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> M.E Manufacturing Engineering </a>
-                                      
                         </div>
 
                     </div>
