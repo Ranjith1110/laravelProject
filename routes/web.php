@@ -36,27 +36,27 @@ Route::group(array('namespace' => 'App\Http\Controllers'), function () {
     Route::get('contact', array('as' => 'contact',  'uses' => 'WebsiteController@contact'));
 
     // Departments/Ug
-    Route::get('civil', array('as' => 'civil',  'uses' => 'WebsiteController@civil'));
-    Route::get('cse', array('as' => 'cse',  'uses' => 'WebsiteController@cse'));
-    Route::get('eee', array('as' => 'eee',  'uses' => 'WebsiteController@eee'));
-    Route::get('ece', array('as' => 'ece',  'uses' => 'WebsiteController@ece'));
-    Route::get('eie', array('as' => 'eie',  'uses' => 'WebsiteController@eie'));
-    Route::get('it', array('as' => 'it',  'uses' => 'WebsiteController@it'));
-    Route::get('mech', array('as' => 'mech',  'uses' => 'WebsiteController@mech'));
-    Route::get('ai&ds', array('as' => 'ai&ds',  'uses' => 'WebsiteController@aids'));
-    Route::get('agri', array('as' => 'agri',  'uses' => 'WebsiteController@agri'));
-    Route::get('bioMedical', array('as' => 'bioMedical',  'uses' => 'WebsiteController@bioMedical'));
-    Route::get('foodTech', array('as' => 'foodTech',  'uses' => 'WebsiteController@foodTech'));
-    Route::get('bioTech', array('as' => 'bioTech',  'uses' => 'WebsiteController@bioTech'));
-    Route::get('cyberSecurity', array('as' => 'cyberSecurity',  'uses' => 'WebsiteController@cyberSecurity'));
-    Route::get('ai&ml', array('as' => 'ai&ml',  'uses' => 'WebsiteController@aiml'));
+    Route::get('civil-engineering', array('as' => 'civil',  'uses' => 'WebsiteController@civil'));
+    Route::get('computer-science-engineering', array('as' => 'cse',  'uses' => 'WebsiteController@cse'));
+    Route::get('electrical-electronics-engineering', array('as' => 'eee',  'uses' => 'WebsiteController@eee'));
+    Route::get('electronics-communication-engineering', array('as' => 'ece',  'uses' => 'WebsiteController@ece'));
+    Route::get('electronics-instrumentation-engineering', array('as' => 'eie',  'uses' => 'WebsiteController@eie'));
+    Route::get('information-technology', array('as' => 'it',  'uses' => 'WebsiteController@it'));
+    Route::get('mechanical-engineering', array('as' => 'mech',  'uses' => 'WebsiteController@mech'));
+    Route::get('artificial-intelligence-and-data-ccience', array('as' => 'ai&ds',  'uses' => 'WebsiteController@aids'));
+    Route::get('agricultural-engineering', array('as' => 'agri',  'uses' => 'WebsiteController@agri'));
+    Route::get('bio-medical-engineering', array('as' => 'bioMedical',  'uses' => 'WebsiteController@bioMedical'));
+    Route::get('food-technology', array('as' => 'foodTech',  'uses' => 'WebsiteController@foodTech'));
+    Route::get('bio-technology', array('as' => 'bioTech',  'uses' => 'WebsiteController@bioTech'));
+    Route::get('cyber-security', array('as' => 'cyberSecurity',  'uses' => 'WebsiteController@cyberSecurity'));
+    Route::get('artificial-intelligence-and-machine-learning', array('as' => 'ai&ml',  'uses' => 'WebsiteController@aiml'));
 
     // Departments/Pg
-    Route::get('mba', array('as' => 'mba',  'uses' => 'WebsiteController@mba'));
-    Route::get('mca', array('as' => 'mca',  'uses' => 'WebsiteController@mca'));
-    Route::get('environmentalEngineering', array('as' => 'environmentalEngineering',  'uses' => 'WebsiteController@environmentalEngineering'));
-    Route::get('cse', array('as' => 'cse',  'uses' => 'WebsiteController@meCse'));
-    Route::get('ece', array('as' => 'ece',  'uses' => 'WebsiteController@meEce'));
-    Route::get('ped', array('as' => 'ped',  'uses' => 'WebsiteController@ped'));
-    Route::get('manufacturingEngineering', array('as' => 'manufacturingEngineering',  'uses' => 'WebsiteController@manufacturingEngineering'));
+    Route::get('pg/master-of-business-administration', array('as' => 'mba',  'uses' => 'WebsiteController@mba'));
+    Route::get('pg/master-of-computer-applications', array('as' => 'mca',  'uses' => 'WebsiteController@mca'));
+    Route::get('pg/environmental-engineering', array('as' => 'environmentalEngineering',  'uses' => 'WebsiteController@environmentalEngineering'));
+    Route::get('pg/computer-science-engineering', array('as' => 'mecse',  'uses' => 'WebsiteController@meCse'));
+    Route::get('pg/electronics-communication-engineering', array('as' => 'meece',  'uses' => 'WebsiteController@meEce'));
+    Route::get('pg/power-electronics-and-drives', array('as' => 'ped',  'uses' => 'WebsiteController@ped'));
+    Route::get('pg/manufacturing-engineering', array('as' => 'manufacturingEngineering',  'uses' => 'WebsiteController@manufacturingEngineering'));
 });
