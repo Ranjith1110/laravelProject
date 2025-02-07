@@ -10,7 +10,7 @@
 </div>
 <!-- Spinner End here -->
 
-    <!-- Vertical Button Start here -->
+<!-- Vertical Button Start here -->
 <button style="background-color: #9d7651; border: 2px solid #dfcfc1;"
     class="vertical-button text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
     data-bs-target="#admissionEnquiryModal" id="openPopupBtn">
@@ -173,7 +173,7 @@
                             </table>
 
                             <table class="trust-table">
-                                <h4 class="text-center">PLACEMENT DETAILS (2021-2022) BATCH</h4>
+                                <h4 class="text-center pt-10">PLACEMENT DETAILS (2021-2022) BATCH</h4>
                                 <thead>
                                     <tr class="text-white" style="background-color: #9d7651;">
                                         <th>SI.NO</th>
@@ -211,7 +211,7 @@
                             </table>
 
                             <table class="trust-table">
-                                <h4 class="text-center">PLACEMENT DETAILS (2022-2023) BATCH</h4>
+                                <h4 class="text-center pt-10">PLACEMENT DETAILS (2022-2023) BATCH</h4>
                                 <thead>
                                     <tr class="text-white" style="background-color: #9d7651;">
                                         <th>SI.NO</th>

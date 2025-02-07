@@ -201,7 +201,36 @@
                         <!-- Gallery Section -->
                         <div id="gallery" class="content-section d-none">
                             <h2 class="title-slogan mb-4">Gallery</h2>
-                            <p class="text-black">Update Soon..</p>
+                            <div class="row g-5">
+                                <div class="col-lg-6">
+                                    <img class="img-fluid rounded"
+                                        src="{{asset('images/separateCourses/foodTechImg/food-1.jpg')}}" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid rounded"
+                                        src="{{asset('images/separateCourses/foodTechImg/food-2.jpg')}}" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid rounded"
+                                        src="{{asset('images/separateCourses/foodTechImg/food-3.jpg')}}" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid rounded"
+                                        src="{{asset('images/separateCourses/foodTechImg/food-4.jpg')}}" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid rounded"
+                                        src="{{asset('images/separateCourses/foodTechImg/food-5.jpg')}}" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid rounded"
+                                        src="{{asset('images/separateCourses/foodTechImg/food-6.jpg')}}" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid rounded"
+                                        src="{{asset('images/separateCourses/foodTechImg/food-7.jpg')}}" alt="">
+                                </div>
+                            </div>
                         </div>
 
                         <!-- Contact Us Section -->

@@ -150,38 +150,80 @@
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>AMSAVALLI P</td>
-                                        <td>FIRELESS COOKING</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
+                                        <td>SUMITHKUMAR</td>
+                                        <td>Drama solo acting</td>
+                                        <td>Tiruchy enginnering college konalai</td>
                                         <td>FIRST PRICE</td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>SRINITHI T</td>
-                                        <td>FIRELESS COOKING</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>FIRST PRICE</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>SIVARANJANI V</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
+                                        <td>UMAR.M</td>
+                                        <td>MELOMANIAC</td>
+                                        <td>MAMCET</td>
                                         <td>SECOND PRICE</td>
                                     </tr>
                                     <tr>
+                                        <td>3</td>
+                                        <td>SUMITHKUMAR, SAMSUDEEN, MAHALAKSHMI, AYYANAR, NAVEEN</td>
+                                        <td>Short film</td>
+                                        <td>MAMCET</td>
+                                        <td>FIRST PRICE</td>
+                                    </tr>
+                                    <tr>
                                         <td>4</td>
-                                        <td>VINISHA T</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>THIRD PRICE</td>
+                                        <td>Yuvaraj M, Sandeep S</td>
+                                        <td>Freeze the moment</td>
+                                        <td>HolyCross Womens College</td>
+                                        <td>SECOND PRICE</td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td>THANGAMARIS K</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>THIRD PRICE</td>
+                                        <td>Yuvaraj M</td>
+                                        <td>Dumb Charads</td>
+                                        <td>HolyCross Womens College</td>
+                                        <td>FIRST PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Franklin T</td>
+                                        <td>Paper Presentation</td>
+                                        <td>K.Ramakrishna college of engineering</td>
+                                        <td>SECOND PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Franklin T, Ganesamoorthy.K</td>
+                                        <td>Ideathon</td>
+                                        <td>M.A.M.college of engineering</td>
+                                        <td>FIRST PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Ganesamoorthy.K</td>
+                                        <td>Paper presentation</td>
+                                        <td>K Ramakrishna college of engineering</td>
+                                        <td>SECOND PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Ganesamoorthy.K</td>
+                                        <td>Paper presentation</td>
+                                        <td>Kongunadu college of engineering and technology</td>
+                                        <td>SECOND PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Ganesamoorthy.K</td>
+                                        <td>Paper presentation</td>
+                                        <td>Kings College of engineering</td>
+                                        <td>SECOND PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Ganesamoorthy.K</td>
+                                        <td>Paper presentation</td>
+                                        <td>Arunai college of engineering</td>
+                                        <td>SECOND PRICE</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -199,46 +241,19 @@
                                     <tr class="text-white" style="background-color: #9d7651;">
                                         <th>SI.NO</th>
                                         <th>STUDENT NAME</th>
-                                        <th>YEAR</th>
-                                        <th>JOB TITLE</th>
-                                        <th>STUDENT PHOTO</th>
+                                        <th>COMPANY</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>ARIVUKARASU.A</td>
-                                        <td>IV</td>
-                                        <td>SURVEYOR</td>
-                                        <td>-</td>
+                                        <td>Mohamed ismail.A</td>
+                                        <td>Qspider</td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>ARUNPANDIYAN.A</td>
-                                        <td>IV</td>
-                                        <td>SURVEYOR</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>DHINESKUMAR.M</td>
-                                        <td>IV</td>
-                                        <td>SURVEYOR</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>KANIGACHALAM.G</td>
-                                        <td>IV</td>
-                                        <td>SURVEYOR</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>HELEN SOBHA.A</td>
-                                        <td>IV</td>
-                                        <td>SURVEYOR</td>
-                                        <td>-</td>
+                                        <td>Vedhanarayanan </td>
+                                        <td>Qspider</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -249,58 +264,12 @@
                     <!-- Events Section -->
                     <div id="events" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Events</h2>
-
-                        <div class="table-container">
-                            <table class="trust-table">
-                                <thead>
-                                    <tr class="text-white" style="background-color: #9d7651;">
-                                        <th>SI.NO</th>
-                                        <th>NAME OF EVENT</th>
-                                        <th>EVENT DATE</th>
-                                        <th>STUDENTS</th>
-                                        <th>RESOURCE PERSON</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>PRESENTATION DAY</td>
-                                        <td>12-02-2024</td>
-                                        <td>III & IV YEAR</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>CONSERVE SOLUTION SEMINAR AT BIM</td>
-                                        <td>06-03-2024</td>
-                                        <td>III & IV YEAR</td>
-                                        <td>Mr. M. MAHESWARN</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>SYMPOMISUM</td>
-                                        <td>23-03-2024</td>
-                                        <td>II, III & IV YEAR</td>
-                                        <td>Dr.K.DEVAKUMARAN</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>KPM TOPOMAPPER& ENGINNERING SURVEYOR (INTERNSHIP COME PLACEMENT)</td>
-                                        <td>04-03-2024</td>
-                                        <td>IV</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>WORKSHOP ON SOFTWARE DEMONSTRATION</td>
-                                        <td>27-05-2024</td>
-                                        <td>II & III YEAR</td>
-                                        <td>Mr.SANTHANA GOPALA KRISHNAN</td>
-                                    </tr>
-                                </tbody>
-                            </table>
-
-                        </div>
+                        <ul class="text-black">
+                            <li>Workshop on Machine Learning</li>
+                            <li>Innovate IT</li>
+                            <li>Future Script</li>
+                            <li>National Science Day</li>
+                        </ul>
                     </div>
 
                     <!-- Gallery Section -->

@@ -10,7 +10,7 @@
 </div>
 <!-- Spinner End here -->
 
-    <!-- Vertical Button Start here -->
+<!-- Vertical Button Start here -->
 <button style="background-color: #9d7651; border: 2px solid #dfcfc1;"
     class="vertical-button text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
     data-bs-target="#admissionEnquiryModal" id="openPopupBtn">
@@ -101,15 +101,7 @@
                     <!-- Speciality Section -->
                     <div id="speciality" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Speciality</h2>
-                        <ul class="text-black">
-                            <li>Surveying Laboratory</li>
-                            <li>Environmental Engineering Laboratory</li>
-                            <li>Hydraulic Engineering Laboratory</li>
-                            <li>Soil Mechanics Laboratory</li>
-                            <li>Strength of Materials Laboratory</li>
-                            <li>Concrete and Highway Engineering Laboratory</li>
-                            <li>Computer Aided Drawing Laboratory</li>
-                        </ul>
+                        <p class="text-black">Update Soon..</p>
                     </div>
 
                     <!-- Value added programmes Section -->
@@ -242,8 +234,37 @@
 
                     <!-- Gallery Section -->
                     <div id="gallery" class="content-section d-none">
-                        <h2 class="title-slogan mb-4">Gallery</h2>
-                        <p class="text-black">Update Soon..</p>
+                        <h2 class="title-slogan mb-4">Gallery</h2>"{{asset('images/separateCourses/ai&dsImg/ai&ds-banner.svg')}}
+                        <div class="row g-5">
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/ai&dsImg/aids-1.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/ai&dsImg/aids-2.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/ai&dsImg/aids-3.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/ai&dsImg/aids-4.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/ai&dsImg/aids-5.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/ai&dsImg/aids-6.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/ai&dsImg/aids-7.jpg')}}" alt="">
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Contact Us Section -->
@@ -254,8 +275,10 @@
                     </div>
 
                 </div>
+
             </div>
         </div>
+
     </div>
 </section>
 <!-- About Department End here -->

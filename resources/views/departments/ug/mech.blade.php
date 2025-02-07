@@ -396,7 +396,7 @@
                         <div id="events" class="content-section d-none">
                             <h2 class="title-slogan mb-4">Events</h2>
 
-                            <h4>Update Soon...</h4>
+                            <p class="text-black">Update Soon...</p>
                         </div>
 
                         <!-- Gallery Section -->
@@ -410,6 +410,15 @@
                                 </div>
                                 <div class="col-lg-6">
                                     <img class="img-fluid rounded" src="{{asset('images/separateCourses/mechImg/mech-2.jpg')}}" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid rounded" src="{{asset('images/separateCourses/mechImg/mech-3.jpg')}}" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid rounded" src="{{asset('images/separateCourses/mechImg/mech-4.jpg')}}" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <img class="img-fluid rounded" src="{{asset('images/separateCourses/mechImg/mech-5.jpg')}}" alt="">
                                 </div>
 
                             </div>

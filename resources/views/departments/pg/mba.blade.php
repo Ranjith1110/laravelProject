@@ -10,7 +10,7 @@
 </div>
 <!-- Spinner End here -->
 
-    <!-- Vertical Button Start here -->
+<!-- Vertical Button Start here -->
 <button style="background-color: #9d7651; border: 2px solid #dfcfc1;"
     class="vertical-button text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
     data-bs-target="#admissionEnquiryModal" id="openPopupBtn">
@@ -65,30 +65,27 @@
                     <div id="about" class="content-section">
                         <h2 class="title-slogan mb-4">About</h2>
                         <p class="text-justify text-black">
-                            "The Department of Management Studies was started in M.A.M.C.E in the year 2008.
-                            The programme is approved by AICTE, New Delhi & Affiliated to Anna University, Chennai."
+                            To provide holistic and value based professional education relevant
+                            to the country's progress in the field of business administration
                         </p>
 
                         <div class="mt-10 p-5" style="border: 10px solid #9d7651;">
                             <h2 class="title-slogan mb-4">VISION</h2>
                             <p class="text-justify text-black">
-                                Our mission is to become a Centre of Excellence for nurturing creativity,
-                                encouraging entrepreneurship and enhancing employability, holistic development of
-                                students, teaching and quality research.
+                                To develop the analytical and strategic management skills of students,
+                                using concepts derived from a wide range of academic disciplines, enabling them
+                                to respond creatively and effectively to the challenges of the global business
+                                environment.Our mission is to become a Centre of Excellence for nurturing creativity,
+                                encouraging entrepreneurship and enhancing employability, holistic development
+                                of students, teaching and quality research.
+
                             </p>
                         </div>
                         <div class="mt-10 p-5" style="border: 10px solid #9d7651;">
                             <h2 class="title-slogan mb-4">MISSION</h2>
                             <p class="text-justify text-black">
-                                "To develop the analytical and strategic management skills of students,
-                                using concepts derived from a wide range of academic disciplines, enabling them
-                                to respond creatively and effectively to the challenges of the global business
-                                environment.Our mission is to become a Centre of Excellence for nurturing
-                                creativity,
-                                encouraging entrepreneurship and enhancing employability, holistic development
-                                of students, teaching and quality research.
-                                "
-                            </p>
+                                The Department of Management Studies was started in M.A.M.C.E in the year 2008.
+                                The programme is approved by AICTE, New Delhi & Affiliated to Anna University, Chennai.</p>
                         </div>
                     </div>
 
@@ -327,57 +324,15 @@
                     <div id="events" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Events</h2>
 
-                        <div class="table-container">
-                            <table class="trust-table">
-                                <thead>
-                                    <tr class="text-white" style="background-color: #9d7651;">
-                                        <th>SI.NO</th>
-                                        <th>NAME OF EVENT</th>
-                                        <th>EVENT DATE</th>
-                                        <th>STUDENTS</th>
-                                        <th>RESOURCE PERSON</th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td>1</td>
-                                        <td>PRESENTATION DAY</td>
-                                        <td>12-02-2024</td>
-                                        <td>III & IV YEAR</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>2</td>
-                                        <td>CONSERVE SOLUTION SEMINAR AT BIM</td>
-                                        <td>06-03-2024</td>
-                                        <td>III & IV YEAR</td>
-                                        <td>Mr. M. MAHESWARN</td>
-                                    </tr>
-                                    <tr>
-                                        <td>3</td>
-                                        <td>SYMPOMISUM</td>
-                                        <td>23-03-2024</td>
-                                        <td>II, III & IV YEAR</td>
-                                        <td>Dr.K.DEVAKUMARAN</td>
-                                    </tr>
-                                    <tr>
-                                        <td>4</td>
-                                        <td>KPM TOPOMAPPER& ENGINNERING SURVEYOR (INTERNSHIP COME PLACEMENT)</td>
-                                        <td>04-03-2024</td>
-                                        <td>IV</td>
-                                        <td>-</td>
-                                    </tr>
-                                    <tr>
-                                        <td>5</td>
-                                        <td>WORKSHOP ON SOFTWARE DEMONSTRATION</td>
-                                        <td>27-05-2024</td>
-                                        <td>II & III YEAR</td>
-                                        <td>Mr.SANTHANA GOPALA KRISHNAN</td>
-                                    </tr>
-                                </tbody>
-                            </table>
+                        <ul class="text-black">
+                            <li>BUSINESS ASSEMBLY</li>
+                            <li>HR Events</li>
+                            <li>Guest Lectures</li>
+                            <li>MAM yuga symposium</li>
+                            <li>Industrial Visit</li>
+                            <li>Role Play</li>
+                        </ul>
 
-                        </div>
                     </div>
 
                     <!-- Gallery Section -->
