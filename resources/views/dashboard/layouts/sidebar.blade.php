@@ -16,23 +16,11 @@
                 <li class="mt-8">
                     <a href="">
                         <i class="fa fa-th-large"></i>
-                        <span class="nav-item">Demo</span>
+                        <span class="nav-item">Admission</span>
                     </a>
                 </li>
 
-                <li>
-                    <a href="">
-                        <i class="fa fa-th-large"></i>
-                        <span class="nav-item">Demo</span>
-                    </a>
-                </li>
-
-                <li>
-                    <a href="">
-                        <i class="fa fa-th-large"></i>
-                        <span class="nav-item">Demo</span>
-                    </a>
-                </li>
+               
 
             </ul>
         </div>

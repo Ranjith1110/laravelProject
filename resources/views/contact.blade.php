@@ -45,26 +45,27 @@
             <div class="row g-0 contact-card">
 
                 <div class="col-md-6 p-10">
-                    <form>
+                    <form id="contact-enquiery">
+                        @csrf
                         <div class="mb-4">
-                            <input style="border: 2px solid #dfcfc1;" type="text" class="form-control py-3"
+                            <input style="border: 2px solid #dfcfc1;" type="text" name="name" class="form-control py-3"
                                 placeholder="Your Name" required>
                         </div>
                         <div class="mb-4">
-                            <input style="border: 2px solid #dfcfc1;" type="email" class="form-control py-3"
+                            <input style="border: 2px solid #dfcfc1;" type="email" name="email" class="form-control py-3"
                                 placeholder="Your Email" required>
                         </div>
                         <div class="mb-4">
-                            <input style="border: 2px solid #dfcfc1;" type="number" class="form-control py-3"
+                            <input style="border: 2px solid #dfcfc1;" type="number" name="phone_no" class="form-control py-3"
                                 placeholder="Your Phone" required>
                         </div>
                         <div class="mb-4">
-                            <input style="border: 2px solid #dfcfc1;" type="text" class="form-control py-3"
+                            <input style="border: 2px solid #dfcfc1;" type="text" name="subject" class="form-control py-3"
                                 placeholder="Your Subject" required>
                         </div>
                         <div class="mb-4">
                             <textarea style="border: 2px solid #dfcfc1;" class="form-control" rows="5"
-                                placeholder="Your Message" required></textarea>
+                                placeholder="Your Message" name="message" required></textarea>
                         </div>
                         <button type="submit" class="btn px-4 py-2" style="color: #fff; background-color: #9d7651;">Send
                             Message</button>
@@ -92,5 +93,81 @@
         </div>
     </div>
     <!-- Map End -->
+<script>
+    $(document).ready(function (){
+        $("#contact-enquiery").validate({
+            rules: {
+                name: {
+                    required: true,
+                },
+                email: {
+                    required: true,
+                    email: true,
+                },
+                phone_no: {
+                    required: true,
+                    number: true,
+                    minlength: 10,
+                    maxlength: 15,
+                },
+                subject: {
+                    required: true,
+                },
+                message: {
+                    required: true,
+                },
+            },
+            messages: {
+                name: {
+                    required: 'Please enter your name',
+                },
+                email: {
+                    required: 'Please enter email',
+                    email: 'Enter a valid email address',
+                },
+                phone: {
+                    required: 'Fill phone number',
+                    number: 'Must be a valid phone number',
+                    minlength: 'Phone number must be at least 10 digits long.',
+                    maxlength: 'Phone number must not exceed 15 digits.',
+                },
+                subject: {
+                    required: 'Please enter your Subject',
+                },
+                message: {
+                    required: 'Please enter message',
+                },
+            },
+            submitHandler: function (form) {
+                const url = "{{ route('contact.enquiry') }}";
+                const data = $(form).serialize();
+                $("#contact-enquiery button[type='submit']").text('Submitting...').attr('disabled', true);
 
+                $.ajax({
+                    type: 'POST',
+                    url: url,
+                    data: data,
+                    success: function (result) {
+                        $("#successMessage")
+                            .removeClass('d-none alert-danger')
+                            .addClass('alert-success')
+                            .text('Your enquiry has been successfully submitted!');
+                        $(form).trigger('reset');
+                        $("#contact-enquiery button[type='submit']").text('Apply Now').attr('disabled', false);
+                        setTimeout(() => {
+                            $("#successModal").modal('show');
+                        }, 500);
+                    },
+                    error: function () {
+                        $("#successMessage")
+                            .removeClass('alert-success d-none')
+                            .addClass('alert-danger')
+                            .text('There was an error submitting your enquiry. Please try again.');
+                        $("#contact-enquiery button[type='submit']").text('Apply Now').attr('disabled', false);
+                    },
+                });
+            },
+        });
+    });
+</script>
     @endsection

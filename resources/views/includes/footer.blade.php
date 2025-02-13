@@ -54,12 +54,12 @@
                     <div class="d-flex flex-column justify-content-start">
                         <a class="text-black mb-1" href="#">Grievance Committee</a>
                         <a class="text-black mb-1" href="#">Apply</a>
-                        <a class="text-black mb-1" href="#">Disclosure</a>
-                        <a class="text-black mb-1" href="#">Research</a>
-                        <a class="text-black mb-1" href="#">Contact</a>
-                        <a class="text-black mb-1" href="#">Terms of Service</a>
-                        <a class="text-black mb-1" href="#">Privacy Policy</a>
-                        <a class="text-black" href="#">Refund Policy</a>
+                        <a class="text-black mb-1" href="{{route('mandatoryDisclosure')}}">Disclosure</a>
+                        <a class="text-black mb-1" href="{{route('research')}}">Research</a>
+                        <a class="text-black mb-1" href="{{route('contact')}}">Contact</a>
+                        <a class="text-black mb-1" href="{{route('termsOfService')}}">Terms of Service</a>
+                        <a class="text-black mb-1" href="{{route('privacyPolicy')}}">Privacy Policy</a>
+                        <a class="text-black" href="{{route('refundPolicy')}}">Refund Policy</a>
                     </div>
                 </div>
 
@@ -69,7 +69,7 @@
                         <p class="text-black mb-3">Address: M.A.M. College of Engineering, Trichy - Chennai Trunk
                             Road, Siruganur, Tiruchirappalli - 621 105, Tamil Nadu, India.</p>
                         <p class="text-black mb-3">Phone: 04312650550, 9952522022, 9952182828</p>
-                        <a class="text-black" href="#">Email: secretary@mamce.org</a>
+                        <a class="text-black"  href="mailto:secretary@mamce.org">Email: secretary@mamce.org</a>
                     </div>
                     <h5 class="text-black mt-8 mb-4">SOCIAL MEDIA</h5>
                     <div class="d-inline-flex align-items-center">

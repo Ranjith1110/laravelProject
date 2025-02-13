@@ -65,12 +65,12 @@
 
                     <div class="text-center text-black p-2">
                         <img class="mb-3" src="{{asset('images/placements/salary.png')}}" alt="">
-                        <h4 class="fs-2 fw-bold">₹ 1 LPA</h4>
+                        <h4 class="fs-2 fw-bold">₹ 10 LPA</h4>
                         <span>Highest Salary</span>
                     </div>
                     <div class="text-center text-black p-2">
                         <img class="mb-3" src="{{asset('images/placements/avg-salary.png')}}" alt="">
-                        <h4 class="fs-2 fw-bold">₹ 0 LPA</h4>
+                        <h4 class="fs-2 fw-bold">₹ 5 LPA</h4>
                         <span>Average Salary</span>
                     </div>
                     <div class="text-center text-black p-2">
@@ -80,7 +80,7 @@
                     </div>
                     <div class="text-center text-black p-2">
                         <img class="mb-3" src="{{asset('images/placements/offer.png')}}" alt="">
-                        <h4 class="fs-2 fw-bold">5+</h4>
+                        <h4 class="fs-2 fw-bold">40+</h4>
                         <span>Offers</span>
                     </div>
                     <div class="text-center text-black p-2">

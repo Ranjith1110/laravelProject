@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use Illuminate\Http\Request;
 
 class WebsiteController extends Controller
 {
@@ -125,6 +126,31 @@ class WebsiteController extends Controller
     public function manufacturingEngineering()
     {
         return view('departments.pg.manufacturingEngineering');
+    }
+    public function research()
+    {
+        return view('research');
+    }
+    public function mandatoryDisclosure()
+    {
+        return view('mandatory-disclosure');
+    }
+    public function termsOfService()
+    {
+        return view('terms-of-service');
+    }
+    public function privacyPolicy()
+    {
+        return view('privacy-policy');
+    }
+    public function refundPolicy()
+    {
+        return view('refund-policy');
+    }
+    public function saveAdmission(Request $request){
+        
+        return response()->json(['message' => 'Value saved successfully!']);
+
     }
     
 }

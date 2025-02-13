@@ -23,7 +23,8 @@ html {
 /* OpenSans Start here */
 @font-face {
     font-family: 'EspumaPro-Regular';
-    src: url('/assets/fonts/EspumaPro-Regular.otf') format('truetype');
+    /*src: url('/assets/fonts/EspumaPro-Regular.otf') format('truetype');*/
+    src:url("https://db.onlinewebfonts.com/c/43a097b40bfb5f50499a0915cdfb0120?family=EspumaPro-Regular");
     font-display: swap;
 }
 
@@ -203,7 +204,7 @@ h2::selection {
 }
 
 .marquee img {
-    width: 100px;
+    width: 120px;
     height: auto;
 }
 

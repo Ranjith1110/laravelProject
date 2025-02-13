@@ -241,12 +241,12 @@
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid"
-                            src="{{asset('images/courses-img/ug-icons/environmental engineering.png')}}" alt="">
+                            src="{{asset('images/courses-img/ug-icons/engev.png')}}" alt="">
                         <h5 class="text-start text-black fs-5 fw-bold m-0">Environmental Engineering</h5>
                     </div>
                 </a>
 
-                <a href="{{route('cse')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
+                <a href="{{route('mecse')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid" src="{{asset('images/courses-img/ug-icons/cse.png')}}" alt="">
@@ -254,7 +254,7 @@
                     </div>
                 </a>
 
-                <a href="{{route('ece')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
+                <a href="{{route('meece')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid" src="{{asset('images/courses-img/ug-icons/ece.png')}}" alt="">
@@ -338,7 +338,7 @@
             <div class="col-lg-5 pt-3 px-3 d-lg-block d-none">
                 <div class="p-1 shadow rounded" style="background-color: #dfcfc1;">
                     <div class="p-2">
-                    <div class="row g-2">
+                        <div class="row g-2">
                             <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/lib-1.jpg')}}" alt="">
                             </div>
                             <div class="col-lg-6"><img class="img-fluid" src="{{asset('images/facilitiesImg/lib-2.jpg')}}" alt="">
@@ -377,7 +377,7 @@
                 tailor-made Career development and Training interventions adapted to the needs of the student
                 community of MAM.</p>
             <div class="text-center">
-                <a href="placement.html" class="btn text-white text-center py-3 fs-6"
+                <a href="{{'placement'}}" class="btn text-white text-center py-3 fs-6"
                     style="background-color: #9d7651;">Explore More</a>
             </div>
         </div>
@@ -389,12 +389,12 @@
 
                 <div class="text-center text-black p-2">
                     <img class="mb-3" src="{{asset('images/placements/salary.png')}}" alt="">
-                    <h4 class="fs-2 fw-bold">₹ 1 LPA</h4>
+                    <h4 class="fs-2 fw-bold">₹ 10 LPA</h4>
                     <span>Highest Salary</span>
                 </div>
                 <div class="text-center text-black p-2">
                     <img class="mb-3" src="{{asset('images/placements/avg-salary.png')}}" alt="">
-                    <h4 class="fs-2 fw-bold">₹ 0 LPA</h4>
+                    <h4 class="fs-2 fw-bold">₹ 5 LPA</h4>
                     <span>Average Salary</span>
                 </div>
                 <div class="text-center text-black p-2">
@@ -404,7 +404,7 @@
                 </div>
                 <div class="text-center text-black p-2">
                     <img class="mb-3" src="{{asset('images/placements/offer.png')}}" alt="">
-                    <h4 class="fs-2 fw-bold">5+</h4>
+                    <h4 class="fs-2 fw-bold">40+</h4>
                     <span>Offers</span>
                 </div>
                 <div class="text-center text-black p-2">
@@ -423,133 +423,137 @@
             </div>
             <div class="marquee-container">
                 <div class="marquee">
+
                     <div class="text-center text-black p-2">
-                        <img class="mb-3 w-75" src="{{asset('images/placement-companys/Oracle-Academy.jpg')}}" alt="">
+                        <img class="mb-3" src="{{asset('images/placement-companys/Oracle-Academy.jpg')}}" alt="">
                     </div>
                     <div class="text-center text-black p-2">
-                        <img class="mb-3 w-50" src="{{asset('images/placement-companys/RH_Academy.jpg')}}" alt="">
+                        <img class="mb-3" src="{{asset('images/placement-companys/RH_Academy.jpg')}}" alt="">
                     </div>
                     <div class="text-center text-black p-2">
-                        <img class="mb-3 w-100" src="{{asset('images/placement-companys/omega-logo.svg')}}" alt="">
+                        <img class="mb-3" src="{{asset('images/placement-companys/omega-logo.svg')}}" alt="">
                     </div>
                     <div class="text-center text-black p-2">
-                        <img class="mb-3 w-100" src="{{asset('images/placement-companys/tvs-lucas-logo.png')}}" alt="">
+                        <img class="mb-3" src="{{asset('images/placement-companys/tvs-lucas-logo.png')}}" alt="">
                     </div>
                     <div class="text-center text-black p-2">
-                        <img class="mb-3 w-50" src="{{asset('images/placement-companys/ZF_logo.svg')}}" alt="">
+                        <img class="mb-3" src="{{asset('images/placement-companys/ZF_logo.svg')}}" alt="">
                     </div>
                     <div class="text-center text-black p-2">
-                        <img class="mb-3 w-100" src="{{asset('images/placement-companys/Knacktech-logo.png')}}" alt="">
+                        <img class="mb-3" src="{{asset('images/placement-companys/Knacktech-logo.png')}}" alt="">
                     </div>
                     <div class="text-center text-black p-2">
-                        <img class="mb-3 w-100" src="{{asset('images/placement-companys/qspiders_logo.png')}}" alt="">
+                        <img class="mb-3" src="{{asset('images/placement-companys/qspiders_logo.png')}}" alt="">
                     </div>
                     <div class="text-center text-black p-2">
-                        <img class="mb-3 w-100" src="{{asset('images/placement-companys/tap-logo.svg')}}" alt="">
+                        <img class="mb-3" src="{{asset('images/placement-companys/tap-logo.svg')}}" alt="">
                     </div>
 
 
                 </div>
             </div>
         </div>
+        <!-- Career And Placement End -->
 
+        <!-- Get More Info Start here -->
+        <section id="info">
+            <div class="container">
+                <div class="py-lg-10 py-md-8 py-6 text-center ">
+                    <h2 class="text-center mb-lg-10 title">Get More Info</h2>
+                    <div class="row g-4">
+
+                        <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                            <div class="campus-item position-relative h-100">
+                                <div class="campus-text rounded p-3">
+                                    <div class="btn-square bg-light rounded-circle mx-auto mb-5">
+                                        <img class="img-fluid" src="{{asset('images/info/administration.jpg')}}" alt="Icon">
+                                    </div>
+                                    <h5 class="mb-2 fs-3 fw-bold text-black">Administration</h4>
+                                </div>
+                                <a class="fw-medium text-white" href="{{route('adminMamce')}}">
+                                    <div class="campus-btn rounded-0 rounded-bottom">Read More<i
+                                            class="bi bi-chevron-double-right ms-2"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                            <div class="campus-item position-relative h-100">
+                                <div class="campus-text rounded p-3">
+                                    <div class="btn-square bg-light rounded-circle mx-auto mb-5">
+                                        <img class="img-fluid" src="{{asset('images/info/courses.jpg')}}" alt="Icon">
+                                    </div>
+                                    <h5 class="mb-2 fs-3 fw-bold text-black">Courses</h4>
+                                </div>
+                                <a class="fw-medium text-white" href="{{route('courses')}}">
+                                    <div class="campus-btn rounded-0 rounded-bottom">Read More<i
+                                            class="bi bi-chevron-double-right ms-2"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                            <div class="campus-item position-relative h-100">
+                                <div class="campus-text rounded p-3">
+                                    <div class="btn-square bg-light rounded-circle mx-auto mb-5">
+                                        <img class="img-fluid" src="{{asset('images/info/campus.jpg')}}" alt="Icon">
+                                    </div>
+                                    <h5 class="mb-2 fs-3 fw-bold text-black">Campus</h4>
+                                </div>
+                                <a class="fw-medium text-white" href="{{route('campus')}}">
+                                    <div class="campus-btn rounded-0 rounded-bottom">Read More<i
+                                            class="bi bi-chevron-double-right ms-2"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                            <div class="campus-item position-relative h-100">
+                                <div class="campus-text rounded p-3">
+                                    <div class="btn-square bg-light rounded-circle mx-auto mb-5">
+                                        <img class="img-fluid" src="{{asset('images/info/research.jpg')}}" alt="Icon">
+                                    </div>
+                                    <h5 class="mb-2 fs-3 fw-bold text-black">Research</h4>
+                                </div>
+                                <a class="fw-medium text-white" href="#">
+                                    <div class="campus-btn rounded-0 rounded-bottom">Read More<i
+                                            class="bi bi-chevron-double-right ms-2"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                            <div class="campus-item position-relative h-100">
+                                <div class="campus-text rounded p-3">
+                                    <div class="btn-square bg-light rounded-circle mx-auto mb-5">
+                                        <img class="img-fluid" src="{{asset('images/info/courses.jpg')}}" alt="Icon">
+                                    </div>
+                                    <h5 class="mb-2 fs-3 fw-bold text-black">Alumini</h4>
+                                </div>
+                                <a class="fw-medium text-white" href="#">
+                                    <div class="campus-btn rounded-0 rounded-bottom">Read More<i
+                                            class="bi bi-chevron-double-right ms-2"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Get More Info End here -->
+
+        <!-- Upcoming Events Start here -->
+        <section id="upcoming">
+            <div class="container">
+                <div class="py-lg-10 py-md-8 py-6 text-center ">
+                    <h2 class="mb-lg-10 title">UPCOMING EVENTS</h2>
+                    <h4 class="mb-lg-10">Coming Soon..</h4>
+                </div>
+            </div>
+        </section>
+        <!-- Upcoming Events End here -->
     </div>
 </div>
-<!-- Career And Placement End -->
-
-<!-- Get More Info Start here -->
-<section id="info">
-    <div class="container">
-        <div class="py-lg-10 py-md-8 py-6 text-center ">
-            <h2 class="text-center mb-lg-10 title">Get More Info</h2>
-            <div class="row g-4">
-
-                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
-                    <div class="campus-item position-relative h-100">
-                        <div class="campus-text rounded p-3">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-5">
-                                <img class="img-fluid" src="{{asset('images/info/administration.jpg')}}" alt="Icon">
-                            </div>
-                            <h5 class="mb-2 fs-3 fw-bold text-black">Administration</h4>
-                        </div>
-                        <div class="campus-btn rounded-0 rounded-bottom">
-                            <a class="fw-medium" href="{{route('adminMamce')}}">Read More<i
-                                    class="bi bi-chevron-double-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
-                    <div class="campus-item position-relative h-100">
-                        <div class="campus-text rounded p-3">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-5">
-                                <img class="img-fluid" src="{{asset('images/info/courses.jpg')}}" alt="Icon">
-                            </div>
-                            <h5 class="mb-2 fs-3 fw-bold text-black">Courses</h4>
-                        </div>
-                        <div class="campus-btn rounded-0 rounded-bottom">
-                            <a class="fw-medium" href="{{route('courses')}}">Read More<i
-                                    class="bi bi-chevron-double-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
-                    <div class="campus-item position-relative h-100">
-                        <div class="campus-text rounded p-3">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-5">
-                                <img class="img-fluid" src="{{asset('images/info/campus.jpg')}}" alt="Icon">
-                            </div>
-                            <h5 class="mb-2 fs-3 fw-bold text-black">Campus</h4>
-                        </div>
-                        <div class="campus-btn rounded-0 rounded-bottom">
-                            <a class="fw-medium" href="{{route('campus')}}">Read More<i
-                                    class="bi bi-chevron-double-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
-                    <div class="campus-item position-relative h-100">
-                        <div class="campus-text rounded p-3">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-5">
-                                <img class="img-fluid" src="{{asset('images/info/research.jpg')}}" alt="Icon">
-                            </div>
-                            <h5 class="mb-2 fs-3 fw-bold text-black">Research</h4>
-                        </div>
-                        <div class="campus-btn rounded-0 rounded-bottom">
-                            <a class="fw-medium" href="courses.html">Read More<i
-                                    class="bi bi-chevron-double-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
-                    <div class="campus-item position-relative h-100">
-                        <div class="campus-text rounded p-3">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-5">
-                                <img class="img-fluid" src="{{asset('images/info/courses.jpg')}}" alt="Icon">
-                            </div>
-                            <h5 class="mb-2 fs-3 fw-bold text-black">Alumini</h4>
-                        </div>
-                        <div class="campus-btn rounded-0 rounded-bottom">
-                            <a class="fw-medium" href="courses.html">Read More<i
-                                    class="bi bi-chevron-double-right ms-2"></i></a>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Get More Info End here -->
-
-<!-- Upcoming Events Start here -->
-<section id="upcoming">
-    <div class="container">
-        <div class="py-lg-10 py-md-8 py-6 text-center ">
-            <h2 class="mb-lg-10 title">UPCOMING EVENTS</h2>
-            <h4 class="mb-lg-10">Coming Soon..</h4>
-        </div>
-    </div>
-</section>
-<!-- Upcoming Events End here -->
-
 @endsection

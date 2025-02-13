@@ -11,7 +11,7 @@
         <div class="col-lg-5 px-5 text-end">
             <div class="h-100 d-inline-flex align-items-center py-3 me-4">
                 <small class="fas fa-phone-alt text-black me-2"></small>
-                <small class="text-black">+91 9952522022</small>
+                <small class="text-black"><a class="text-black" href="tel:+91 9952522022">+91 9952522022</a></small>
             </div>
             <div class="h-100 d-inline-flex align-items-center">
                 <a class="btn btn-sm-square bg-white text-black me-1" href="https://www.facebook.com/mamce.trichy/"
@@ -45,9 +45,9 @@
                 <div class="dropdown-menu fade-up m-0">
                     <a href="{{route('aboutMamce')}}" class="dropdown-item">About Mamce</a>
                     <a href="{{route('historyMamce')}}" class="dropdown-item">History of Mamce</a>
-                    <a href="{{route('adminMamce')}}" class="dropdown-item">Administration</a>
-                    <a href="" class="dropdown-item">Mandatory Disclosure</a>
-                    <a href="" class="dropdown-item">MAMCE In News</a>
+                    <a href="{{route('adminMamce')}}" class="dropdown-item" >Administration</a>
+                    <a href="{{route('mandatoryDisclosure')}}" class="dropdown-item">Mandatory Disclosure</a>
+                    {{--<a href="" class="dropdown-item">MAMCE In News</a>--}}
                 </div>
             </div>
             <div class="nav-item dropdown">
@@ -116,15 +116,15 @@
                     aria-expanded="false">Online
                     Payment</a>
                 <div class="dropdown-menu fade-up m-0">
-                    <a href="" class="dropdown-item">Tuition Fees</a>
-                    <a href="" class="dropdown-item">Exam Fees</a>
-                    <a href="" class="dropdown-item">Other Fees</a>
-                    <a href="" class="dropdown-item">New Admission Fees</a>
+                    <a href="{{route('tutionFees')}}" class="dropdown-item">Tuition Fees</a>
+                    <a href="{{route('examFees')}}" class="dropdown-item">Exam Fees</a>
+                    <a href="{{route('otherFees')}}" class="dropdown-item">Other Fees</a>
+                    <a href="{{route('newAdmissionFees')}}" class="dropdown-item">New Admission Fees</a>
                 </div>
             </div>
             <a href="#popupForm" class="nav-item nav-link" data-bs-toggle="modal"
-                data-bs-target="#popupForm">Admission</a>
-            <a href="contact.html" class="nav-item nav-link">EoA</a>
+            data-bs-target="#admissionEnquiryModal">Admission</a>
+            <a href="{{asset('images/EOA-2024-2025.pdf')}}" class="nav-item nav-link">EoA</a>
             <a href="{{asset('images/Mamce-NIRF.pdf')}}" class="nav-item nav-link">NIRF</a>
             <div class="nav-item dropdown">
                 <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"

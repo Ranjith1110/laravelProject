@@ -278,13 +278,35 @@
                         professionals and entrepreneurs. He combines the energy of youth with the vision of a
                         reformer who recognizes and encourages the talent of every individual of this
                         renowned institution</p>
-                    <a data-bs-toggle="modal" data-bs-target="#popupSecretary" href="" class="btn text-white"
+                    <a data-bs-toggle="modal" data-bs-target="#popupJoinSecretary" href="" class="btn text-white"
                         style="background-color: #9d7651;">View
                         Details</a>
                 </div>
             </div>
         </div>
-
+        <!-- Popup JOIN SECRETARY Start here -->
+        <div class="modal fade" id="popupJoinSecretary" tabindex="-1" aria-labelledby="popupFormLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content-admin p-8">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold fs-3 text-uppercase" id="popupFormLabel"
+                            style="color: #9d7651;">Mr.M.A.M.Ahmar</h5>
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-justify">
+                        <p class="text-black"> M.A.M College of Engineering is a young and energetic philanthropist making expeditions into
+                        the field of education. His deep-rooted academic interest fueled his endeavors in the field
+                        of education. His vision is to make our students virtuous men and women who can be
+                        professionals and entrepreneurs. He combines the energy of youth with the vision of a
+                        reformer who recognizes and encourages the talent of every individual of this
+                        renowned institution</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Popup JOIN SECRETARY End here -->
         <div class="row gap-10 gap-lg-0 p-8">
             <div class="col-12 col-lg-6">
                 <div class="shadow p-4 rounded text-justify">
@@ -295,7 +317,7 @@
                         She is associated with the college since 2000. She has her Bachelor’s and Master’s degree in
                         Computer Science and Engineering from Anna University, Chennai. She is pursuing her Doctoral
                         studies in Anna University, Chennai.</p>
-                    <a data-bs-toggle="modal" data-bs-target="#popupSecretary" href="" class="btn text-white"
+                    <a data-bs-toggle="modal" data-bs-target="#popupCAO" href="" class="btn text-white"
                         style="background-color: #9d7651;">View
                         Details</a>
                 </div>
@@ -305,7 +327,27 @@
                     alt="">
             </div>
         </div>
-
+        <!-- Popup CAO Start here -->
+        <div class="modal fade" id="popupCAO" tabindex="-1" aria-labelledby="popupFormLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content-admin p-8">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold fs-3 text-uppercase" id="popupFormLabel"
+                            style="color: #9d7651;">Mrs. T. Nancy Jeeva</h5>
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-justify">
+                        <p class="text-black">  Mrs. T. Nancy Jeeva is the Chief Administrative Officer of M.A.M. College of Engineering.
+                        She is associated with the college since 2000. She has her Bachelor’s and Master’s degree in
+                        Computer Science and Engineering from Anna University, Chennai. She is pursuing her Doctoral
+                        studies in Anna University, Chennai.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Popup CAO End here -->
         <div class="row gap-10 gap-lg-0 p-8 reverse-sm">
             <div class="col-12 col-lg-6 text-center">
                 <img class="img-fluid" style="max-height: 400px;"
@@ -339,23 +381,11 @@
                             aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-justify">
-                        <p class="text-black">Mrs. Shasminaz Nizam, is a well composed person with an enviable sense
-                            of equanimity and foresight. The quality driven approach of hers, iced with personal
-                            humility and a sense of affability has made her recognized as a person indispensable for
-                            an institution, aiming for peace and prosperity. Thus, was Mrs. Shasminaz Nizam, quickly
-                            positioned and ably performs as the CEO of the M.A.M. College of Engineering and also as
-                            the Correspondent of Nizams British International School and the Nizams School, CBSE,
-                            both located at Ooty.</p>
-                        <p class="text-black">Mrs.Shasminaz Nizam, the proud winner of several titles inclusive of
-                            having been recognized as the Women of the Year jointly with Her Excellency Chantana
-                            Seelsorn, the Consul of the Royal Thai, has traveled widely to familiarize herself with
-                            the educational systems and pedagogy as practiced worldover besides having marked her
-                            presence at the many international meets, forums and delegations. She, as any
-                            discernible mother, is most considerate to all the students in her institutions, at
-                            Tiruchirappalli and Ooty, and as an administrator, does aim to do, just the best for
-                            those placed under her responsibility. Mrs.Shasminaz Nizam, has also a preference for
-                            Philanthropy, that she gently pursues in quietude with her inimitable grace, charm and
-                            purity.</p>
+                        <p class="text-black">Dr. M. Shanmuga Priya, is an educationist non-pareil who creates an inspiring vision for the
+                        future, motivates and inspires everyone around to engage with that vision and builds a team
+                        which is more effective at achieving the vision. An innovative and self-motivated champion
+                        par Excellence with a fervent attitude to serve the best interests of students by
+                        facilitating their natural desire to discover and contribute to the world they live in.</p>
                     </div>
                 </div>
             </div>

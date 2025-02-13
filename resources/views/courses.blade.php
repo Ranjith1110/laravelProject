@@ -208,12 +208,12 @@
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid"
-                            src="{{asset('images/courses-img/ug-icons/environmental engineering.png')}}" alt="">
+                            src="{{asset('images/courses-img/ug-icons/engev.png')}}" alt="">
                         <h5 class="text-start text-black fs-5 fw-bold m-0">Environmental Engineering</h5>
                     </div>
                 </a>
 
-                <a href="{{route('cse')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
+                <a href="{{route('mecse')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid" src="{{asset('images/courses-img/ug-icons/cse.png')}}" alt="">
@@ -221,7 +221,7 @@
                     </div>
                 </a>
 
-                <a href="{{route('ece')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
+                <a href="{{route('meece')}}" class="col-lg-3 col-md-6 mb-4 courses-item bg-white text-decoration-none">
                     <div style="background-color: #dfcfc1;"
                         class="position-relative d-flex gap-4 align-items-center p-8">
                         <img class="img-fluid" src="{{asset('images/courses-img/ug-icons/ece.png')}}" alt="">

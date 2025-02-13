@@ -22,8 +22,9 @@
             <img width="300px" class="mamce-logo m-0" src="{{asset('images/mamce-logo.png')}}" alt="">
         </div>
         <div class="card py-8 px-5 bg-white" style="width: 400px;">
-            <h5 class="text-center mb-4">Sign in to CONTROL</h5>
-            <form>
+            <h5 class="text-center mb-4">Sign in to MAMCE</h5>
+            <form action="{{route('mamce.login')}}" id="login-form" method="POST">
+            @csrf
                 <div class="mb-3">
                     <label for="email" class="form-label">Email</label>
                     <input type="email" class="form-control" id="email" name="email" required>
