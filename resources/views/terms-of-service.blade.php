@@ -20,8 +20,7 @@
 </button>
 <!-- Vertical Button End here -->
 
-<!-- Container for the popup form -->
-<div id="popupContainer"></div>
+
 
 <!-- Banner Section Start here -->
 <section id="banner">

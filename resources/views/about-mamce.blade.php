@@ -198,8 +198,7 @@
 </section>
 <!-- Upcoming Events End here -->
 
-<!-- Container for the popup form -->
-<div id="popupContainer"></div>
+
 
 
 <script>

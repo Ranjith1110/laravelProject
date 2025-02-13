@@ -19,7 +19,7 @@
                 <a class="btn btn-sm-square bg-white text-black me-1"
                     href="https://www.linkedin.com/school/mamceofficial/posts/?feedView=all" target="_blank"><i
                         class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-sm-square bg-white text-black me-0" href="" target="_blank"><i
+                <a class="btn btn-sm-square bg-white text-black me-0" href="https://www.instagram.com/mamce.trichy?igsh=MWd3OHpldTdpampiMw==" target="_blank"><i
                         class="fab fa-instagram"></i></a>
             </div>
         </div>
@@ -69,7 +69,7 @@
                             <a href="{{route('eie')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.E Electronics and Instrumentation Engineering </a>
                             <a href="{{route('it')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
-                                </span> B.E Information Technology </a>
+                                </span> B.Tech Information Technology </a>
                             <a href="{{route('mech')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.E Mechanical Engineering </a>
                             <a href="{{route('ai&ds')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
@@ -83,9 +83,9 @@
                             <a href="{{route('bioTech')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.Tech Bio Technology </a>
                             <a href="{{route('cyberSecurity')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
-                                </span> B.Tech Cyber Security </a>
+                                </span> B.E Cyber Security </a>
                             <a href="{{route('ai&ml')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
-                                </span> B.Tech Artificial Intelligence and Machine Learning </a>
+                                </span> B.E Artificial Intelligence and Machine Learning </a>
                         </div>
 
                         <div>

@@ -892,12 +892,14 @@
                                     <div class="list-container bg-body px-0 px-lg-6 rounded">
                                         <h2 class="title">ENGINEERING & TECHNOLOGY COURSES</h2>
                                         <h2 class="title">ENTRANCE TEST / ADMISSION CRITERIA</h2>
-                                        <p>– Admission was made upon the Tamilnadu +2 Exam result</p>
-                                        <p>– 50 % of seats were surrendered to the Government Quota under Single
-                                            Window System</p>
-                                        <p>– 50 % of seats will be filled by the College under Management Quota
+                                        <ul>
+                                            <li>Admission was made upon the Tamilnadu +2 Exam result</li>
+                                            <li>50 % of seats were surrendered to the Government Quota under Single
+                                            Window System</li>
+                                            <li>50 % of seats will be filled by the College under Management Quota
                                             through consortium. The highest scorer in qualifying examination stands
-                                            first and others follows suit.</p>
+                                            first and others follows suit.</li>
+                                        </ul>
                                         <h2 class="title">Cut off / last candidate admitted</h2>
                                         <div class="">
                                             <div class="text-center mt-8">
@@ -1077,7 +1079,9 @@
                                             <div>
                                                 <h4 class="title"> ENTRANCE TEST</h4>
                                             </div>
-                                            <p>– Govt. Quota (TANCET) Mgt. Quota (Consortium)</p>
+                                            <ul>
+                                                <li>Govt. Quota (TANCET) Mgt. Quota (Consortium)</li>
+                                            </ul>
                                             <h4 class="title">MCA COURSE</h4>
                                             <div>
                                                 <h4 class="title">ENTRANCE TEST</h4>

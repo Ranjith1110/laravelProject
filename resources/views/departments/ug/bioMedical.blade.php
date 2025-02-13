@@ -10,7 +10,7 @@
 </div>
 <!-- Spinner End here -->
 
-    <!-- Vertical Button Start here -->
+<!-- Vertical Button Start here -->
 <button style="background-color: #9d7651; border: 2px solid #dfcfc1;"
     class="vertical-button text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
     data-bs-target="#admissionEnquiryModal" id="openPopupBtn">
@@ -49,13 +49,11 @@
                     <ul class="p-0">
                         <li class="active text-black" data-target="about">ABOUT</li>
                         <li class="text-black" data-target="facilities">Facilities</li>
-                        <li class="text-black" data-target="speciality">Speciality</li>
                         <li class="text-black" data-target="value-added-programmes">Value Added Programmes</li>
                         <li class="text-black" data-target="students-corner">Students' Corner</li>
                         <!-- <li class="text-black" data-target="placement">Placement</li> -->
                         <li class="text-black" data-target="events">Events</li>
                         <li class="text-black" data-target="gallery">Gallery</li>
-                        <li class="text-black" data-target="contact-us">Contact Us</li>
                     </ul>
                 </div>
 
@@ -104,12 +102,6 @@
                             <li>Biomedical Instrumentation Lab</li>
                             <li>Diagnostic And Therapeutic Equipment Lab</li>
                         </ul>
-                    </div>
-
-                    <!-- Speciality Section -->
-                    <div id="speciality" class="content-section d-none">
-                        <h2 class="title-slogan mb-4">Speciality</h2>
-                        <p class="text-black">Update Soon..</p>
                     </div>
 
                     <!-- Value added programmes Section -->
@@ -198,14 +190,6 @@
 
 
                         </div>
-                    </div>
-
-                    <!-- Contact Us Section -->
-                    <div id="contact-us" class="content-section d-none">
-                        <h2 class="title-slogan mb-4">Contact Us</h2>
-                        <p class="text-black">Mr. N. Kumaresan</p>
-                        <p class="text-black">hodbiomedical@mamce.org</p>
-                        <p class="text-black">9443139060</p>
                     </div>
 
                 </div>

@@ -49,13 +49,11 @@
                     <ul class="p-0">
                         <li class="active text-black" data-target="about">ABOUT</li>
                         <li class="text-black" data-target="facilities">Facilities</li>
-                        <li class="text-black" data-target="speciality">Speciality</li>
                         <li class="text-black" data-target="value-added-programmes">Value Added Programmes</li>
                         <li class="text-black" data-target="students-corner">Students' Corner</li>
-                        <li class="text-black" data-target="placement">Placement</li>
                         <li class="text-black" data-target="events">Events</li>
+                        <li class="text-black" data-target="placement">Placement</li>
                         <li class="text-black" data-target="gallery">Gallery</li>
-                        <li class="text-black" data-target="contact-us">Contact Us</li>
                     </ul>
                 </div>
 
@@ -96,12 +94,6 @@
                         <ul class="text-black">
                             <li>INNOVATION LAB(Core i7 processor,16Gb RAM) </li>
                         </ul>
-                    </div>
-
-                    <!-- Speciality Section -->
-                    <div id="speciality" class="content-section d-none">
-                        <h2 class="title-slogan mb-4">Speciality</h2>
-                        <p class="text-black">Update Soon..</p>
                     </div>
 
                     <!-- Value added programmes Section -->
@@ -265,13 +257,6 @@
                                     src="{{asset('images/separateCourses/ai&dsImg/aids-7.jpg')}}" alt="">
                             </div>
                         </div>
-                    </div>
-
-                    <!-- Contact Us Section -->
-                    <div id="contact-us" class="content-section d-none">
-                        <h2 class="title-slogan mb-4">Contact Us</h2>
-                        <p>Prof.K.ILANGO</p>
-                        <p>9443139060</p>
                     </div>
 
                 </div>
