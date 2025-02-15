@@ -50,7 +50,7 @@
                         <li class="active text-black" data-target="about">ABOUT</li>
                         <li class="text-black" data-target="facilities">Facilities</li>
                         <li class="text-black" data-target="value-added-programmes">Value Added Programmes</li>
-                        <li class="text-black" data-target="students-corner">Students' Corner</li>
+                        <li class="text-black" data-target="students-corner">Students' Achievements</li>
                         <li class="text-black" data-target="events">Events</li>
                         <li class="text-black" data-target="placement">Placement</li>
                         <li class="text-black" data-target="gallery">Gallery</li>
@@ -107,10 +107,10 @@
                         </ul>
                     </div>
 
-                    <!-- Students' Corner Section -->
+                    <!-- Students' Achievements Section -->
                     <div id="students-corner" class="content-section d-none">
-                        <h2 class="title-slogan mb-4">Students' Corner</h2>
-                        <h4 class="text-center">Achievements List</h4>
+                        <h2 class="title-slogan mb-4">Students' Achievements</h2>
+                        <h4 class="text-center">Students' Achievements List</h4>
 
                         <div class="table-container">
                             <table class="trust-table">

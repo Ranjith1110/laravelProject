@@ -1,6 +1,17 @@
 @extends('includes.header')
 @section('content')
 
+<style>
+    .passport-img {
+        width: 130px;
+        /* Adjust size as needed */
+        height: auto;
+        margin: 0 10px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+    }
+</style>
+
 <!-- Spinner Start here -->
 <div id="spinner"
     class="bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
@@ -454,106 +465,122 @@
             </div>
         </div>
         <!-- Career And Placement End -->
-
-        <!-- Get More Info Start here -->
-        <section id="info">
-            <div class="container">
-                <div class="py-lg-10 py-md-8 py-6 text-center ">
-                    <h2 class="text-center mb-lg-10 title">Get More Info</h2>
-                    <div class="row g-4">
-
-                        <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
-                            <div class="campus-item position-relative h-100">
-                                <div class="campus-text rounded p-3">
-                                    <div class="btn-square bg-light rounded-circle mx-auto mb-5">
-                                        <img class="img-fluid" src="{{asset('images/info/administration.jpg')}}" alt="Icon">
-                                    </div>
-                                    <h5 class="mb-2 fs-3 fw-bold text-black">Administration</h4>
-                                </div>
-                                <a class="fw-medium text-white" href="{{route('adminMamce')}}">
-                                    <div class="campus-btn rounded-0 rounded-bottom">Read More<i
-                                            class="bi bi-chevron-double-right ms-2"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
-                            <div class="campus-item position-relative h-100">
-                                <div class="campus-text rounded p-3">
-                                    <div class="btn-square bg-light rounded-circle mx-auto mb-5">
-                                        <img class="img-fluid" src="{{asset('images/info/courses.jpg')}}" alt="Icon">
-                                    </div>
-                                    <h5 class="mb-2 fs-3 fw-bold text-black">Courses</h4>
-                                </div>
-                                <a class="fw-medium text-white" href="{{route('courses')}}">
-                                    <div class="campus-btn rounded-0 rounded-bottom">Read More<i
-                                            class="bi bi-chevron-double-right ms-2"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
-                            <div class="campus-item position-relative h-100">
-                                <div class="campus-text rounded p-3">
-                                    <div class="btn-square bg-light rounded-circle mx-auto mb-5">
-                                        <img class="img-fluid" src="{{asset('images/info/campus.jpg')}}" alt="Icon">
-                                    </div>
-                                    <h5 class="mb-2 fs-3 fw-bold text-black">Campus</h4>
-                                </div>
-                                <a class="fw-medium text-white" href="{{route('campus')}}">
-                                    <div class="campus-btn rounded-0 rounded-bottom">Read More<i
-                                            class="bi bi-chevron-double-right ms-2"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
-                            <div class="campus-item position-relative h-100">
-                                <div class="campus-text rounded p-3">
-                                    <div class="btn-square bg-light rounded-circle mx-auto mb-5">
-                                        <img class="img-fluid" src="{{asset('images/info/research.jpg')}}" alt="Icon">
-                                    </div>
-                                    <h5 class="mb-2 fs-3 fw-bold text-black">Research</h4>
-                                </div>
-                                <a class="fw-medium text-white" href="#">
-                                    <div class="campus-btn rounded-0 rounded-bottom">Read More<i
-                                            class="bi bi-chevron-double-right ms-2"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
-                            <div class="campus-item position-relative h-100">
-                                <div class="campus-text rounded p-3">
-                                    <div class="btn-square bg-light rounded-circle mx-auto mb-5">
-                                        <img class="img-fluid" src="{{asset('images/info/courses.jpg')}}" alt="Icon">
-                                    </div>
-                                    <h5 class="mb-2 fs-3 fw-bold text-black">Alumini</h4>
-                                </div>
-                                <a class="fw-medium text-white" href="#">
-                                    <div class="campus-btn rounded-0 rounded-bottom">Read More<i
-                                            class="bi bi-chevron-double-right ms-2"></i>
-                                    </div>
-                                </a>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- Get More Info End here -->
-
-        <!-- Upcoming Events Start here -->
-        <section id="upcoming">
-            <div class="container">
-                <div class="py-lg-10 py-md-8 py-6 text-center ">
-                    <h2 class="mb-lg-10 title">UPCOMING EVENTS</h2>
-                    <h4 class="mb-lg-10">Coming Soon..</h4>
-                </div>
-            </div>
-        </section>
-        <!-- Upcoming Events End here -->
     </div>
 </div>
+
+<!-- Get More Info Start here -->
+<section id="info">
+    <div class="container">
+        <div class="py-lg-10 py-md-8 py-6 text-center ">
+            <h2 class="text-center mb-lg-10 title">Get More Info</h2>
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                    <div class="campus-item position-relative h-100">
+                        <div class="campus-text rounded p-3">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-5">
+                                <img class="img-fluid" src="{{asset('images/info/administration.jpg')}}" alt="Icon">
+                            </div>
+                            <h5 class="mb-2 fs-3 fw-bold text-black">Administration</h4>
+                        </div>
+                        <a class="fw-medium text-white" href="{{route('adminMamce')}}">
+                            <div class="campus-btn rounded-0 rounded-bottom">Read More<i
+                                    class="bi bi-chevron-double-right ms-2"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                    <div class="campus-item position-relative h-100">
+                        <div class="campus-text rounded p-3">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-5">
+                                <img class="img-fluid" src="{{asset('images/info/courses.jpg')}}" alt="Icon">
+                            </div>
+                            <h5 class="mb-2 fs-3 fw-bold text-black">Courses</h4>
+                        </div>
+                        <a class="fw-medium text-white" href="{{route('courses')}}">
+                            <div class="campus-btn rounded-0 rounded-bottom">Read More<i
+                                    class="bi bi-chevron-double-right ms-2"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                    <div class="campus-item position-relative h-100">
+                        <div class="campus-text rounded p-3">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-5">
+                                <img class="img-fluid" src="{{asset('images/info/campus.jpg')}}" alt="Icon">
+                            </div>
+                            <h5 class="mb-2 fs-3 fw-bold text-black">Campus</h4>
+                        </div>
+                        <a class="fw-medium text-white" href="{{route('campus')}}">
+                            <div class="campus-btn rounded-0 rounded-bottom">Read More<i
+                                    class="bi bi-chevron-double-right ms-2"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                    <div class="campus-item position-relative h-100">
+                        <div class="campus-text rounded p-3">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-5">
+                                <img class="img-fluid" src="{{asset('images/info/research.jpg')}}" alt="Icon">
+                            </div>
+                            <h5 class="mb-2 fs-3 fw-bold text-black">Research</h4>
+                        </div>
+                        <a class="fw-medium text-white" href="#">
+                            <div class="campus-btn rounded-0 rounded-bottom">Read More<i
+                                    class="bi bi-chevron-double-right ms-2"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                    <div class="campus-item position-relative h-100">
+                        <div class="campus-text rounded p-3">
+                            <div class="btn-square bg-light rounded-circle mx-auto mb-5">
+                                <img class="img-fluid" src="{{asset('images/info/courses.jpg')}}" alt="Icon">
+                            </div>
+                            <h5 class="mb-2 fs-3 fw-bold text-black">Alumini</h4>
+                        </div>
+                        <a class="fw-medium text-white" href="#">
+                            <div class="campus-btn rounded-0 rounded-bottom">Read More<i
+                                    class="bi bi-chevron-double-right ms-2"></i>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Get More Info End here -->
+
+<!-- Upcoming Events Start here -->
+<!-- <section id="upcoming">
+    <div class="container">
+        <div class="py-lg-10 py-md-8 py-6 text-center ">
+            <h2 class="mb-lg-10 title">UPCOMING EVENTS</h2>
+            <h4 class="mb-lg-10">Coming Soon..</h4>
+        </div>
+    </div>
+</section> -->
+<!-- Upcoming Events End here -->
+
+<!-- Rank Holders Start here -->
+<section id="rank-holder">
+    <div class="container">
+        <div class="py-lg-10 py-md-8 py-6 text-center ">
+            <h2 class="mb-lg-10 title">Rank Holders</h2>
+            <marquee behavior="scroll" direction="left" scrollamount="10">
+                <img class="passport-img" src="{{asset('images/info/administration.jpg')}}" alt="Passport 1">
+                <img class="passport-img" src="{{asset('images/info/administration.jpg')}}" alt="Passport 2">
+                <img class="passport-img" src="{{asset('images/info/administration.jpg')}}" alt="Passport 3">
+                <img class="passport-img" src="{{asset('images/info/administration.jpg')}}" alt="Passport 4">
+            </marquee>
+        </div>
+    </div>
+</section>
+<!-- Rank Holders End here -->
 @endsection

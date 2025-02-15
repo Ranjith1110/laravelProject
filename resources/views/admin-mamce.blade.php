@@ -100,11 +100,12 @@
 <section class="about-admin">
     <div class="container">
 
+        <!-- Popup Chariman Start here -->
         <div class="row gap-10 gap-lg-0 p-8">
             <div class="col-12 col-lg-6">
                 <div class="shadow p-4 rounded text-justify">
                     <h3 class="fw-bold mb-4" style="color: #9d7651;">FOUNDER & CHAIRMAN</h3>
-                    <h3 class="text-dark fw-bold mb-4 text-uppercase">M. Abdul Majedu</h3>
+                    <h3 class="text-dark fw-bold mb-4 text-uppercase">Alhaj M. Abdul Majedu</h3>
                     <p class="text-black">
                         M.A.M College of Engineering, Siruganur, Tiruchirappalli is patronized by Maluk Educational,
                         Health and Charitable Trust. The college was established on 10.02.1999 with the approval of
@@ -123,14 +124,13 @@
                     src="{{asset('images/administrationImg/chairman.jpg')}}" alt="">
             </div>
         </div>
-        <!-- Popup Chariman Start here -->
         <div class="modal fade" id="popupChariman" tabindex="-1" aria-labelledby="popupFormLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content-admin p-8">
                     <div class="modal-header">
                         <h5 class="modal-title fw-bold fs-3 text-uppercase" id="popupFormLabel"
-                            style="color: #9d7651;">Chariman M. Abdul Majedu</h5>
+                            style="color: #9d7651;">Alhaj M. Abdul Majedu</h5>
                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
                             aria-label="Close"></button>
                     </div>
@@ -157,6 +157,7 @@
         </div>
         <!-- Popup Chariman End here -->
 
+        <!-- Popup SECRETARY Start here -->
         <div class="row gap-10 gap-lg-0 p-8 reverse-sm">
             <div class="col-12 col-lg-6 text-center">
                 <img class="img-fluid" style="max-height: 400px;"
@@ -165,7 +166,7 @@
             <div class="col-12 col-lg-6">
                 <div class="shadow p-4 rounded text-justify">
                     <h3 class="fw-bold mb-4" style="color: #9d7651;">SECRETARY & CORRESPONDENT</h3>
-                    <h3 class="text-dark fw-bold mb-4 text-uppercase">Dr.M.A.MOHAMED NIZAM</h3>
+                    <h3 class="text-dark fw-bold mb-4">Dr. M.A.MOHAMED NIZAM</h3>
                     <p class="text-black">
                         Dr.M.A.Mohamed Nizam, Secretary & Correspondent of M.A.M. Group of Educational Institutions
                         at Tiruchirappalli, completed his education in Business Administration and earned his
@@ -177,14 +178,13 @@
                 </div>
             </div>
         </div>
-        <!-- Popup SECRETARY Start here -->
         <div class="modal fade" id="popupSecretary" tabindex="-1" aria-labelledby="popupFormLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content-admin p-8">
                     <div class="modal-header">
-                        <h5 class="modal-title fw-bold fs-3 text-uppercase" id="popupFormLabel"
-                            style="color: #9d7651;">Dr.M.A.MOHAMED NIZAM</h5>
+                        <h5 class="modal-title fw-bold fs-3" id="popupFormLabel"
+                            style="color: #9d7651;">Dr. M.A.MOHAMED NIZAM</h5>
                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
                             aria-label="Close"></button>
                     </div>
@@ -207,11 +207,12 @@
         </div>
         <!-- Popup SECRETARY End here -->
 
+        <!-- Popup CEO Start here -->
         <div class="row gap-10 gap-lg-0 p-8">
             <div class="col-12 col-lg-6">
                 <div class="shadow p-4 rounded text-justify">
-                    <h3 class="fw-bold mb-4" style="color: #9d7651;">CEO</h3>
-                    <h3 class="fw-bold mb-4 text-uppercase">Mrs. SHASMINAZ NIZAM</h3>
+                    <h3 class="fw-bold mb-4 text-uppercase" style="color: #9d7651;">Chief executive officer</h3>
+                    <h3 class="fw-bold mb-4">Mrs. SHASMINAZ NIZAM</h3>
                     <p class="text-black">
                         Mrs. Shasminaz Nizam, is a well composed person with an enviable sense of equanimity and
                         foresight. The quality driven approach of hers, iced with personal humility and a sense of
@@ -228,12 +229,11 @@
                     alt="">
             </div>
         </div>
-        <!-- Popup CEO Start here -->
         <div class="modal fade" id="popupCeo" tabindex="-1" aria-labelledby="popupFormLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content-admin p-8">
                     <div class="modal-header">
-                        <h5 class="modal-title fw-bold fs-3 text-uppercase" id="popupFormLabel"
+                        <h5 class="modal-title fw-bold fs-3" id="popupFormLabel"
                             style="color: #9d7651;">CEO Mrs. SHASMINAZ NIZAM</h5>
                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
                             aria-label="Close"></button>
@@ -262,6 +262,7 @@
         </div>
         <!-- Popup CEO End here -->
 
+        <!-- Popup JOIN SECRETARY Start here -->
         <div class="row gap-10 gap-lg-0 p-8 reverse-sm">
             <div class="col-12 col-lg-6 text-center">
                 <img class="img-fluid" style="max-height: 400px;"
@@ -270,7 +271,7 @@
             <div class="col-12 col-lg-6">
                 <div class="shadow p-4 rounded text-justify">
                     <h3 class="fw-bold mb-4 text-uppercase" style="color: #9d7651;">Joint Secretary</h3>
-                    <h3 class="text-dark fw-bold mb-4 text-uppercase">Mr.M.A.M.Ahmar</h3>
+                    <h3 class="text-dark fw-bold mb-4">Mr. M.A.M.Ahmar</h3>
                     <p class="text-black">
                         M.A.M College of Engineering is a young and energetic philanthropist making expeditions into
                         the field of education. His deep-rooted academic interest fueled his endeavors in the field
@@ -284,34 +285,79 @@
                 </div>
             </div>
         </div>
-        <!-- Popup JOIN SECRETARY Start here -->
         <div class="modal fade" id="popupJoinSecretary" tabindex="-1" aria-labelledby="popupFormLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content-admin p-8">
                     <div class="modal-header">
-                        <h5 class="modal-title fw-bold fs-3 text-uppercase" id="popupFormLabel"
-                            style="color: #9d7651;">Mr.M.A.M.Ahmar</h5>
+                        <h5 class="modal-title fw-bold fs-3" id="popupFormLabel"
+                            style="color: #9d7651;">Mr. M.A.M.Ahmar</h5>
                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
                             aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-justify">
                         <p class="text-black"> M.A.M College of Engineering is a young and energetic philanthropist making expeditions into
-                        the field of education. His deep-rooted academic interest fueled his endeavors in the field
-                        of education. His vision is to make our students virtuous men and women who can be
-                        professionals and entrepreneurs. He combines the energy of youth with the vision of a
-                        reformer who recognizes and encourages the talent of every individual of this
-                        renowned institution</p>
+                            the field of education. His deep-rooted academic interest fueled his endeavors in the field
+                            of education. His vision is to make our students virtuous men and women who can be
+                            professionals and entrepreneurs. He combines the energy of youth with the vision of a
+                            reformer who recognizes and encourages the talent of every individual of this
+                            renowned institution</p>
                     </div>
                 </div>
             </div>
         </div>
         <!-- Popup JOIN SECRETARY End here -->
+
+        <!-- Popup principal End here -->
+        <div class="row gap-10 gap-lg-0 p-8 reverse-sm">
+            <div class="col-12 col-lg-6 text-center">
+                <img class="img-fluid" style="max-height: 400px;"
+                    src="{{asset('images/administrationImg/principal.png')}}" alt="">
+            </div>
+            <div class="col-12 col-lg-6">
+                <div class="shadow p-4 rounded text-justify">
+                    <h3 class="fw-bold mb-4" style="color: #9d7651;">PRINCIPAL</h3>
+                    <h3 class="text-dark fw-bold">Dr. M. SHANMUGA PRIYA</h3>
+                    <p class="text-black">
+                        Dr. M. Shanmuga Priya, is an educationist non-pareil who creates an inspiring vision for the
+                        future, motivates and inspires everyone around to engage with that vision and builds a team
+                        which is more effective at achieving the vision. An innovative and self-motivated champion
+                        par Excellence with a fervent attitude to serve the best interests of students by
+                        facilitating their natural desire to discover and contribute to the world they live in.</p>
+                    <a data-bs-toggle="modal" data-bs-target="#popupPrincipal" href="" class="btn text-white"
+                        style="background-color: #9d7651;">View
+                        Details</a>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="popupPrincipal" tabindex="-1" aria-labelledby="popupFormLabel"
+            aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered">
+                <div class="modal-content-admin p-8">
+                    <div class="modal-header">
+                        <h5 class="modal-title fw-bold fs-3 text-uppercase" id="popupFormLabel"
+                            style="color: #9d7651;">PRINCIPAL</h5>
+                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body text-justify">
+                        <p class="text-black">Dr. M. Shanmuga Priya, is an educationist non-pareil who creates an inspiring vision for the
+                            future, motivates and inspires everyone around to engage with that vision and builds a team
+                            which is more effective at achieving the vision. An innovative and self-motivated champion
+                            par Excellence with a fervent attitude to serve the best interests of students by
+                            facilitating their natural desire to discover and contribute to the world they live in.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Popup PRINCIPAL End here -->
+
+        <!-- Popup Chief Administrative Officer End here -->
         <div class="row gap-10 gap-lg-0 p-8">
             <div class="col-12 col-lg-6">
                 <div class="shadow p-4 rounded text-justify">
-                    <h3 class="fw-bold mb-4" style="color: #9d7651;">CAO</h3>
-                    <h3 class="text-dark fw-bold mb-4 text-uppercase">Mrs. T. NANCY JEEVA</h3>
+                    <h3 class="fw-bold mb-4 text-uppercase" style="color: #9d7651;">Chief Administrative Officer</h3>
+                    <h3 class="text-dark fw-bold mb-4">Mrs. T. NANCY JEEVA</h3>
                     <p class="text-black">
                         Mrs. T. Nancy Jeeva is the Chief Administrative Officer of M.A.M. College of Engineering.
                         She is associated with the college since 2000. She has her Bachelor’s and Master’s degree in
@@ -327,76 +373,32 @@
                     alt="">
             </div>
         </div>
-        <!-- Popup CAO Start here -->
         <div class="modal fade" id="popupCAO" tabindex="-1" aria-labelledby="popupFormLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
                 <div class="modal-content-admin p-8">
                     <div class="modal-header">
-                        <h5 class="modal-title fw-bold fs-3 text-uppercase" id="popupFormLabel"
+                        <h5 class="modal-title fw-bold fs-3" id="popupFormLabel"
                             style="color: #9d7651;">Mrs. T. Nancy Jeeva</h5>
                         <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
                             aria-label="Close"></button>
                     </div>
                     <div class="modal-body text-justify">
-                        <p class="text-black">  Mrs. T. Nancy Jeeva is the Chief Administrative Officer of M.A.M. College of Engineering.
-                        She is associated with the college since 2000. She has her Bachelor’s and Master’s degree in
-                        Computer Science and Engineering from Anna University, Chennai. She is pursuing her Doctoral
-                        studies in Anna University, Chennai.</p>
+                        <p class="text-black"> Mrs. T. Nancy Jeeva is the Chief Administrative Officer of M.A.M. College of Engineering.
+                            She is associated with the college since 2000. She has her Bachelor’s and Master’s degree in
+                            Computer Science and Engineering from Anna University, Chennai. She is pursuing her Doctoral
+                            studies in Anna University, Chennai.</p>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Popup CAO End here -->
-        <div class="row gap-10 gap-lg-0 p-8 reverse-sm">
-            <div class="col-12 col-lg-6 text-center">
-                <img class="img-fluid" style="max-height: 400px;"
-                    src="{{asset('images/administrationImg/principal.png')}}" alt="">
-            </div>
-            <div class="col-12 col-lg-6">
-                <div class="shadow p-4 rounded text-justify">
-                    <h3 class="fw-bold mb-4" style="color: #9d7651;">PRINCIPAL</h3>
-                    <h3 class="text-dark fw-bold mb-4 text-uppercase">Dr. M. SHANMUGA PRIYA</h3>
-                    <p class="text-black">
-                        Dr. M. Shanmuga Priya, is an educationist non-pareil who creates an inspiring vision for the
-                        future, motivates and inspires everyone around to engage with that vision and builds a team
-                        which is more effective at achieving the vision. An innovative and self-motivated champion
-                        par Excellence with a fervent attitude to serve the best interests of students by
-                        facilitating their natural desire to discover and contribute to the world they live in.</p>
-                    <a data-bs-toggle="modal" data-bs-target="#popupPrincipal" href="" class="btn text-white"
-                        style="background-color: #9d7651;">View
-                        Details</a>
-                </div>
-            </div>
-        </div>
-        <!-- Popup PRINCIPAL Start here -->
-        <div class="modal fade" id="popupPrincipal" tabindex="-1" aria-labelledby="popupFormLabel"
-            aria-hidden="true">
-            <div class="modal-dialog modal-dialog-centered">
-                <div class="modal-content-admin p-8">
-                    <div class="modal-header">
-                        <h5 class="modal-title fw-bold fs-3 text-uppercase" id="popupFormLabel"
-                            style="color: #9d7651;">PRINCIPAL</h5>
-                        <button type="button" class="btn-close text-dark" data-bs-dismiss="modal"
-                            aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body text-justify">
-                        <p class="text-black">Dr. M. Shanmuga Priya, is an educationist non-pareil who creates an inspiring vision for the
-                        future, motivates and inspires everyone around to engage with that vision and builds a team
-                        which is more effective at achieving the vision. An innovative and self-motivated champion
-                        par Excellence with a fervent attitude to serve the best interests of students by
-                        facilitating their natural desire to discover and contribute to the world they live in.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Popup PRINCIPAL End here -->
 
+        <!-- Popup VICE PRINCIPAL Start here -->
         <div class="row gap-10 gap-lg-0 p-8">
             <div class="col-12 col-lg-6">
                 <div class="shadow p-4 rounded text-justify">
                     <h3 class="fw-bold mb-4" style="color: #9d7651;">VICE PRINCIPAL</h3>
-                    <h3 class="text-dark fw-bold mb-4 text-uppercase">Mrs. T. SATHYA</h3>
+                    <h3 class="text-dark fw-bold mb-4">Mrs. T. SATHYA</h3>
                     <p class="text-black">
                         T. Sathya completed her Undergraduate degree in B.E. Civil Engineering from Alagappa
                         Chettiar Government College of Engineering and Technology (Autonomous), Madurai Kamaraj
@@ -412,7 +414,6 @@
                     alt="">
             </div>
         </div>
-        <!-- Popup VICE PRINCIPAL Start here -->
         <div class="modal fade" id="popupVicePrincipal" tabindex="-1" aria-labelledby="popupFormLabel"
             aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">

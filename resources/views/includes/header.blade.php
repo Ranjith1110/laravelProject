@@ -77,7 +77,7 @@
                             <a href="{{route('agri')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.Tech Agricultural Engineering </a>
                             <a href="{{route('bioMedical')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
-                                </span> B.Tech Biomedical Engineering </a>
+                                </span> B.E Biomedical Engineering </a>
                             <a href="{{route('foodTech')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>
                                 </span> B.Tech Food Technology </a>
                             <a href="{{route('bioTech')}}" class="dropdown-item"><span class="fw-bold" style="color: #9d7651;">>

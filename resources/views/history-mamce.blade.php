@@ -44,28 +44,6 @@
         </div>
 
         <div class="text-justify p-5">
-            <h2 class="title">OUR JOURNEY</h2>
-            <p class="text-black">M.A.M. College of Engineering, The Gateway of Knowledge, was founded on 10th of
-                February 1999, and
-                was duly affiliated to the Anna University, Chennai, recognized by the Government of Tamil Nadu, and
-                approved by the All India Council of Technical Education (AICTE) in the same year. The college
-                secured its ISO 9001 certification in the year 2003, and continues to hold the same, till date, with
-                the award of ISO 9001:2010.</p>
-            <p class="text-black">The M.A.M. College of Engineering, founded by the lofty mission and the vision of
-                its founder, Janab
-                M. Abdul Majedu under the guidance of a noted engineer, academician, and an administrator, Dr. S.
-                Sathikh, a former Vice-Chancellor of the University of Madras is led by Dr. M. A. Mohamed Nizam, its
-                Secretary & Correspondent.</p>
-            <p class="text-black">The M.A.M. College of Engineering which began to admit students in the the
-                academic year, 1999 – 2000
-                is currently in the 27th year of its relentless service to the cause of the muslim minority, the
-                economically weaker, socially marginalized, and the underprivileged sections of the nation. Since
-                the time of its humble student strength, the college has grown enormously to have about three
-                thousand students across the UG and the PG departments, all of which are proudly accredited by the
-                National Board of Accreditation, NBA, New Delhi.</p>
-        </div>
-
-        <div class="text-justify p-5">
             <h2 class="title">OUR BACKBONE</h2>
             <p class="text-black">The able faculty members of the M.A.M. College of Engineering are most proficient
                 with the many
@@ -83,12 +61,11 @@
 
         <div class="text-justify p-5">
             <h2 class="title">OUR DEPARTMENT</h2>
-            <p class="text-black">The M.A.M. College of Engineering offers an Under Graduate B.E., degree programmes
-                in Agricultural
-                Engineering, Bio medical Engineering, Civil Engineering, Mechanical Engineering, Computer Science
+            <p class="text-black">The M.A.M. College of Engineering offers an Under Graduate B.E, degree programmes
+                in Bio medical Engineering, Civil Engineering, Mechanical Engineering, Computer Science
                 and Engineering, Electrical & Electronics Engineering, Electronics & Communication Engineering,
                 Electronics & Instrumentation Engineering and B.Tech programme in Information Technology, Artificial
-                Intelligence & Data Science, Food Technology. In addition, the M.A.M. College of Engineering also
+                Intelligence & Data Science, Agricultural Engineering, Food Technology, Bio Technology. In addition, the M.A.M. College of Engineering also
                 offers Post Graduate programmes leading to an M.E in Environmental Engineering, Electronics &
                 Communication Engineering, Computer Science & Engineering, Manufacturing Engineering, Power
                 Electronics & Drives in addition to the Master in Business Administration and the Master in Computer
@@ -97,7 +74,7 @@
         </div>
 
         <div class="text-justify p-5">
-            <h2 class="title">OUR ACHIEVEMENTS</h2>
+            <h2 class="title">OUR Students' Achievements</h2>
             <p class="text-black">The M.A.M. College of Engineering till date has attracted many visiting faculties
                 from prestigious
                 institutions like the IIT, Chennai and the NIT, Tiruchirappalli besides having the presence of many
@@ -107,10 +84,10 @@
                 The M.A.M. College of Engineering is, in the interests of its students, well-served by the mutual
                 agreements, MoU’s held with the several industrial houses and is also a preferred spot for the
                 organization of several placement camps and polled placement drives.
-                The M.A.M. College of Engineering is in addition proud to speak in volumes on the achievements of
+                The M.A.M. College of Engineering is in addition proud to speak in volumes on the Students' Achievements of
                 its students and the alumni who have made a career for themselves in India and abroad and continue
                 to serve as the ambassadors of the college by spreading its good name and repute, through their
-                exceptional talents and achievements.
+                exceptional talents and Students' Achievements.
             </p>
         </div>
 

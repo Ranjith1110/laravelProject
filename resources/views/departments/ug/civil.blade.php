@@ -54,7 +54,7 @@
                         <li class="active text-black" data-target="about">ABOUT</li>
                         <li class="text-black" data-target="facilities">Facilities</li>
                         <li class="text-black" data-target="value-added-programmes">Value Added Programmes</li>
-                        <li class="text-black" data-target="students-corner">Students' Corner</li>
+                        <li class="text-black" data-target="students-corner">Students' Achievements</li>
                         <li class="text-black" data-target="events">Events</li>
                         <li class="text-black" data-target="placement">Placement</li>
                         <li class="text-black" data-target="gallery">Gallery</li>
@@ -115,20 +115,99 @@
                     <!-- Value added programmes Section -->
                     <div id="value-added-programmes" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Value added programmes</h2>
-                        <p class="text-black">Total Station Surveying</p>
+                        <ul class="text-black">
+                            <li>Start Pro</li>
+                            <li>Total Station Surveying</li>
+                        </ul>
                     </div>
 
-                    <!-- Students' Corner Section -->
+                    <!-- Students' Achievements Section -->
                     <div id="students-corner" class="content-section d-none">
-                        <h2 class="title-slogan mb-4">Students' Corner</h2>
-                        <h4 class="text-center text-black">Achievements List</h4>
-
+                        <h2 class="title-slogan mb-4">Students' Achievements</h2>
+                        <h4 class="text-center text-black text-uppercase">Internship</h4>
                         <div class="table-container">
                             <table class="trust-table">
                                 <thead>
                                     <tr class="text-white" style="background-color: #9d7651;">
                                         <th>SI.NO</th>
                                         <th>STUDENT NAME</th>
+                                        <th>YEAR</th>
+                                        <th>COLLEGE NAME</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>M.Dineskumar</td>
+                                        <td>IV</td>
+                                        <td>Akshaya Fountains and Pools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>M.Dineskumar</td>
+                                        <td>IV</td>
+                                        <td>Akshaya Fountains and Pools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>G. Kanigachalam</td>
+                                        <td>IV</td>
+                                        <td>Akshaya Fountains and Pools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>A. Arunpandiyan</td>
+                                        <td>IV</td>
+                                        <td>Akshaya Fountains and Pools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Logeshwaran</td>
+                                        <td>IV</td>
+                                        <td>Akshaya Fountains and Pools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>A. Helan Soba</td>
+                                        <td>IV</td>
+                                        <td>Shapoorji Pallonji</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>A. Akash</td>
+                                        <td>IV</td>
+                                        <td>VMV Construction</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>A. Sudharsan</td>
+                                        <td>IV</td>
+                                        <td>Akshaya Fountains and Pools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>R. Raman</td>
+                                        <td>IV</td>
+                                        <td>Akshaya Fountains and Pools</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>A. Arivukarasu</td>
+                                        <td>IV</td>
+                                        <td>Akshaya Fountains and Pools</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h4 class="text-center text-black text-uppercase pt-10">Students' Achievements</h4>
+                        <div class="table-container">
+                            <table class="trust-table">
+                                <thead>
+                                    <tr class="text-white" style="background-color: #9d7651;">
+                                        <th>SI.NO</th>
+                                        <th>STUDENT NAME</th>
+                                        <th>YEAR</th>
                                         <th>EVENT NAME</th>
                                         <th>COLLEGE NAME</th>
                                         <th>PRIZE</th>
@@ -137,38 +216,106 @@
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>AMSAVALLI P</td>
-                                        <td>FIRELESS COOKING</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>FIRST PRICE</td>
+                                        <td>A. Nithish Kanna</td>
+                                        <td>III</td>
+                                        <td>Symposium (Code Cracking)</td>
+                                        <td>Kings College of Engineering</td>
+                                        <td>1st</td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>SRINITHI T</td>
-                                        <td>FIRELESS COOKING</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>FIRST PRICE</td>
+                                        <td>S. Jameel Ahamed</td>
+                                        <td>III</td>
+                                        <td>Symposium (Code Cracking)</td>
+                                        <td>Kings College of Engineering</td>
+                                        <td>1st</td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
-                                        <td>SIVARANJANI V</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>SECOND PRICE</td>
+                                        <td>R. Prabhu</td>
+                                        <td>III</td>
+                                        <td>Symposium (Code Cracking)</td>
+                                        <td>Kings College of Engineering</td>
+                                        <td>1st</td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td>VINISHA T</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>THIRD PRICE</td>
+                                        <td>M. Tamizharasan</td>
+                                        <td>III</td>
+                                        <td>Symposium (Code Cracking)</td>
+                                        <td>Kings College of Engineering</td>
+                                        <td>1st</td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td>THANGAMARIS K</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>THIRD PRICE</td>
+                                        <td>Logeshwaran</td>
+                                        <td>IV</td>
+                                        <td>Kalaingnarum Tamizhum (Tamil Speech)</td>
+                                        <td>DSEC</td>
+                                        <td>Participated</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Logeshwaran</td>
+                                        <td>IV</td>
+                                        <td>Tamil Competition (Speech & Essay Writing)</td>
+                                        <td>Anna University, Trichy</td>
+                                        <td>Participated</td>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Logeshwaran</td>
+                                        <td>IV</td>
+                                        <td>Tamil Competition (Speech & Essay Writing)</td>
+                                        <td>Anna University, Trichy</td>
+                                        <td>Participated</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>R. Raman</td>
+                                        <td>IV</td>
+                                        <td>Tamil Competition (Speech & Essay Writing)</td>
+                                        <td>Anna University, Trichy</td>
+                                        <td>Participated</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>A. Arunpandiyan</td>
+                                        <td>IV</td>
+                                        <td>Tamil Competition (Speech & Essay Writing)</td>
+                                        <td>Anna University, Trichy</td>
+                                        <td>Participated</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>A. Helan Soba</td>
+                                        <td>IV</td>
+                                        <td>Tamil Competition (Speech & Essay Writing)</td>
+                                        <td>Anna University, Trichy</td>
+                                        <td>Participated</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>G. Kanigachalam</td>
+                                        <td>IV</td>
+                                        <td>Tamil Competition (Speech & Essay Writing)</td>
+                                        <td>Anna University, Trichy</td>
+                                        <td>Participated</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Selvarani M & Monisha pandi</td>
+                                        <td>IV</td>
+                                        <td>Code Cracking . - 22/10/24.</td>
+                                        <td>Kings College of Engineering, Pudukottai.</td>
+                                        <td>I</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Rahil Ahmed & Ravichandran</td>
+                                        <td>III</td>
+                                        <td>Paper Presentation - 26/10/24</td>
+                                        <td>K.Ramakrishnan College of Technology, Trichy.</td>
+                                        <td>III</td>
                                     </tr>
                                 </tbody>
                             </table>

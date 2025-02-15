@@ -54,7 +54,7 @@
                         <li class="active text-black" data-target="about">ABOUT</li>
                         <li class="text-black" data-target="facilities">Facilities</li>
                         <li class="text-black" data-target="value-added-programmes">Value Added Programmes</li>
-                        <li class="text-black" data-target="students-corner">Students' Corner</li>
+                        <li class="text-black" data-target="students-corner">Students' Achievements</li>
                         <li class="text-black" data-target="events">Events</li>
                         <li class="text-black" data-target="placement">Placement</li>
                         <li class="text-black" data-target="gallery">Gallery</li>
@@ -115,10 +115,10 @@
                         </ul>
                     </div>
 
-                    <!-- Students' Corner Section -->
+                    <!-- Students' Achievements Section -->
                     <div id="students-corner" class="content-section d-none">
-                        <h2 class="title-slogan mb-4">Students' Corner</h2>
-                        <h4 class="text-center">Achievements List</h4>
+                        <h2 class="title-slogan mb-4">Students' Achievements</h2>
+                        <h4 class="text-center">Students' Achievements List</h4>
 
                         <div class="table-container">
                             <table class="trust-table">
@@ -126,7 +126,6 @@
                                     <tr class="text-white" style="background-color: #9d7651;">
                                         <th>SI.NO</th>
                                         <th>STUDENT NAME</th>
-                                        <th>YEAR</th>
                                         <th>EVENT NAME</th>
                                         <th>COLLEGE NAME</th>
                                         <th>PRIZE</th>
@@ -136,7 +135,6 @@
                                     <tr>
                                         <td>1</td>
                                         <td>RAFEEQA</td>
-                                        <td>III YR</td>
                                         <td>HAIR DRESSING</td>
                                         <td>Holy cross clg</td>
                                         <td>SECOND PRICE</td>
@@ -144,7 +142,6 @@
                                     <tr>
                                         <td>2</td>
                                         <td>Mohansundaram</td>
-                                        <td>III YR</td>
                                         <td>Technical symposium</td>
                                         <td>Salem engg college</td>
                                         <td>SECOND PRICE</td>
@@ -152,10 +149,58 @@
                                     <tr>
                                         <td>3</td>
                                         <td>RAFEEQA</td>
-                                        <td>III YR</td>
                                         <td>Technical symposium</td>
                                         <td>KRCE engg college</td>
                                         <td>SECOND PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>RAGAVAN, ELUMALAI</td>
+                                        <td>Dancing</td>
+                                        <td>HOLY CROSS COLLEGE</td>
+                                        <td>THIRD PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>SINDHU</td>
+                                        <td>Food</td>
+                                        <td>HOLY CROSS COLLEGE</td>
+                                        <td>SECOND PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>RAFEEQA, MOHANASUNDHARAM</td>
+                                        <td>PAPER PRESENTATION</td>
+                                        <td>ANNA UNIVERSITY ,BIT CAMPUS TRICHY</td>
+                                        <td>SECOND PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>MOHANASUNDHARAM</td>
+                                        <td>PAPER PRESENTATION</td>
+                                        <td>K.RAMAKRISHNAN ENGINEERING COLLEGE</td>
+                                        <td>SECOND PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>MOHANASUNDHARAM</td>
+                                        <td>PAPER PRESENTATION</td>
+                                        <td>TAGORE INSITUTE OF TECHNOLOGY</td>
+                                        <td>SECOND PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>T.Deenadalayan, K.Nirmal</td>
+                                        <td>Circuit debugging</td>
+                                        <td>J.J college of engineering</td>
+                                        <td>THIRD PRICE</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>V.Santhosh, M.Akaram</td>
+                                        <td>Hangman</td>
+                                        <td>J.J college of engineering</td>
+                                        <td>FIRST PRICE</td>
                                     </tr>
                                 </tbody>
                             </table>

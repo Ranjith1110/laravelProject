@@ -73,9 +73,9 @@
                         <textarea class="form-control" id="address" name="address" rows="2" placeholder="Enter your address"></textarea>
                     </div>
                     <div class="mt-3">
-                        <label for="course" class="form-label text-dark">Course Type</label>
+                        <label for="course" class="form-label text-dark">Degree</label>
                         <select class="form-select" id="course_type" name="course_type">
-                            <option selected disabled>Choose Course Type</option>
+                            <option selected disabled>Choose Degree</option>
                             <option value="ug">UG</option>
                             <option value="pg">PG</option>
                         </select>

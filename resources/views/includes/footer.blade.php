@@ -64,7 +64,7 @@
                 </div>
 
                 <div class="col-lg-3 col-md-6">
-                    <h5 class="text-black mb-8">Get In Touch</h5>
+                    <h5 class="text-black mb-8 text-uppercase">Get In Touch</h5>
                     <div class="d-flex flex-column justify-content-start">
                         <p class="text-black mb-3">Address: M.A.M. College of Engineering, Trichy - Chennai Trunk
                             Road, Siruganur, Tiruchirappalli - 621 105, Tamil Nadu, India.</p>

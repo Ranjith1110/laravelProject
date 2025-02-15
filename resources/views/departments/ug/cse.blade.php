@@ -10,7 +10,7 @@
 </div>
 <!-- Spinner End here -->
 
-    <!-- Vertical Button Start here -->
+<!-- Vertical Button Start here -->
 <button style="background-color: #9d7651; border: 2px solid #dfcfc1;"
     class="vertical-button text-white px-md-2 px-0 py-2 rounded text-uppercase" data-bs-toggle="modal"
     data-bs-target="#admissionEnquiryModal" id="openPopupBtn">
@@ -49,7 +49,7 @@
                         <li class="active text-black" data-target="about">ABOUT</li>
                         <li class="text-black" data-target="facilities">Facilities</li>
                         <li class="text-black" data-target="value-added-programmes">Value Added Programmes</li>
-                        <li class="text-black" data-target="students-corner">Students' Corner</li>
+                        <li class="text-black" data-target="students-corner">Students' Achievements</li>
                         <li class="text-black" data-target="events">Events</li>
                         <li class="text-black" data-target="placement">Placement</li>
                         <li class="text-black" data-target="gallery">Gallery</li>
@@ -140,11 +140,11 @@
                         <p class="text-black">Total Station Surveying</p>
                     </div>
 
-                    <!-- Students' Corner Section -->
+                    <!-- Students' Achievements Section -->
                     <div id="students-corner" class="content-section d-none">
-                        <h2 class="title-slogan mb-4">Students' Corner</h2>
-                        <h4 class="text-center">Achievements List</h4>
+                        <h2 class="title-slogan mb-4">Students' Achievements</h2>
 
+                        <h4 class="text-center">EVENTS ORGANIZED BY ACES - STUDENTS ASSOCIATION WITH DEPARTMENT </h4>
                         <div class="table-container">
                             <table class="trust-table">
                                 <thead>
@@ -152,45 +152,205 @@
                                         <th>SI.NO</th>
                                         <th>STUDENT NAME</th>
                                         <th>EVENT NAME</th>
-                                        <th>COLLEGE NAME</th>
                                         <th>PRIZE</th>
                                     </tr>
                                 </thead>
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>AMSAVALLI P</td>
-                                        <td>FIRELESS COOKING</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>FIRST PRICE</td>
+                                        <td>All students from the final Year CSE</td>
+                                        <td>TECH TALK FEST 3 - Third Year Students prepare a PPT to present an any topic Trends in Computing and Informatics. Jury Member Prof P Pavalakodi, Prof M Noorunnisha, Dr S Rajalakshmi </td>
+                                        <td>Participated Students are recognized by a recognition Certificate. </td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>SRINITHI T</td>
-                                        <td>FIRELESS COOKING</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>FIRST PRICE</td>
+                                        <td>"Parameshwari P, Nivetha K, Asika M" </td>
+                                        <td>TECH TALK FEST 3 - Third Year Students prepare a PPT to present an any topic Trends in Computing and Informatics. Jury Member Prof P Pavalakodi, Prof M Noorunnisha, Dr S Rajalakshmi </td>
+                                        <td>First Prize</td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
-                                        <td>SIVARANJANI V</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>SECOND PRICE</td>
+                                        <td>"Karthikeyan N, Mohammed Yacoob, Mohammed Riyas, Rajesh R, Rokesh Kannan V"</td>
+                                        <td>TECH TALK FEST 3 - Third Year Students prepare a PPT to present an any topic Trends in Computing and Informatics. Jury Member Prof P Pavalakodi, Prof M Noorunnisha, Dr S Rajalakshmi </td>
+                                        <td>Second Prize</td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td>VINISHA T</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>THIRD PRICE</td>
+                                        <td>"Swathi R, Varshini V, Vikneshwari M"</td>
+                                        <td>TECH TALK FEST 3 - Third Year Students prepare a PPT to present an any topic Trends in Computing and Informatics. Jury Member Prof P Pavalakodi, Prof M Noorunnisha, Dr S Rajalakshmi </td>
+                                        <td>Third Prize</td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td>THANGAMARIS K</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>THIRD PRICE</td>
+                                        <td>Manikandan A</td>
+                                        <td>TECH TALK FEST 3 - Third Year Students prepare a PPT to present an any topic Trends in Computing and Informatics. Jury Member Prof P Pavalakodi, Prof M Noorunnisha, Dr S Rajalakshmi </td>
+                                        <td>Fourth Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>"Thinakaran, Thirumadheshwaran, Srimath Hari Shesath, Saran"</td>
+                                        <td>TECH TALK FEST 3 - Third Year Students prepare a PPT to present an any topic Trends in Computing and Informatics. Jury Member Prof P Pavalakodi, Prof M Noorunnisha, Dr S Rajalakshmi </td>
+                                        <td>Fifth Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>All students from the final Year CSE</td>
+                                        <td>MAMCE HACK 2K24 - Final Year. Students are grouped into the size of 4 and motivated to do a project an any topic and give the Innovative Solutions for Sustainable Development in Informatics. Jury Members: , Prof V Pugazhenthi Prof P Pavalakodi.Prof. M Noorunnisha Prof G Shanth</td>
+                                        <td>Participated Students are recognized by a recognition Certificate.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>"Haritha A C, Swetha S"</td>
+                                        <td>MAMCE HACK 2K24 - Final Year. Students are grouped into the size of 4 and motivated to do a project an any topic and give the Innovative Solutions for Sustainable Development in Informatics. Jury Members: , Prof V Pugazhenthi Prof P Pavalakodi.Prof. M Noorunnisha Prof G Shanthi</td>
+                                        <td>Text Summarization Using NLP - First Prize INR 5000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>"Gokula Krishnan S, Bharath Raja R V, Abinesh E, Mohamed IbrahimK"</td>
+                                        <td>MAMCE HACK 2K24 - Final Year. Students are grouped into the size of 4 and motivated to do a project an any topic and give the Innovative Solutions for Sustainable Development in Informatics. Jury Members: , Prof V Pugazhenthi Prof P Pavalakodi.Prof. M Noorunnisha Prof G Shanthi</td>
+                                        <td>Image Caption Generator - Second Prize - INR 3000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>"Mohammed Akkim Kadhar M, Hanas Ahamed M, Balaji S, Manikandan T"</td>
+                                        <td>MAMCE HACK 2K24 - Final Year. Students are grouped into the size of 4 and motivated to do a project an any topic and give the Innovative Solutions for Sustainable Development in Informatics. Jury Members: , Prof V Pugazhenthi Prof P Pavalakodi.Prof. M Noorunnisha Prof G Shanthi</td>
+                                        <td>Cyber Vaccination - Third Prize - INR 2000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>"Sachin Narayanasamy, Rengarajan V, Joseph Raj A, Sanjay Kannan R"</td>
+                                        <td>MAMCE HACK 2K24 - Final Year. Students are grouped into the size of 4 and motivated to do a project an any topic and give the Innovative Solutions for Sustainable Development in Informatics. Jury Members: , Prof V Pugazhenthi Prof P Pavalakodi.Prof. M Noorunnisha Prof G Shanthi</td>
+                                        <td>Sentimental Analysis - Third Prize - INR 2000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>"M Thinakaran, R Thirumadheshwaran, P Parameshwari"</td>
+                                        <td>MAMCE HACK 2K24 - Final Year. Students are grouped into the size of 4 and motivated to do a project an any topic and give the Innovative Solutions for Sustainable Development in Informatics. Jury Members: , Prof V Pugazhenthi Prof P Pavalakodi.Prof. M Noorunnisha Prof G Shanthi</td>
+                                        <td>Student Volunteers</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>"Akash, Jahir Hussain Taysir, Prince Afrido A"</td>
+                                        <td>TECH TALK FEST 2 - Second Year Students prepare a PPT to present an any topic Trends in Computing and Informatics. Jury Member Prof M Noorunnisha, Prof P Ranjith</td>
+                                        <td>First Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Rethinasamy E</td>
+                                        <td>TECH TALK FEST 2 - Second Year Students prepare a PPT to present an any topic Trends in Computing and Informatics. Jury Member Prof M Noorunnisha, Prof P Ranjith</td>
+                                        <td>Second Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Flora A, Bhavadharani K, Aswini S, Aswathi, Anushiya S</td>
+                                        <td>TECH TALK FEST 2 - Second Year Students prepare a PPT to present an any topic Trends in Computing and Informatics. Jury Member Prof M Noorunnisha, Prof P Ranjith</td>
+                                        <td>Third Prize</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <h4 class="text-center pt-10">EVENTS AND COMPETITIONS (NON TECHNICAL) - PARTICIPATION</h4>
+                        <div class="table-container">
+                            <table class="trust-table">
+                                <thead>
+                                    <tr class="text-white" style="background-color: #9d7651;">
+                                        <th>SI.NO</th>
+                                        <th>STUDENT NAME</th>
+                                        <th>EVENT NAME</th>
+                                        <th>PRIZE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Rethinasamy E</td>
+                                        <td>Kallori Stars Michy - Group Dance</td>
+                                        <td>Ist Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Nithyasri</td>
+                                        <td>Kallori Stars Michy - Solo Singing</td>
+                                        <td>Ist Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Rethinasamy E</td>
+                                        <td>Trichy Engineering College Cultural Competition - Group Dance</td>
+                                        <td>2nd Prize - INR 5000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Nithyasri</td>
+                                        <td>Trichy Engineering College Cultural Competition - Singing</td>
+                                        <td>1st Prize - INR 3000.00</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>SHAFANA A</td>
+                                        <td>Womens Day Celebration - Mehanthi</td>
+                                        <td>1st Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>RIFANA R</td>
+                                        <td>Womens Day Celebration - MakeUp</td>
+                                        <td>1st Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Bharath M</td>
+                                        <td>Maarathon - Keeranur - 5 KM</td>
+                                        <td>3rd Place</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Rengarajan V, Sachin_Narayanasamy</td>
+                                        <td>Particpated in the State Level Technical Symposium entitled, "FESTRONIX 2K23"</td>
+                                        <td>FIRST  PRIZE in Connexion Technical </td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>Arnika K</td>
+                                        <td>Anna University BIT Campus,  TN Regional Level Essay Writing Competition - Organized by Anna University Chennai</td>
+                                        <td>1st  Price - Rs 10000 Cash Price</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Bharath Raja R.V</td>
+                                        <td>Participated and Won Bronze Medal in the Decathon Open Arm Wrestling Torunament 2023 under 90KG organized DECATHON, Neelambur branch, Coimbatore.</td>
+                                        <td>Won Bronze Medal in the Tournament</td>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Bharath Raja R.V</td>
+                                        <td>Participated and Won first prize in the Arm-wrestling Competition organized by SRM University Chennai.</td>
+                                        <td>Won First Prize with Cash Reward of INR 2000</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>Mohammed, Rizwan M</td>
+                                        <td>Participated and Won second Prize in the District Level Weight Lifting Championship Porgram(Mr Stron in Trichy) organized by  Indian Fitness Federation - Trichirappali Chapter.</td>
+                                        <td>Participated and Won Second Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Bharath Raja R.V</td>
+                                        <td>Participated and Won many medals in the Tamilnadu State level Arm - Wrestling Championship Tournament 2023 organized by agies of Arm-Wrestling Federation of India at Chennai.</td>
+                                        <td>Won One Gold Medal and 3 Silver Medals in both youth and seniors category..</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Mohammed Rizwan M,  MUHAMMED HUSAIN U, Kesavamoorthy S,  MOHAMED FAIZUL, RAHUMAN S</td>
+                                        <td>Particpated in the Playing XI in the Anna University Football Zone Level Tournament held at SRM TRP Engineering College Trichy</td>
+                                        <td>MAMCE Won Third Place</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Mr Rethinasamy</td>
+                                        <td>"Rocking dance acadamy presents 
+                                        "DANCE BEATS"</td>
+                                        <td>First Prize</td>
                                     </tr>
                                 </tbody>
                             </table>
