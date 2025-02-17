@@ -106,8 +106,45 @@
                     <div id="students-corner" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Students' Achievements</h2>
                         <!-- <h4 class="text-center">Students' Achievements List</h4> -->
-
-                        <h5>Update Soon...</h5>
+                        <div class="table-container">
+                            <table class="trust-table">
+                                <h4 class="text-center">PLACEMENT DETAILS -2024 BATCH</h4>
+                                <thead>
+                                    <tr class="text-white" style="background-color: #9d7651;">
+                                        <th>SI.NO</th>
+                                        <th>STUDENT NAME</th>
+                                        <th>EVENT NAME</th>
+                                        <th>PRIZE</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>RAJKUMAR N</td>
+                                        <td>POWER LIFTING</td>
+                                        <td>I Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>MOHAMED IRFAN I</td>
+                                        <td>Football - Zonal Level</td>
+                                        <td>III Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>SANJAYAN N</td>
+                                        <td>Football - Zonal Level</td>
+                                        <td>III Prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Rakshana M</td>
+                                        <td>Microsoft Bangalore Office-Quiz program</td>
+                                        <td>II Prize</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
 
                     </div>
 

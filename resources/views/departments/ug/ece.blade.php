@@ -182,6 +182,146 @@
                                         <td>04.10.2024-09.10.2024</td>
                                         <td>EMBEDDED SYSTEMS</td>
                                     </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>M.MANOJ</td>
+                                        <td>3 rd year</td>
+                                        <td>CodeBind Technologies</td>
+                                        <td>04.10.2024-09.10.2024</td>
+                                        <td>EMBEDDED SYSTEMS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>M.Abdul Rahuman</td>
+                                        <td>3 rd year</td>
+                                        <td>CodeBind Technologies</td>
+                                        <td>04.10.2024-09.10.2024</td>
+                                        <td>EMBEDDED SYSTEMS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>M.Abdul Rahuman</td>
+                                        <td>3 rd year</td>
+                                        <td>CodeBind Technologies</td>
+                                        <td>04.10.2024-09.10.2024</td>
+                                        <td>EMBEDDED SYSTEMS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>M.Abdul Rahuman</td>
+                                        <td>3 rd year</td>
+                                        <td>CodeBind Technologies</td>
+                                        <td>04.10.2024-09.10.2024</td>
+                                        <td>EMBEDDED SYSTEMS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>M.Abdul Rahuman</td>
+                                        <td>3 rd year</td>
+                                        <td>CodeBind Technologies</td>
+                                        <td>04.10.2024-09.10.2024</td>
+                                        <td>EMBEDDED SYSTEMS</td>
+                                    </tr>
+
+                                </tbody>
+                            </table>
+                        </div>
+
+                        <div class="table-container">
+                            <table class="trust-table">
+                                <thead>
+                                    <tr class="text-white" style="background-color: #9d7651;">
+                                        <th class="text-uppercase">SI.NO</th>
+                                        <th class="text-uppercase">NAME</th>
+                                        <th class="text-uppercase">COLLEGE</th>
+                                        <th class="text-uppercase">Prize</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>M.MANOJ</td>
+                                        <td>KNOWLEDGE BYTES</td>
+                                        <td>MOUNT ZION COLLEGE OF ENGINEERING</td>
+                                        <td>2ND</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>M.MANOJ</td>
+                                        <td>TECH SPOOL</td>
+                                        <td>KONGUNADU COLLEGE OF ENGINEERING</td>
+                                        <td>1ST</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>G.GOWTHAM</td>
+                                        <td>TECH SPOOL</td>
+                                        <td>KONGUNADU COLLEGE OF ENGINEERING</td>
+                                        <td>1ST</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>G.GOWTHAM</td>
+                                        <td>KNOWLEDGE BYTES</td>
+                                        <td>MOUNT ZION COLLEGE OF ENGINEERING</td>
+                                        <td>2ND</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>M.DEEPAK</td>
+                                        <td>TECH SPOOL</td>
+                                        <td>KONGUNADU COLLEGE OF ENGINEERING</td>
+                                        <td>1ST</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>P.DINESHKUMAR</td>
+                                        <td>PAPER PRESENTATION</td>
+                                        <td>DHANALAKSHMI SRINIVASAN ENGINEERING COLLEGE</td>
+                                        <td>3RD</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>KAVIYA</td>
+                                        <td>CodeBind Technologies</td>
+                                        <td>04.10.2024-09.10.2024</td>
+                                        <td>EMBEDDED SYSTEMS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>M.MANOJ</td>
+                                        <td>CodeBind Technologies</td>
+                                        <td>04.10.2024-09.10.2024</td>
+                                        <td>EMBEDDED SYSTEMS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>M.Abdul Rahuman</td>
+                                        <td>CodeBind Technologies</td>
+                                        <td>04.10.2024-09.10.2024</td>
+                                        <td>EMBEDDED SYSTEMS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>M.Abdul Rahuman</td>
+                                        <td>CodeBind Technologies</td>
+                                        <td>04.10.2024-09.10.2024</td>
+                                        <td>EMBEDDED SYSTEMS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>M.Abdul Rahuman</td>
+                                        <td>CodeBind Technologies</td>
+                                        <td>04.10.2024-09.10.2024</td>
+                                        <td>EMBEDDED SYSTEMS</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>M.Abdul Rahuman</td>
+                                        <td>CodeBind Technologies</td>
+                                        <td>04.10.2024-09.10.2024</td>
+                                        <td>EMBEDDED SYSTEMS</td>
+                                    </tr>
 
                                 </tbody>
                             </table>

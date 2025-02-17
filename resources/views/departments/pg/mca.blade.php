@@ -50,7 +50,6 @@
                         <li class="active text-black" data-target="about">ABOUT</li>
                         <li class="text-black" data-target="facilities">Facilities</li>
                         <li class="text-black" data-target="value-added-programmes">Value Added Programmes</li>
-                        <li class="text-black" data-target="students-corner">Students' Achievements</li>
                         <li class="text-black" data-target="events">Events</li>
                         <li class="text-black" data-target="placement">Placement</li>
                         <li class="text-black" data-target="gallery">Gallery</li>
@@ -104,13 +103,6 @@
                     <div id="value-added-programmes" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Value added programmes</h2>
                         <p class="text-black">BRIDGE COURSES FOR NON COMPUTER SCIENCE STUDENTS</p>
-                    </div>
-
-                    <!-- Students' Achievements Section -->
-                    <div id="students-corner" class="content-section d-none">
-                        <h2 class="title-slogan mb-4">Students' Achievements</h2>
-                        <h4 class="text-center">Students' Achievements List</h4>
-                        <p class="text-black">Nil</p>
                     </div>
 
                     <!-- Placements Section -->

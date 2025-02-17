@@ -174,6 +174,48 @@
                                         <td>MAMARIA - 2K23 - M.A.M. COLLEGE OF ENGINEERING</td>
                                         <td>FIRST PRICE</td>
                                     </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>M. SABARINATHAN</td>
+                                        <td>QUIZ PROGRAM</td>
+                                        <td>M.A.M. COLLEGE OF ENGINEERING</td>
+                                        <td>2ND</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>DHALAL ASMI</td>
+                                        <td>PAPER PRESENTATION</td>
+                                        <td>ANNA UNIVERSITY ,BIT CAMPUS TRICHY</td>
+                                        <td>2ND</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>SANTHOSH RV</td>
+                                        <td>PAPER PRESENTATION</td>
+                                        <td>ANNA UNIVERSITY ,BIT CAMPUS TRICHY</td>
+                                        <td>2ND</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>SANTHOSH RV</td>
+                                        <td>PAPER PRESENTATION</td>
+                                        <td>K.RAMAKRISHNAN ENGINEERING COLLEGE</td>
+                                        <td>2ND</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>R. JEEVA</td>
+                                        <td>PAPER PRESENTATION</td>
+                                        <td>K.RAMAKRISHNAN ENGINEERING COLLEGE</td>
+                                        <td>2ND</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>DHALAL ASMI</td>
+                                        <td>EXTEMPORE COMPETITION</td>
+                                        <td>CONDUCTED BY ISRO AND ANNA UNIVERSITY IN JAMAL MOHAMMED COLLEGE , TRICHY</td>
+                                        <td>3RD</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>

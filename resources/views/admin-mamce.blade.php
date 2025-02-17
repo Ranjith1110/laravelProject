@@ -266,14 +266,14 @@
         <div class="row gap-10 gap-lg-0 p-8 reverse-sm">
             <div class="col-12 col-lg-6 text-center">
                 <img class="img-fluid" style="max-height: 400px;"
-                    src="{{asset('images/administrationImg/secratary.jpg')}}" alt="">
+                    src="{{asset('images/administrationImg/jsImg.jpg')}}" alt="">
             </div>
             <div class="col-12 col-lg-6">
                 <div class="shadow p-4 rounded text-justify">
                     <h3 class="fw-bold mb-4 text-uppercase" style="color: #9d7651;">Joint Secretary</h3>
                     <h3 class="text-dark fw-bold mb-4">Mr. M.A.M.Ahmar</h3>
                     <p class="text-black">
-                        M.A.M College of Engineering is a young and energetic philanthropist making expeditions into
+                        Mr. M.A.M.Ahmar is a young and energetic philanthropist making expeditions into
                         the field of education. His deep-rooted academic interest fueled his endeavors in the field
                         of education. His vision is to make our students virtuous men and women who can be
                         professionals and entrepreneurs. He combines the energy of youth with the vision of a
@@ -310,10 +310,6 @@
 
         <!-- Popup principal End here -->
         <div class="row gap-10 gap-lg-0 p-8 reverse-sm">
-            <div class="col-12 col-lg-6 text-center">
-                <img class="img-fluid" style="max-height: 400px;"
-                    src="{{asset('images/administrationImg/principal.png')}}" alt="">
-            </div>
             <div class="col-12 col-lg-6">
                 <div class="shadow p-4 rounded text-justify">
                     <h3 class="fw-bold mb-4" style="color: #9d7651;">PRINCIPAL</h3>
@@ -328,6 +324,10 @@
                         style="background-color: #9d7651;">View
                         Details</a>
                 </div>
+            </div>
+            <div class="col-12 col-lg-6 text-center">
+                <img class="img-fluid" style="max-height: 400px;"
+                    src="{{asset('images/administrationImg/principal.png')}}" alt="">
             </div>
         </div>
         <div class="modal fade" id="popupPrincipal" tabindex="-1" aria-labelledby="popupFormLabel"
@@ -354,6 +354,10 @@
 
         <!-- Popup Chief Administrative Officer End here -->
         <div class="row gap-10 gap-lg-0 p-8">
+            <div class="col-12 col-lg-6 text-center">
+                <img class="img-fluid" style="max-height: 400px;" src="{{asset('images/administrationImg/cao.jpg')}}"
+                    alt="">
+            </div>
             <div class="col-12 col-lg-6">
                 <div class="shadow p-4 rounded text-justify">
                     <h3 class="fw-bold mb-4 text-uppercase" style="color: #9d7651;">Chief Administrative Officer</h3>
@@ -367,10 +371,6 @@
                         style="background-color: #9d7651;">View
                         Details</a>
                 </div>
-            </div>
-            <div class="col-12 col-lg-6 text-center">
-                <img class="img-fluid" style="max-height: 400px;" src="{{asset('images/administrationImg/cao.jpg')}}"
-                    alt="">
             </div>
         </div>
         <div class="modal fade" id="popupCAO" tabindex="-1" aria-labelledby="popupFormLabel"

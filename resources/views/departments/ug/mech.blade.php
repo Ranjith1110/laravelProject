@@ -195,6 +195,27 @@
                                         <td>Roever Engineering college</td>
                                         <td>2nd Price</td>
                                     </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>I LINO RILTON </td>
+                                        <td>CAD MODELLING</td>
+                                        <td>Dhanalakshmi Srinivasan Engineering College, Perambalur</td>
+                                        <td>1st Price</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>I LINO RILTON</td>
+                                        <td>CAD MODELLING, PARTS IDENTIFICATION, LATHE IT OFF</td>
+                                        <td>MAM School of Engineering</td>
+                                        <td>2nd Price</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>I LINO RILTON</td>
+                                        <td>LATHE IT OFF</td>
+                                        <td>NIT Trichy</td>
+                                        <td>2nd Price</td>
+                                    </tr>
                                 </tbody>
                             </table>
                         </div>

@@ -331,9 +331,22 @@
             </div>
 
             <div class="col-lg-2 pt-3">
-                <div class="text-black text-center py-10 rounded"
+                <div class="text-black py-8 pe-2 rounded"
                     style="background-color: #dfcfc1; border: 1px solid #9d7651;">
-                    <p>COLLEGE HOSTEL</p>
+                    <ul>
+                        <li class="mb-2">COLLEGE HOSTEL</li>
+                        <li class="mb-2">TRANSPORT FACILITY</li>
+                        <li class="mb-2">CAFETERIA</li>
+                        <li class="mb-2">LIBRARY & INFORMATION CENTER</li>
+                        <li class="mb-2">LIBRARY</li>
+                        <li class="mb-2">COLLEGE CANTEEN</li>
+                        <li class="mb-2">INTERNET CENTRE</li>
+                        <li class="mb-2">PLAY GROUND</li>
+                        <li class="mb-2">AUDIO VISUAL FACILITY</li>
+                        <li class="mb-2">SEMINAR HALL</li>
+                        <li class="">MULTIPURPOSE HALL</li>
+                    </ul>
+                    <!-- <p>COLLEGE HOSTEL</p>
                     <p>TRANSPORT FACILITY</p>
                     <p>CAFETERIA</p>
                     <p>LIBRARY & INFORMATION CENTER</p>
@@ -342,7 +355,7 @@
                     <p>PLAY GROUND</p>
                     <p>AUDIO VISUAL FACILITY</p>
                     <p>SEMINAR HALL</p>
-                    <p>MULTIPURPOSE HALL</p>
+                    <p>MULTIPURPOSE HALL</p> -->
                 </div>
             </div>
 

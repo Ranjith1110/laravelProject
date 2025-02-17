@@ -129,38 +129,87 @@
                                 <tbody>
                                     <tr>
                                         <td>1</td>
-                                        <td>AMSAVALLI P</td>
-                                        <td>FIRELESS COOKING</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>FIRST PRICE</td>
+                                        <td>DHARSHINI P</td>
+                                        <td> PAPER PRESNTATION</td>
+                                        <td>AMS COLLEGE , NAMAKAL</td>
+                                        <td>SECOND PRIZE</td>
                                     </tr>
                                     <tr>
                                         <td>2</td>
-                                        <td>SRINITHI T</td>
-                                        <td>FIRELESS COOKING</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>FIRST PRICE</td>
+                                        <td>SANDHIYA K</td>
+                                        <td> PAPER PRESNTATION</td>
+                                        <td>AMS COLLEGE , NAMAKAL</td>
+                                        <td>SECOND PRIZE</td>
                                     </tr>
                                     <tr>
                                         <td>3</td>
-                                        <td>SIVARANJANI V</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>SECOND PRICE</td>
+                                        <td>AMANULLA</td>
+                                        <td>Foot ball match,zone 14</td>
+                                        <td>SRM college of engineering, trichy</td>
+                                        <td>Third Prize</td>
                                     </tr>
                                     <tr>
                                         <td>4</td>
-                                        <td>VINISHA T</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
+                                        <td>RAJAVARMAN R</td>
+                                        <td>Ball badmiton, zone 40</td>
+                                        <td>SRM college of engineering, trichy</td>
                                         <td>THIRD PRICE</td>
                                     </tr>
                                     <tr>
                                         <td>5</td>
-                                        <td>THANGAMARIS K</td>
-                                        <td>CONNECTION EVENT</td>
-                                        <td>PERIYAR MANIAMMAI COLLEGE</td>
-                                        <td>THIRD PRICE</td>
+                                        <td>BHUVANESHWARAN</td>
+                                        <td>Running ,zone 14,1500m</td>
+                                        <td>Kongu Nadu college,Namakal</td>
+                                        <td>First prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>BHUVANESHWARAN</td>
+                                        <td>Running,zone 14,800m</td>
+                                        <td>Kongu Nadu college,Namakal</td>
+                                        <td>Second prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>BHUVANESHWARAN</td>
+                                        <td>Relay ,400m</td>
+                                        <td>Kongu Nadu college,Namakal</td>
+                                        <td>Second prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Hema, Keerthana</td>
+                                        <td>Technical Quiz</td>
+                                        <td>Kongunadu College of Engineering and Technology</td>
+                                        <td>First prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td>S.Sarathi</td>
+                                        <td>Technical quiz & On spot drawing</td>
+                                        <td>Arasu Engineering college</td>
+                                        <td>First prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>S.Sarathi</td>
+                                        <td>Craft Work</td>
+                                        <td>Periyar maniyammai Institute of science and technology</td>
+                                        <td>First prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>P.Amsavalli, T.Srinithi</td>
+                                        <td>Fire less cooking</td>
+                                        <td>Periyar maniyammai Institute of science and technology</td>
+                                        <td>First prize</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>V.Sivaranjani, T.Vinisha, K.Thangamaris</td>
+                                        <td>Connection</td>
+                                        <td>Periyar maniyammai Institute of science and technology</td>
+                                        <td>Second prize</td>
                                     </tr>
                                 </tbody>
                             </table>
