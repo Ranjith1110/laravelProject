@@ -1,5 +1,14 @@
 @extends('main.layouts.app')
 
+<style>
+    .cour-menu {
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        transform: translate(-50%, 10px);
+    }
+</style>
+
 <div class="container-fluid fixed-top p-0" style="background-color: #dfcfc1;">
     <div class="row gx-0 d-none d-lg-flex">
         <div class="col-lg-7 px-5 text-start">
@@ -51,9 +60,9 @@
                 </div>
             </div>
             <div class="nav-item dropdown">
-                <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
+                <a href="" class="nav-link dropdown-toggle d-none d-lg-block" data-bs-toggle="dropdown"
                     aria-expanded="false">Courses</a>
-                <div class="dropdown-menu fade-up m-0">
+                <div class="dropdown-menu cour-menu fade-up m-0">
                     <div class="d-flex">
 
                         <div>
@@ -109,8 +118,6 @@
                     </div>
                 </div>
             </div>
-            <a href="{{route('campus')}}" class="nav-item nav-link">Campus</a>
-            <a href="{{route('placement')}}" class="nav-item nav-link">Placement</a>
             <div class="nav-item dropdown">
                 <a href="" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"
                     aria-expanded="false">Online
@@ -143,6 +150,6 @@
         </div>
     </div>
 </nav>
-
 <!-- Include the popup content from the includes folder -->
+ 
 @include('includes.popup')

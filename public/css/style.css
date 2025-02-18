@@ -94,7 +94,7 @@ h2::selection {
     position: fixed;
     top: 50%;
     right: 0%;
-    transform: translateY(-50%), ;
+    transform: translateY(-50%);
     transform: rotate(180deg);
     writing-mode: vertical-rl;
     text-align: center;
@@ -102,6 +102,24 @@ h2::selection {
     border: none;
     cursor: pointer;
     z-index: 1050;
+}
+
+@media (max-width: 992px) {
+    .vertical-button {
+        top: 45%;
+    }
+}
+
+@media (max-width: 768px) {
+    .vertical-button {
+        top: 40%;
+    }
+}
+
+@media (max-width: 576px) {
+    .vertical-button {
+        top: 35%;
+    }
 }
 
 .modal-content {
@@ -124,11 +142,6 @@ h2::selection {
     .carousel-control-next-icon {
         padding: 20px;
     }
-
-    .vertical-button1 {
-        top: 58.2%;
-        right: 0%;
-    }
 }
 
 @media (max-width: 500px) {
@@ -136,25 +149,6 @@ h2::selection {
     .carousel-control-prev-icon,
     .carousel-control-next-icon {
         padding: 6px;
-    }
-
-    .vertical-button1 {
-        top: 58.2%;
-        right: 0%;
-    }
-
-    .vertical-button {
-        position: fixed;
-        top: 30%;
-        right: 0%;
-        transform: translateY(-50%), ;
-        transform: rotate(180deg);
-        writing-mode: vertical-rl;
-        text-align: center;
-        font-weight: 500;
-        border: none;
-        cursor: pointer;
-        z-index: 1050;
     }
 }
 

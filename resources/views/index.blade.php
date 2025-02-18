@@ -44,7 +44,7 @@
                 <h2 class="text-center mb-lg-10 title">About MAMCE</h2>
             </div>
             <div class="row gap-10 gap-lg-0">
-                <div class="col-12 col-lg-6">
+                <div class="col-12 col-lg-6 mt-lg-10 mt-md-0 mt-0">
                     <div class="shadow p-4 rounded text-justify">
                         <p class="text-black"><span class="fw-bold" style="color: #9d7651;">M.A.M. College of
                                 Engineering, Tiruchirappalli</span>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
                 <div class="col-12 col-lg-6 text-center">
-                    <img width="60%" src="{{asset('images/Mamce-28.png')}}" alt="">
+                    <img width="65%" src="{{asset('images/28-logoo.png')}}" alt="">
                 </div>
             </div>
         </div>
@@ -484,11 +484,11 @@
 <!-- Get More Info Start here -->
 <section id="info">
     <div class="container">
-        <div class="py-lg-10 py-md-8 py-6 text-center ">
+        <div class="py-lg-10 py-md-8 py-6 text-center">
             <h2 class="text-center mb-lg-10 title">Get More Info</h2>
             <div class="row g-4">
 
-                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
                     <div class="campus-item position-relative h-100">
                         <div class="campus-text rounded p-3">
                             <div class="btn-square bg-light rounded-circle mx-auto mb-5">
@@ -503,7 +503,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
                     <div class="campus-item position-relative h-100">
                         <div class="campus-text rounded p-3">
                             <div class="btn-square bg-light rounded-circle mx-auto mb-5">
@@ -518,7 +518,7 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
                     <div class="campus-item position-relative h-100">
                         <div class="campus-text rounded p-3">
                             <div class="btn-square bg-light rounded-circle mx-auto mb-5">
@@ -533,28 +533,13 @@
                         </a>
                     </div>
                 </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
+                <div class="col-lg-3 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
                     <div class="campus-item position-relative h-100">
                         <div class="campus-text rounded p-3">
                             <div class="btn-square bg-light rounded-circle mx-auto mb-5">
                                 <img class="img-fluid" src="{{asset('images/info/research.jpg')}}" alt="Icon">
                             </div>
                             <h5 class="mb-2 fs-3 fw-bold text-black">Research</h4>
-                        </div>
-                        <a class="fw-medium text-white" href="#">
-                            <div class="campus-btn rounded-0 rounded-bottom">Read More<i
-                                    class="bi bi-chevron-double-right ms-2"></i>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="col-lg-4 col-md-6 wow fadeInUp my-5" data-wow-delay="0.1s">
-                    <div class="campus-item position-relative h-100">
-                        <div class="campus-text rounded p-3">
-                            <div class="btn-square bg-light rounded-circle mx-auto mb-5">
-                                <img class="img-fluid" src="{{asset('images/info/courses.jpg')}}" alt="Icon">
-                            </div>
-                            <h5 class="mb-2 fs-3 fw-bold text-black">Alumini</h4>
                         </div>
                         <a class="fw-medium text-white" href="#">
                             <div class="campus-btn rounded-0 rounded-bottom">Read More<i
@@ -582,7 +567,7 @@
 <!-- Upcoming Events End here -->
 
 <!-- Rank Holders Start here -->
-<section id="rank-holder">
+<!-- <section id="rank-holder">
     <div class="container">
         <div class="py-lg-10 py-md-8 py-6 text-center ">
             <h2 class="mb-lg-10 title">Rank Holders</h2>
@@ -594,6 +579,6 @@
             </marquee>
         </div>
     </div>
-</section>
+</section> -->
 <!-- Rank Holders End here -->
 @endsection
