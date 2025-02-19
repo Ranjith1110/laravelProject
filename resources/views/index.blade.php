@@ -303,8 +303,8 @@
     <div class="container py-5">
         <div class="text-center">
 
-            <h2 class="text-white d-inline-block fw-bold mb-3 px-5 py-2"
-                style="background-color: #9d7651; border-radius: 4px;">Facilities</h2>
+            <h2 class="d-inline-block fw-bold mb-3 px-5 py-2"
+                style="color: #9d7651">Facilities</h2>
 
         </div>
         <div class="row g-1">
@@ -483,7 +483,7 @@
 
 <!-- Get More Info Start here -->
 <section id="info">
-    <div class="container">
+    <div class="container-fluid bg-black">
         <div class="py-lg-10 py-md-8 py-6 text-center">
             <h2 class="text-center mb-lg-10 title">Get More Info</h2>
             <div class="row g-4">
