@@ -20,7 +20,7 @@
 </style>
 
 <div class="container mt-4">
-    <h3 class="mb-3">Student Details</h3>
+    <h3 class="mb-3 ms-5">Student Details</h3>
     <div class="p-5 table-responsive">
         <table class="table table-bordered table-striped">
             <thead class="table-dark">
