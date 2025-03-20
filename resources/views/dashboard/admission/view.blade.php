@@ -12,23 +12,23 @@
                 <ul class="list-unstyled">
                     <div class="d-flex align-items-center justify-content-between pe-16 pt-8 pb-2 border-bottoms">
                         <li class="fw-bold">Name</li>
-                        <li class="ms-20">{{$admissionEnquiry->name}}</li>
+                        <li class="ms-20">Ranjith</li>
                     </div>
                     <div class="d-flex align-items-center justify-content-between pe-16 pt-8 pb-2 border-bottoms">
                         <li class="fw-bold">Email</li>
-                        <li class="ms-20">{{$admissionEnquiry->email}}</li>
+                        <li class="ms-20">your@email.com</li>
                     </div>
                     <div class="d-flex align-items-center justify-content-between pe-16 pt-8 pb-2 border-bottoms">
                         <li class="fw-bold">Phone Number</li>
-                        <li class="ms-20">{{$admissionEnquiry->phone_no}}</li>
+                        <li class="ms-20">9999009999</li>
                     </div>
                     <div class="d-flex align-items-center justify-content-between pe-16 pt-8 pb-2 border-bottoms">
                         <li class="fw-bold">Course Type</li>
-                        <li class="ms-20">{{Str::upper($admissionEnquiry->course_type)}}</li>
+                        <li class="ms-20">ug</li>
                     </div>
                     <div class="d-flex align-items-center justify-content-between pe-16 pt-8 pb-2 border-bottoms">
                         <li class="fw-bold">Course</li>
-                        <li class="ms-20">{{$admissionEnquiry->course}}</li>
+                        <li class="ms-20">cse</li>
                     </div>
                 </ul>
             </div>

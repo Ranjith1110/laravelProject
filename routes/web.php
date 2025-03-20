@@ -11,11 +11,11 @@ use Illuminate\Http\Request;
 // });
 
 Route::get('/dashboard-list', function () {
-    return view('dashboard.list');
+    return view('dashboard.admission.list');
 });
 
 Route::get('/dashboard-view', function () {
-    return view('dashboard.view');
+    return view('dashboard.admission.view');
 });
 
 
