@@ -29,76 +29,61 @@
         transform: scale(1.1);
     }
 
-    /* Full-screen loader */
     #preloader {
         position: fixed;
         width: 100%;
         height: 100vh;
-        background: #ffffff;
+        background: linear-gradient(135deg, #9d7651, #a29bfe);
         display: flex;
         justify-content: center;
         align-items: center;
         z-index: 9999;
-        transition: opacity 0.5s ease-out;
+        transition: opacity 0.8s ease-in-out;
     }
 
-    /* Loader container */
     .loader-container {
         position: relative;
-        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
-    /* Organization logo */
     .logo {
         width: 100px;
-        /* Adjust size */
-        animation: pulse 1.5s infinite alternate;
+        z-index: 2;
+        position: relative;
+        filter: drop-shadow(0px 4px 6px rgba(0, 0, 0, 0.2));
     }
 
-    /* Circular spinning effect */
-    .spinner {
+    .ring {
         position: absolute;
-        top: 50%;
-        left: 50%;
         width: 120px;
         height: 120px;
         border: 4px solid transparent;
-        border-top: 4px solid #6c5ce7;
-        /* Purple */
-        border-right: 4px solid #6c5ce7;
-        /* Purple */
         border-radius: 50%;
-        animation: rotate 1s linear infinite;
-        transform: translate(-50%, -50%);
+        border-top: 4px solid #9d7651;
+        /* White rotating border */
+        border-bottom: 4px solid #ffffff;
+        animation: rotate 1.2s linear infinite;
     }
 
-    /* Logo glowing animation */
-    @keyframes pulse {
-        0% {
-            transform: scale(1);
-            opacity: 0.8;
-        }
-
-        100% {
-            transform: scale(1.1);
-            opacity: 1;
-        }
-    }
-
-    /* Spinner rotation animation */
     @keyframes rotate {
         0% {
-            transform: translate(-50%, -50%) rotate(0deg);
+            transform: rotate(0deg);
         }
 
         100% {
-            transform: translate(-50%, -50%) rotate(360deg);
+            transform: rotate(360deg);
         }
     }
 
-    /* Hide content initially */
     #content {
         display: none;
+    }
+
+    .fade-out {
+        opacity: 0;
+        visibility: hidden;
     }
 </style>
 
@@ -107,7 +92,7 @@
     <div id="preloader">
         <div class="loader-container">
             <img src="{{asset('images/mamce-logo.png')}}" alt="Organization Logo" class="logo"> <!-- Replace with your logo -->
-            <div class="spinner"></div>
+            <div class="ring"></div>
         </div>
     </div>
 
@@ -266,7 +251,7 @@
                     document.getElementById("preloader").style.display = "none";
                     document.getElementById("content").style.display = "block";
                 }, 500);
-            }, 2000); // Adjust delay if needed
+            }, 1500);
         });
     </script>
 </body>
