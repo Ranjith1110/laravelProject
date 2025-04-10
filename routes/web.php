@@ -56,7 +56,8 @@ Route::group(array('namespace' => 'App\Http\Controllers'), function () {
     Route::get('research', array('as' => 'research',  'uses' => 'WebsiteController@research'));
     Route::get('terms-of-service', array('as' => 'termsOfService',  'uses' => 'WebsiteController@termsOfService'));
     Route::get('privacy-policy', array('as' => 'privacyPolicy',  'uses' => 'WebsiteController@privacyPolicy'));
-    Route::get('refund-policy', array('as' => 'refundPolicy',  'uses' => 'WebsiteController@refundPolicy'));
+    Route::get('cancellation-refund-policy', array('as' => 'refundPolicy',  'uses' => 'WebsiteController@refundPolicy'));
+
     //Payment Route
     Route::get('tution-fees', array('as' => 'tutionFees',  'uses' => 'PaymentGatewayController@tutionFees'));
     Route::get('exam-fees', array('as' => 'examFees',  'uses' => 'PaymentGatewayController@examFees'));

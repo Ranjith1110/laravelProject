@@ -145,7 +145,7 @@ class WebsiteController extends Controller
     }
     public function refundPolicy()
     {
-        return view('refund-policy');
+        return view('cancellation-refund-policy');
     }
     public function saveAdmission(Request $request){
         

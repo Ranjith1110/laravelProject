@@ -59,7 +59,7 @@
                         <a class="text-black mb-1" href="{{route('contact')}}">Contact</a>
                         <a class="text-black mb-1" href="{{route('termsOfService')}}">Terms of Service</a>
                         <a class="text-black mb-1" href="{{route('privacyPolicy')}}">Privacy Policy</a>
-                        <a class="text-black" href="{{route('refundPolicy')}}">Refund Policy</a>
+                        <a class="text-black" href="{{route('refundPolicy')}}">Cancellation Refund Policy</a>
                     </div>
                 </div>
 
