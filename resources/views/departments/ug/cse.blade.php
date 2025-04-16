@@ -362,7 +362,7 @@
                     <div id="placement" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Placements</h2>
 
-                        <div class="table-container">
+                        <!-- <div class="table-container">
                             <table class="trust-table">
                                 <thead>
                                     <tr class="text-white" style="background-color: #9d7651;">
@@ -411,7 +411,9 @@
                                     </tr>
                                 </tbody>
                             </table>
-                        </div>
+                        </div> -->
+
+                        <h4>Update Soon..</h4>
 
                     </div>
 
@@ -471,11 +473,11 @@
 
                         </div>
                     </div>
-
+ 
                     <!-- Gallery Section -->
                     <div id="gallery" class="content-section d-none">
                         <h2 class="title-slogan mb-4">Gallery</h2>
-                        <div class="row g-5">
+                        <div class="row g-5 d-flex justify-content-center">
 
                             <div class="col-lg-6">
                                 <img class="img-fluid rounded" src="{{asset('images/separateCourses/cseImg/ugCse.jpg')}}"
@@ -501,6 +503,34 @@
                                 <img class="img-fluid rounded"
                                     src="{{asset('images/separateCourses/cseImg/ugCse-6.jpg')}}" alt="">
                             </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/cseImg/ugCse-7.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/cseImg/ugCse-8.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/cseImg/ugCse-9.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/cseImg/ugCse-10.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/cseImg/ugCse-11.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/cseImg/ugCse-12.jpg')}}" alt="">
+                            </div>
+                            <div class="col-lg-6">
+                                <img class="img-fluid rounded"
+                                    src="{{asset('images/separateCourses/cseImg/ugCse-13.jpg')}}" alt="">
+                            </div>
 
                         </div>
                     </div>
@@ -522,6 +552,5 @@
     </div>
 </section>
 <!-- Upcoming Events End here -->
-
 
 @endsection
