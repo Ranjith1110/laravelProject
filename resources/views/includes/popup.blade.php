@@ -86,6 +86,10 @@
                            
                         </select>
                     </div>
+                    <div class="mt-3">
+                        <label for="address" class="form-label text-dark">Date</label>
+                        <input type="date" class="form-control" id="date" name="name" placeholder="Enter Your Admissin Date" required>
+                    </div>
                     {{--<div class="mt-3">
                         <label for="course" class="form-label text-dark">Course Selection</label>
                         <select class="form-select" id="course" name="course">
